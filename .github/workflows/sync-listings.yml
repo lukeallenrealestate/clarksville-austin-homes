@@ -1,0 +1,36 @@
+name: Sync Clarksville listings
+
+# Keeps src/data/clarksville-listings.json fresh from MLS Grid. Commits any
+# change, which triggers a redeploy on Vercel. Add MLS_GRID_TOKEN as a repo
+# secret: Settings > Secrets and variables > Actions > New repository secret.
+
+on:
+  schedule:
+    - cron: "0 11 * * *" # daily at 11:00 UTC (~6am Central)
+  workflow_dispatch: {} # allow manual runs
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pull listings from MLS Grid
+        env:
+          MLS_GRID_TOKEN: ${{ secrets.MLS_GRID_TOKEN }}
+        run: node scripts/sync-listings.mjs
+      - name: Commit if changed
+        run: |
+          git config user.name "listings-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A src/data/clarksville-listings.json public/listings
+          if git diff --cached --quiet; then
+            echo "No listing changes."
+          else
+            git commit -m "chore: refresh Clarksville listings and photos"
+            git push
+          fi
