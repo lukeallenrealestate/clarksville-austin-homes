@@ -60,4 +60,9 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Clarksville vs Tarrytown",
     blurb: "Walkable history or leafy lots? A side-by-side.",
   },
+  realtor: {
+    href: "/clarksville-realtor",
+    title: "Luke Allen, Clarksville Realtor",
+    blurb: "A 5-star specialist on the sales team for The Clarksville.",
+  },
 };

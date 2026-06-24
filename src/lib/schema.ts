@@ -9,6 +9,12 @@
  */
 import { AGENT, NEIGHBORHOOD, NEIGHBORHOOD_VARIANTS, SITE_NAME, SITE_URL } from "./site";
 import type { Listing } from "./listings";
+import {
+  REVIEWS,
+  REVIEW_AGG,
+  GOOGLE_PROFILE_URL,
+  CLARKSVILLE_PROJECT,
+} from "./content/realtor";
 
 const agentId = `${SITE_URL}/about#realestateagent`;
 const brokerageId = `${SITE_URL}/#brokerage`;
@@ -198,6 +204,95 @@ export function listingSchema(listing: Listing) {
       address: {
         "@type": "PostalAddress",
         streetAddress: listing.address,
+        addressLocality: "Austin",
+        addressRegion: "TX",
+        postalCode: NEIGHBORHOOD.zip,
+        addressCountry: "US",
+      },
+    },
+  };
+}
+
+/**
+ * Rich profile schema for /clarksville-realtor: a ProfilePage whose mainEntity
+ * is the enriched RealEstateAgent (same @id as the sitewide agent node, so
+ * engines merge them) carrying AggregateRating, individual Reviews, education,
+ * and an expanded knowsAbout. Reviews and rating are real, supplied by the
+ * client from the verified Google Business Profile (do not fabricate).
+ */
+export function realtorProfileSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "@id": `${SITE_URL}/clarksville-realtor#profilepage`,
+    url: `${SITE_URL}/clarksville-realtor`,
+    name: `${AGENT.name}, Clarksville Realtor`,
+    about: { "@id": placeId },
+    mainEntity: {
+      "@type": ["RealEstateAgent", "Person"],
+      "@id": agentId,
+      name: AGENT.name,
+      jobTitle: "Clarksville Real Estate Specialist",
+      image: `${SITE_URL}/images/luke-allen.jpg`,
+      url: `${SITE_URL}/clarksville-realtor`,
+      telephone: AGENT.phone,
+      email: AGENT.email,
+      worksFor: { "@id": brokerageId },
+      memberOf: [
+        { "@id": brokerageId },
+        { "@type": "Organization", name: "National Association of REALTORS" },
+      ],
+      alumniOf: { "@type": "CollegeOrUniversity", name: "The University of Texas at Austin" },
+      birthPlace: { "@type": "Place", name: "Temple, Texas" },
+      areaServed: [
+        { "@type": "Place", name: "Clarksville, Austin, Texas" },
+        { "@type": "PostalCodeSpecification", postalCode: NEIGHBORHOOD.zip },
+        { "@type": "Place", name: "Old West Austin" },
+      ],
+      knowsAbout: [
+        "Clarksville Austin real estate",
+        "Old West Austin historic homes",
+        "78703 condominiums and new construction",
+        "Off-market real estate",
+        "Luxury real estate",
+        "Austin historic landmark designation",
+        "Real estate development sales",
+        "Asset management",
+      ],
+      hasCredential: {
+        "@type": "EducationalOccupationalCredential",
+        credentialCategory: "license",
+        recognizedBy: {
+          "@type": "GovernmentOrganization",
+          name: "Texas Real Estate Commission (TREC)",
+        },
+        identifier: AGENT.trecLicense,
+      },
+      sameAs: [...AGENT.sameAs, GOOGLE_PROFILE_URL],
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: String(REVIEW_AGG.ratingValue),
+        reviewCount: String(REVIEW_AGG.reviewCount),
+        bestRating: "5",
+        worstRating: "1",
+      },
+      review: REVIEWS.map((r) => ({
+        "@type": "Review",
+        author: { "@type": "Person", name: r.author },
+        datePublished: r.date,
+        reviewRating: { "@type": "Rating", ratingValue: String(r.rating), bestRating: "5" },
+        reviewBody: r.text,
+      })),
+    },
+    // Luke's named affiliation with the development he sells, as a related entity.
+    mentions: {
+      "@type": "ApartmentComplex",
+      name: CLARKSVILLE_PROJECT.name,
+      url: CLARKSVILLE_PROJECT.url,
+      numberOfAccommodationUnits: CLARKSVILLE_PROJECT.units,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "1711 Enfield Road",
         addressLocality: "Austin",
         addressRegion: "TX",
         postalCode: NEIGHBORHOOD.zip,

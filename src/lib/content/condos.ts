@@ -23,6 +23,24 @@ export type CondoBuilding = {
 
 export const CONDOS: CondoBuilding[] = [
   {
+    slug: "the-clarksville",
+    name: "The Clarksville Condominiums",
+    status: "selling",
+    design: "Franco Studios",
+    address: "1711 Enfield Road",
+    summary:
+      "A character-driven, 10-home boutique condominium in the heart of Clarksville, conceived as a counterbalance to Austin's trend toward uniform, hyper-modern design. Austin Monthly recognized Clarksville as a rare pocket where history, charm, and walkable living converge.",
+    details: [
+      "10 boutique residences designed by Franco Studios",
+      "At 1711 Enfield Road, in the heart of the Clarksville historic district",
+      "Character-driven design for artists, romantics, and creatives",
+      "Sold largely off-market; Luke Allen is on the sales team",
+    ],
+    priceNote:
+      "Pricing and availability are handled directly. Contact Luke Allen for current details and a private tour.",
+    featured: true,
+  },
+  {
     slug: "the-belvedere",
     name: "The Belvedere",
     status: "selling",

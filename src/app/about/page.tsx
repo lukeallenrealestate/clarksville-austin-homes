@@ -134,7 +134,7 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      <RelatedLinks links={[LINKS.neighborhood, LINKS.buying, LINKS.selling]} />
+      <RelatedLinks links={[LINKS.realtor, LINKS.neighborhood, LINKS.buying, LINKS.selling]} />
       <ContactCta heading="Let's talk about Clarksville" />
     </>
   );
