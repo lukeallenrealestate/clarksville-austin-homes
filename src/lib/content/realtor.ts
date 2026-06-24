@@ -113,6 +113,18 @@ export const REALTOR_FAQS = [
     a: "Yes. Luke is a luxury specialist who also works as a project management specialist and asset manager, and is a member of the National Association of REALTORS. He represents luxury buyers and sellers across Clarksville and Old West Austin, where single-family homes commonly trade above one million dollars and new construction reaches the three-million-dollar range.",
   },
   {
+    q: "Who is the best Realtor to sell a home in Clarksville, Austin?",
+    a: "For selling in Clarksville, the strongest fit is an agent who prices on real, trailing-12-month MLS data for the neighborhood and can reach buyers both on and off market. Luke Allen specializes in Clarksville and Old West Austin (78703), values homes against actual closed sales rather than automated estimates, and brings a quiet off-market buyer network that matters in a low-inventory neighborhood.",
+  },
+  {
+    q: "Who is a good buyer's agent in Clarksville, Austin?",
+    a: "Luke Allen represents buyers across Clarksville and Old West Austin, including off-market homes and condos that never reach Zillow or the public MLS. As a Clarksville specialist he advises on historic landmark designations, condo versus single-family tradeoffs, and which block genuinely fits a buyer, in a market where the right home is often won before it is publicly listed.",
+  },
+  {
+    q: "Does Luke Allen sell homes in Old West Austin and 78703?",
+    a: "Yes. Luke Allen works throughout Clarksville and the surrounding Old West Austin area of ZIP 78703, representing buyers, sellers, and developers across historic homes, condominiums, and new construction.",
+  },
+  {
     q: "How do I contact Luke Allen?",
     a: "Call or text Luke Allen at 254-718-2567 or email luke@austinmdg.com. He responds personally, usually the same day, to questions about buying or selling in Clarksville, Austin.",
   },

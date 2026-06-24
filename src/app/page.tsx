@@ -289,6 +289,42 @@ export default async function HomePage() {
         </Container>
       </section>
 
+      {/* Meet the specialist: contextual homepage link into the realtor authority page */}
+      <section className="border-t border-line bg-cream py-16 sm:py-20">
+        <Container className="grid items-center gap-10 lg:grid-cols-[0.72fr_1.4fr]">
+          <Reveal className="overflow-hidden rounded-[3px] border border-line">
+            <Image
+              src={PHOTOS.luke.src}
+              alt={PHOTOS.luke.alt}
+              width={PHOTOS.luke.width}
+              height={PHOTOS.luke.height}
+              sizes="(max-width: 1024px) 100vw, 30vw"
+              className="w-full object-cover"
+            />
+          </Reveal>
+          <Reveal delay={120}>
+            <Eyebrow>Your Clarksville specialist</Eyebrow>
+            <h2 className="font-display mt-4 text-[2rem] leading-tight text-ink sm:text-[2.5rem]">
+              Guided by a Clarksville Realtor, not a generalist
+            </h2>
+            <p className="mt-5 max-w-xl leading-relaxed text-ink-soft">
+              {AGENT.name} is a 5-star rated Clarksville and Old West Austin specialist on the sales
+              team for The Clarksville Condominiums. He works on-market and off-market for buyers,
+              sellers, and developers across 78703, with honest, hyperlocal guidance most Austin
+              agents cannot offer.
+            </p>
+            <div className="mt-7 flex flex-wrap gap-3">
+              <Link href="/clarksville-realtor" className="btn btn-heritage">
+                Meet Luke Allen, Clarksville Realtor
+              </Link>
+              <a href={AGENT.phoneHref} className="btn btn-outline">
+                Call {AGENT.phone}
+              </a>
+            </div>
+          </Reveal>
+        </Container>
+      </section>
+
       <Container className="py-14">
         <RuleOrnament />
       </Container>
