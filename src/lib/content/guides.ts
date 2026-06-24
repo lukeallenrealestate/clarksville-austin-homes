@@ -17,7 +17,7 @@ export type Guide = {
   published: string;
   updated: string;
   /** Hub grouping. */
-  kind: "guide" | "market" | "comparison" | "listings" | "transact";
+  kind: "guide" | "market" | "comparison" | "listings" | "transact" | "insights";
 };
 
 export const GUIDES: Guide[] = [

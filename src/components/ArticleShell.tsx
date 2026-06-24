@@ -24,6 +24,8 @@ export function ArticleShell({
   related,
   ctaHeading,
   ctaBody,
+  eyebrow = "Clarksville Guide",
+  parent = { name: "Neighborhood", path: "/neighborhood" },
 }: {
   guide: Guide;
   lead: string;
@@ -32,6 +34,10 @@ export function ArticleShell({
   related?: RelatedLink[];
   ctaHeading?: string;
   ctaBody?: string;
+  /** Hero eyebrow label (insights pages override the default). */
+  eyebrow?: string;
+  /** Breadcrumb parent (insights pages point at the /insights hub). */
+  parent?: { name: string; path: string };
 }) {
   return (
     <>
@@ -46,12 +52,12 @@ export function ArticleShell({
         })}
       />
       <PageHero
-        eyebrow="Clarksville Guide"
+        eyebrow={eyebrow}
         title={guide.title}
         lead={lead}
         photo={guide.hero}
         crumbs={[
-          { name: "Neighborhood", path: "/neighborhood" },
+          parent,
           { name: guide.navLabel, path: `/${guide.slug}` },
         ]}
       />

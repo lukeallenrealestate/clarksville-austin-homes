@@ -21,7 +21,7 @@ export default function ArchitecturePage() {
       guide={guide}
       lead="Clarksville's housing stock reads like a timeline: freedmen's-era cottages, Craftsman bungalows, mid-century condos, and discreet modern infill. Knowing the styles, and the rules that govern them, is the difference between a smart purchase and a costly surprise."
       faqs={ARCHITECTURE_FAQS}
-      related={[LINKS.history, LINKS.condos, LINKS.homesForSale]}
+      related={[LINKS.insightLandmark, LINKS.history, LINKS.condos]}
       ctaHeading="Run a designation check before you offer"
       ctaBody="Whether a Clarksville home carries an individual City of Austin landmark designation changes everything about renovation and value. Luke pulls that before you write an offer."
     >

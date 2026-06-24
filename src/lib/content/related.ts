@@ -65,4 +65,24 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Luke Allen, Clarksville Realtor",
     blurb: "A 5-star specialist on the sales team for The Clarksville.",
   },
+  insights: {
+    href: "/insights",
+    title: "Clarksville insights",
+    blurb: "Original guides on investing, moving, and buying in 78703.",
+  },
+  insightInvestment: {
+    href: "/insights/is-clarksville-a-good-investment",
+    title: "Is Clarksville a good investment?",
+    blurb: "Scarcity, protection, demand, and the numbers, weighed honestly.",
+  },
+  insightMoving: {
+    href: "/insights/moving-to-clarksville",
+    title: "Moving to Clarksville",
+    blurb: "Cost, schools, walkability, and how to buy in a scarce market.",
+  },
+  insightLandmark: {
+    href: "/insights/clarksville-historic-landmark-rules",
+    title: "Historic landmark rules",
+    blurb: "What you can and cannot change, and why it sets the price.",
+  },
 };

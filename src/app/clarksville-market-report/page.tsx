@@ -178,7 +178,7 @@ export default function MarketReportPage() {
       </section>
 
       <FaqSection faqs={MARKET_FAQS} title="Clarksville market questions" />
-      <RelatedLinks links={[LINKS.selling, LINKS.homesForSale, LINKS.neighborhood]} />
+      <RelatedLinks links={[LINKS.insightInvestment, LINKS.selling, LINKS.homesForSale]} />
       <ContactCta
         intent="value"
         showAddress

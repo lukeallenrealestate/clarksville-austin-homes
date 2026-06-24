@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL, NAV } from "@/lib/site";
 import { ALL_GUIDES } from "@/lib/content/guides";
+import { INSIGHTS } from "@/lib/content/insights";
 import { CONDOS } from "@/lib/content/condos";
 import { getActiveListings, DATA_AS_OF } from "@/lib/listings";
 
@@ -26,6 +27,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...ALL_GUIDES.map((g) => ({
       url: `${SITE_URL}/${g.slug}`,
       lastModified: new Date(g.updated),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
+    ...INSIGHTS.map((i) => ({
+      url: `${SITE_URL}/${i.slug}`,
+      lastModified: new Date(i.updated),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
