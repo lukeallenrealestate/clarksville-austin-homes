@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import { ListingGallery } from "./ListingGallery";
 import { type Listing, usd, CATEGORY_LABEL } from "@/lib/listings";
 import { JsonLd } from "./JsonLd";
 import { listingSchema } from "@/lib/schema";
@@ -60,31 +60,9 @@ export function ListingDetail({ listing, others }: { listing: Listing; others: L
         </div>
       </Container>
 
-      {/* Gallery */}
+      {/* Gallery with full-screen lightbox */}
       <Container className="mt-8">
-        {photos.length ? (
-          <div className="grid gap-2 sm:grid-cols-4 sm:grid-rows-2">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-[3px] sm:col-span-2 sm:row-span-2 sm:aspect-auto">
-              <Image
-                src={photos[0].src}
-                alt={photos[0].alt}
-                fill
-                priority
-                sizes="(max-width: 640px) 100vw, 50vw"
-                className="img-grade object-cover"
-              />
-            </div>
-            {photos.slice(1, 5).map((p) => (
-              <div key={p.src} className="relative hidden aspect-[4/3] overflow-hidden rounded-[3px] sm:block">
-                <Image src={p.src} alt={p.alt} fill sizes="25vw" className="img-grade object-cover" />
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="flex aspect-[16/7] items-center justify-center rounded-[3px] border border-line bg-gradient-to-br from-cream to-sand">
-            <span className="font-display text-3xl text-brass/60">Photography on request</span>
-          </div>
-        )}
+        <ListingGallery photos={photos} title={title} />
       </Container>
 
       {/* Body */}
