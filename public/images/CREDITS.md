@@ -13,7 +13,7 @@ All images are freely licensed (Creative Commons or public domain). Per CC-BY / 
 | historic-porch.jpg | Craftsman residential house (porch / architectural detail) | https://commons.wikimedia.org/wiki/File:Craftsman_Residential_House.jpg | Stilfehler | Public domain |
 | clarksville-new-build.jpg | Modern Farmhouse, East Austin TX (contemporary infill) | https://commons.wikimedia.org/wiki/File:Modern_Farmhouse_in_East_Austin.jpeg | Atxblogger | CC BY-SA 3.0 |
 | pease-park.jpg | Walking along Pease Park, Austin TX | https://commons.wikimedia.org/wiki/File:Walking_Along_Pease_Park.jpg | Todd Dwyer | CC BY-SA 2.0 |
-| luke-allen.jpg | Agent headshot placeholder (solid warm #C9BBA3) | Generated locally (no source) | N/A — placeholder, to be replaced |
+| luke-allen.jpg | Luke Allen agent headshot (800x1187) | austintxhomes.co (Luke's own site) | Owned by Luke Allen, Austin MDG |
 
 ## Substitution notes
 
@@ -21,6 +21,6 @@ All images are freely licensed (Creative Commons or public domain). Per CC-BY / 
 - **historic-porch.jpg**: No Clarksville-specific porch detail was available license-clean. Substituted a public-domain Craftsman residential house showing porch/columns/siding. Source was 1117x766, modestly upscaled to 1600x1067.
 - **clarksville-new-build.jpg**: Modern Farmhouse in East Austin used as the contemporary Austin infill example (no Clarksville-specific new build available license-clean).
 - **clarksville-bungalow.jpg**: The Boardman–Webb–Bugg House is an Austin Victorian-era historic home with a front porch, used in place of a Craftsman bungalow.
-- **luke-allen.jpg**: Generated solid warm-toned (#C9BBA3) placeholder, 1200x1500, intended to be replaced by the agent's real photo.
+- **luke-allen.jpg**: Luke Allen's real agent headshot (800x1187), reused from his existing site austintxhomes.co. Owned by the client.
 
 - **clarksville-hero.jpg** (homepage hero): Josephine House, Clarksville/Old West Austin. Client-supplied by Luke Allen; rights confirmed by client.

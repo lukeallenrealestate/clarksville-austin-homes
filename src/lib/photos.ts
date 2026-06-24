@@ -76,8 +76,8 @@ export const PHOTOS = {
   },
   luke: {
     src: "/images/luke-allen.jpg",
-    width: 1200,
-    height: 1500,
+    width: 800,
+    height: 1187,
     alt: "Luke Allen, licensed Texas REALTOR and Clarksville Austin neighborhood specialist",
   },
 } as const;
