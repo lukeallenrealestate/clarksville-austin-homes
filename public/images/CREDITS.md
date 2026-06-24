@@ -22,3 +22,5 @@ All images are freely licensed (Creative Commons or public domain). Per CC-BY / 
 - **clarksville-new-build.jpg**: Modern Farmhouse in East Austin used as the contemporary Austin infill example (no Clarksville-specific new build available license-clean).
 - **clarksville-bungalow.jpg**: The Boardman–Webb–Bugg House is an Austin Victorian-era historic home with a front porch, used in place of a Craftsman bungalow.
 - **luke-allen.jpg**: Generated solid warm-toned (#C9BBA3) placeholder, 1200x1500, intended to be replaced by the agent's real photo.
+
+- **clarksville-hero.jpg** (homepage hero): Josephine House, Clarksville/Old West Austin. Client-supplied by Luke Allen; rights confirmed by client.

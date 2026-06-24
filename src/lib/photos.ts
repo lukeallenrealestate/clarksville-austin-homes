@@ -15,10 +15,10 @@ export type PhotoMeta = { src: string; width: number; height: number; alt: strin
 
 export const PHOTOS = {
   hero: {
-    src: "/images/clarksville-canopy.jpg",
-    width: 1600,
-    height: 1067,
-    alt: "Live oak canopy over a residential street in Clarksville, Austin, in golden afternoon light",
+    src: "/images/clarksville-hero.jpg",
+    width: 1537,
+    height: 1023,
+    alt: "Josephine House, the historic blue cottage restaurant on Waterston Avenue, at golden hour in Clarksville, Austin",
   },
   canopy: {
     src: "/images/clarksville-canopy.jpg",
