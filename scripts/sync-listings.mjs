@@ -37,10 +37,14 @@ const PHOTO_ROOT = join(ROOT, "public", "listings");
 const MAX_PHOTOS = 20;
 const ZIP = "78703";
 
-// Approximate Clarksville bounding box (tune to your published boundary). Covers
-// the historic district and immediate blocks east of MoPac, west of Lamar/West
-// Lynn, between Enfield and the Lady Bird Lake edge.
-const CLARKSVILLE_BOX = { minLat: 30.2685, maxLat: 30.2885, minLng: -97.7685, maxLng: -97.7515 };
+// Clarksville bounding box, calibrated against live MLS coordinates (June 2026).
+// Covers the historic district and immediate blocks: MoPac (west) to roughly
+// Lamar (east), West 6th and the Pressler/Belvedere pocket (south) up to about
+// West 13th (north). Deliberately excludes Pemberton Heights and Old Enfield to
+// the north (Woodlawn, Wethersfield, Kent, Enfield Rd), the downtown towers to
+// the southeast (300 Bowie, 800 W 5th, 901 W 9th), and Tarrytown west of MoPac.
+// Tune these four numbers if you want a wider or narrower published boundary.
+const CLARKSVILLE_BOX = { minLat: 30.2708, maxLat: 30.2818, minLng: -97.7666, maxLng: -97.7528 };
 const BOUNDARY_LABEL = "Clarksville polygon, 78703";
 
 // Known condo / new-construction communities, matched against SubdivisionName or
@@ -76,9 +80,17 @@ const isClarksville = (r) =>
   Number(r.ListPrice) > 0 &&
   inBox(r);
 
-/** Page the active set for a status; return matching ListingIds. */
+/**
+ * Page the active set for a status; return matching ListingIds.
+ *
+ * MLS Grid is a replication feed: the $filter may ONLY use MlgCanView,
+ * ModificationTimestamp, OriginatingSystemName, StandardStatus, ListingId,
+ * PropertyType, ListOfficeMlsId. PostalCode is NOT filterable, so we filter to
+ * Residential here (allowed) and narrow to ZIP 78703 + the Clarksville geo box
+ * client-side in isClarksville().
+ */
 async function scanIds(status) {
-  const filter = `OriginatingSystemName eq 'actris' and PropertyType eq 'Residential' and PostalCode eq '${ZIP}' and StandardStatus eq '${status}'`;
+  const filter = `OriginatingSystemName eq 'actris' and PropertyType eq 'Residential' and StandardStatus eq '${status}'`;
   let url = `${BASE}?$filter=${encodeURIComponent(filter)}&$select=${SCAN_SELECT}&$top=1000`;
   const ids = [];
   let pages = 0;
@@ -199,21 +211,33 @@ async function downloadPhotos(listingId, media, address) {
   let idx = 0;
   for (const m of media) {
     const n = String(idx).padStart(2, "0");
-    try {
-      let res;
-      for (let attempt = 0; attempt < 4; attempt++) {
-        res = await fetch(m.MediaURL);
-        if (res.status !== 429) break;
-        await sleep(1500 * (attempt + 1));
+    const file = `${n}.jpg`;
+    const full = join(dir, file);
+    // Idempotent: reuse an already-downloaded file (survives rate limiting on
+    // re-syncs) rather than re-fetching. Only download when the file is missing.
+    let ok = existsSync(full);
+    if (!ok) {
+      try {
+        let res;
+        for (let attempt = 0; attempt < 4; attempt++) {
+          res = await fetch(m.MediaURL);
+          if (res.status !== 429) break;
+          await sleep(1500 * (attempt + 1));
+        }
+        if (res && res.ok) {
+          writeFileSync(full, Buffer.from(await res.arrayBuffer()));
+          ok = true;
+          await sleep(150);
+        } else {
+          console.warn(`    photo ${n} HTTP ${res ? res.status : "error"}, skipping`);
+        }
+      } catch (e) {
+        console.warn(`    photo ${n} failed: ${e.message}`);
       }
-      if (!res.ok) {
-        console.warn(`    photo ${n} HTTP ${res.status}, skipping`);
-        continue;
-      }
-      const buf = Buffer.from(await res.arrayBuffer());
-      writeFileSync(join(dir, `${n}.jpg`), buf);
+    }
+    if (ok) {
       photos.push({
-        src: `/listings/${listingId}/${n}.jpg`,
+        src: `/listings/${listingId}/${file}`,
         width: m.ImageWidth ?? 1600,
         height: m.ImageHeight ?? 1067,
         alt:
@@ -221,9 +245,6 @@ async function downloadPhotos(listingId, media, address) {
           `${address}, Clarksville, Austin, photo ${idx + 1}`,
       });
       idx++;
-      await sleep(150);
-    } catch (e) {
-      console.warn(`    photo ${n} failed: ${e.message}`);
     }
   }
   return photos;
