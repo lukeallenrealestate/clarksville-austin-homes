@@ -39,6 +39,18 @@ export const metadata: Metadata = {
     apple: "/icon.svg",
   },
   robots: { index: true, follow: true },
+  // Search engine verification (optional fallback to the DNS-TXT method). Paste
+  // the token from Google Search Console / Bing into Vercel env vars and
+  // redeploy; if unset, nothing is rendered. The DNS-TXT "Domain" property is
+  // preferred because it verifies the whole domain and survives redeploys.
+  verification: {
+    ...(process.env.GOOGLE_SITE_VERIFICATION
+      ? { google: process.env.GOOGLE_SITE_VERIFICATION }
+      : {}),
+    ...(process.env.BING_SITE_VERIFICATION
+      ? { other: { "msvalidate.01": process.env.BING_SITE_VERIFICATION } }
+      : {}),
+  },
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
