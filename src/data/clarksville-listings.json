@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:50:39.166Z",
+  "generatedAt": "2026-06-25T13:22:26.353Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1794,156 +1794,6 @@
       "isSample": false
     },
     {
-      "id": "ACT7352512",
-      "slug": "1115-w-7th-st-106-106",
-      "address": "1115 W 7th St  #106",
-      "unit": "Unit 106",
-      "propertyType": "condo",
-      "categories": [
-        "condo"
-      ],
-      "status": "active",
-      "price": 1350000,
-      "beds": 2,
-      "baths": 2.5,
-      "sqft": 2023,
-      "yearBuilt": 1999,
-      "lotSizeAcres": 0.0528,
-      "listDate": "2025-11-19",
-      "description": "Sophisticated Luxury Condo Living in Clarksville, steps from Downtown Austin! Located just two blocks from 7th & Lamar, this boutique residence offers the perfect blend of historic charm and modern convenience. This is a coveted ground floor unit with a private backyard - one of the few offered. Enjoy the best of city living with Whole Foods, Lin Asian Bar, and Pecan Square Cafe all just a short stroll away. Plus you’re right behind the exciting new up & coming Sixth & Blanco development. \n\nInside, a bright open-concept living and dining area features crown molding, gorgeous tile flooring, and a designer tiled fireplace with a smooth modern wood mantel. Natural light flows through tall windows and a glass door that opens onto an enchanting patio with tiered landscaping, a grassy area perfect for pets, and privacy fencing. The remodeled chef’s kitchen impresses with ceiling-height cabinetry, granite countertops, built-in appliances and an entertainer’s peninsula under a graceful archway.\n\nEnjoy a bright and spacious primary suite with walkout access to the backyard plus a spa-like dual vanity ensuite bath with a remodeled walk-in shower and an XL walk-in closet. The guest suite also features its own ensuite bath and walk-in closet, while a private office or bonus living area boasts the addition of custom built-ins. A powder room, in-home laundry, and two reserved garage parking spaces add everyday convenience.\n\nNestled within one of Austin’s most coveted neighborhoods, this exclusive 11-unit community offers a quiet retreat amid the energy of downtown. Step outside and explore local favorites such as BookPeople, Swedish Hill, Garbo’s, Amy’s Ice Cream, Pepe’s Tacos, and Bar Peached, or unwind at the nearby West Austin Dog Park. With gas, water, trash, recycling, quarterly pest control, weekly landscaping, and porter service included in the POA, residents enjoy a truly effortless lifestyle in one of Austin’s most walkable areas. Secure your showing today!",
-      "listOffice": "Compass RE Texas, LLC",
-      "listAgent": "Kelvin Glover",
-      "hoaFee": 1024,
-      "hoaFrequency": "Monthly",
-      "geo": {
-        "lat": 30.27325619,
-        "lng": -97.7557083
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT7352512/00.jpg",
-          "width": 2048,
-          "height": 1364,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 1"
-        },
-        {
-          "src": "/listings/ACT7352512/01.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 2"
-        },
-        {
-          "src": "/listings/ACT7352512/02.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 3"
-        },
-        {
-          "src": "/listings/ACT7352512/03.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 4"
-        },
-        {
-          "src": "/listings/ACT7352512/04.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 5"
-        },
-        {
-          "src": "/listings/ACT7352512/05.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 6"
-        },
-        {
-          "src": "/listings/ACT7352512/06.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 7"
-        },
-        {
-          "src": "/listings/ACT7352512/07.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 8"
-        },
-        {
-          "src": "/listings/ACT7352512/08.jpg",
-          "width": 2048,
-          "height": 1364,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 9"
-        },
-        {
-          "src": "/listings/ACT7352512/09.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 10"
-        },
-        {
-          "src": "/listings/ACT7352512/10.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 11"
-        },
-        {
-          "src": "/listings/ACT7352512/11.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 12"
-        },
-        {
-          "src": "/listings/ACT7352512/12.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 13"
-        },
-        {
-          "src": "/listings/ACT7352512/13.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 14"
-        },
-        {
-          "src": "/listings/ACT7352512/14.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 15"
-        },
-        {
-          "src": "/listings/ACT7352512/15.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 16"
-        },
-        {
-          "src": "/listings/ACT7352512/16.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 17"
-        },
-        {
-          "src": "/listings/ACT7352512/17.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 18"
-        },
-        {
-          "src": "/listings/ACT7352512/18.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 19"
-        },
-        {
-          "src": "/listings/ACT7352512/19.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 20"
-        }
-      ],
-      "isSample": false
-    },
-    {
       "id": "ACT7039240",
       "slug": "610-oakland-ave",
       "address": "610  Oakland Ave",
@@ -2086,6 +1936,156 @@
           "width": 2048,
           "height": 1364,
           "alt": "610  Oakland Ave, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT7352512",
+      "slug": "1115-w-7th-st-106-106",
+      "address": "1115 W 7th St  #106",
+      "unit": "Unit 106",
+      "propertyType": "condo",
+      "categories": [
+        "condo"
+      ],
+      "status": "active",
+      "price": 1350000,
+      "beds": 2,
+      "baths": 2.5,
+      "sqft": 2023,
+      "yearBuilt": 1999,
+      "lotSizeAcres": 0.0528,
+      "listDate": "2025-11-19",
+      "description": "Sophisticated Luxury Condo Living in Clarksville, steps from Downtown Austin! Located just two blocks from 7th & Lamar, this boutique residence offers the perfect blend of historic charm and modern convenience. This is a coveted ground floor unit with a private backyard - one of the few offered. Enjoy the best of city living with Whole Foods, Lin Asian Bar, and Pecan Square Cafe all just a short stroll away. Plus you’re right behind the exciting new up & coming Sixth & Blanco development. \n\nInside, a bright open-concept living and dining area features crown molding, gorgeous tile flooring, and a designer tiled fireplace with a smooth modern wood mantel. Natural light flows through tall windows and a glass door that opens onto an enchanting patio with tiered landscaping, a grassy area perfect for pets, and privacy fencing. The remodeled chef’s kitchen impresses with ceiling-height cabinetry, granite countertops, built-in appliances and an entertainer’s peninsula under a graceful archway.\n\nEnjoy a bright and spacious primary suite with walkout access to the backyard plus a spa-like dual vanity ensuite bath with a remodeled walk-in shower and an XL walk-in closet. The guest suite also features its own ensuite bath and walk-in closet, while a private office or bonus living area boasts the addition of custom built-ins. A powder room, in-home laundry, and two reserved garage parking spaces add everyday convenience.\n\nNestled within one of Austin’s most coveted neighborhoods, this exclusive 11-unit community offers a quiet retreat amid the energy of downtown. Step outside and explore local favorites such as BookPeople, Swedish Hill, Garbo’s, Amy’s Ice Cream, Pepe’s Tacos, and Bar Peached, or unwind at the nearby West Austin Dog Park. With gas, water, trash, recycling, quarterly pest control, weekly landscaping, and porter service included in the POA, residents enjoy a truly effortless lifestyle in one of Austin’s most walkable areas. Secure your showing today!",
+      "listOffice": "Compass RE Texas, LLC",
+      "listAgent": "Kelvin Glover",
+      "hoaFee": 1024,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27325619,
+        "lng": -97.7557083
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT7352512/00.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT7352512/01.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT7352512/02.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT7352512/03.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT7352512/04.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT7352512/05.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT7352512/06.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT7352512/07.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT7352512/08.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT7352512/09.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT7352512/10.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT7352512/11.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT7352512/12.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT7352512/13.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT7352512/14.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT7352512/15.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT7352512/16.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT7352512/17.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT7352512/18.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT7352512/19.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "1115 W 7th St  #106, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
