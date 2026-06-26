@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T13:22:26.353Z",
+  "generatedAt": "2026-06-26T13:14:13.865Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -2677,105 +2677,123 @@
       "photos": [
         {
           "src": "/listings/ACT8662044/00.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "View of property"
+          "width": 1024,
+          "height": 576,
+          "alt": "An aerial perspective showcases apartment buildin"
         },
         {
           "src": "/listings/ACT8662044/01.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "View of gate"
+          "width": 1024,
+          "height": 576,
+          "alt": "Aerial view showcasing a verdant neighborhood lea"
         },
         {
           "src": "/listings/ACT8662044/02.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "1506 W 13th St  #1, Clarksville, Austin, photo 3"
+          "width": 1024,
+          "height": 576,
+          "alt": "Panoramic views of the urban landscape showcase t"
         },
         {
           "src": "/listings/ACT8662044/03.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "View of patio with an outdoor pool and ceiling fan"
+          "width": 1024,
+          "height": 576,
+          "alt": "Architectural splendor unfolds in this multi-unit"
         },
         {
           "src": "/listings/ACT8662044/04.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "Community pool featuring a balcony"
+          "width": 1024,
+          "height": 683,
+          "alt": "Architectural splendor awaits behind a grand wrou"
         },
         {
           "src": "/listings/ACT8662044/05.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "Back of property with stucco siding, stairs, and"
+          "width": 1024,
+          "height": 683,
+          "alt": "A vibrant community sign is framed by lush, bloom"
         },
         {
           "src": "/listings/ACT8662044/06.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "Entrance to property with stucco siding"
+          "width": 1024,
+          "height": 683,
+          "alt": "A welcoming living area with a cozy fireplace and"
         },
         {
           "src": "/listings/ACT8662044/07.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "Living area with wood finished floors, ornamental"
+          "width": 1024,
+          "height": 683,
+          "alt": "An inviting open-concept layout connects dining a"
         },
         {
           "src": "/listings/ACT8662044/08.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "Living room featuring recessed lighting, wood fin"
+          "width": 1024,
+          "height": 683,
+          "alt": "Step into a luminous living area featuring elegan"
         },
         {
           "src": "/listings/ACT8662044/09.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "Bedroom with dark wood-style flooring, recessed l"
+          "width": 1024,
+          "height": 683,
+          "alt": "A welcoming living area with rich flooring and a"
         },
         {
           "src": "/listings/ACT8662044/10.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "Kitchen featuring stainless steel fridge, range,"
+          "width": 1024,
+          "height": 683,
+          "alt": "A comforting fireplace hearth with blue tile surr"
         },
         {
           "src": "/listings/ACT8662044/11.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "Dining room with recessed lighting, dark wood-sty"
+          "width": 1024,
+          "height": 683,
+          "alt": "Elegant living room with a charming fireplace and"
         },
         {
           "src": "/listings/ACT8662044/12.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "Bedroom with wood finished floors, recessed light"
+          "width": 1024,
+          "height": 683,
+          "alt": "Bright windows frame the living room, featuring a"
         },
         {
           "src": "/listings/ACT8662044/13.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "Full bath featuring dark wood-type flooring, comb"
+          "width": 1024,
+          "height": 683,
+          "alt": "A striking fireplace with intricate blue tilework"
         },
         {
           "src": "/listings/ACT8662044/14.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "Washroom featuring stacked washing machine and dr"
+          "width": 1024,
+          "height": 683,
+          "alt": "A galley kitchen with rich cabinetry and ample co"
         },
         {
           "src": "/listings/ACT8662044/15.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "View of patio with a community pool"
+          "width": 1024,
+          "height": 683,
+          "alt": "A well-equipped galley kitchen offers ample cabin"
         },
         {
           "src": "/listings/ACT8662044/16.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "Fenced backyard featuring a patio area and french"
+          "width": 1024,
+          "height": 683,
+          "alt": "Gleaming stainless steel appliances complement ri"
+        },
+        {
+          "src": "/listings/ACT8662044/17.jpg",
+          "width": 1024,
+          "height": 683,
+          "alt": "Well-lit sleeping quarters with a ceiling fan, wi"
+        },
+        {
+          "src": "/listings/ACT8662044/18.jpg",
+          "width": 1024,
+          "height": 683,
+          "alt": "Well-lit and tranquil, this office space offers a"
+        },
+        {
+          "src": "/listings/ACT8662044/19.jpg",
+          "width": 1024,
+          "height": 683,
+          "alt": "An inviting bathroom vanity features a vessel sin"
         }
       ],
       "isSample": false
@@ -3678,7 +3696,7 @@
         "condo"
       ],
       "status": "active",
-      "price": 294999,
+      "price": 292499,
       "beds": 1,
       "baths": 1,
       "sqft": 570,
