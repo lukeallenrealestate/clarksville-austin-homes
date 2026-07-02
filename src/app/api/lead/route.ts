@@ -44,13 +44,38 @@ export async function POST(req: Request) {
     console.error("[lead] email delivery failed", err);
   }
 
+  // CRM fan-out (Realtor OS webhook). Maps our form fields to the CRM's shape
+  // (name, email, phone, type, source, notes) so leads land clean, with the
+  // intent, property address, and source folded into the notes.
   const webhook = process.env.LEAD_WEBHOOK_URL;
   if (webhook) {
+    const typeByIntent: Record<string, string> = {
+      buy: "Buyer",
+      sell: "Seller",
+      value: "Seller",
+      general: "Lead",
+    };
+    const notes = [
+      data.message?.trim(),
+      data.address ? `Property: ${data.address}` : null,
+      `Interest: ${data.intent ?? "general"}`,
+      "Submitted via clarksvilleaustinhomes.com",
+    ]
+      .filter(Boolean)
+      .join("\n");
+    const crmPayload = {
+      name: data.name,
+      email: data.email,
+      phone: data.phone ?? "",
+      type: typeByIntent[data.intent ?? "general"] ?? "Lead",
+      source: "clarksvilleaustinhomes.com",
+      notes,
+    };
     try {
       await fetch(webhook, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(lead),
+        body: JSON.stringify(crmPayload),
       });
     } catch (err) {
       console.error("[lead] webhook delivery failed", err);
