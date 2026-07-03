@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T13:00:43.147Z",
+  "generatedAt": "2026-07-03T12:57:58.668Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -3682,6 +3682,150 @@
           "width": 2000,
           "height": 1500,
           "alt": "Exterior property featuring a brown siding facade"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT6078272",
+      "slug": "1111-w-10th-st-104-104",
+      "address": "1111 W 10th St  #104",
+      "unit": "Unit 104",
+      "propertyType": "condo",
+      "categories": [
+        "condo"
+      ],
+      "status": "active",
+      "price": 183000,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 300,
+      "yearBuilt": 1972,
+      "lotSizeAcres": 0.0141,
+      "listDate": "2026-07-02",
+      "description": "The heart of Downtown / Old West Austin at an incredible price! A location that can't be beat, and the perfect area for ditching the car and grabbing a bike - or walk it! Stones throw to loads of dining, hot spots and even a little grocery store. West Lynn, West 5th / 6th, Castle Hill - all the spots you love at such an affordable price. Best part, live in a multi million dollar neighborhood with charming story book Victorian era homes and modern sleek architecture, all mixed together with this funky vintage 1970's courtyard style condo! Relax on the patio balcony and view downtown, it's all possible at Old Castle Hill on West 10th!",
+      "listOffice": "Sky Realty",
+      "listAgent": "Malita Jones",
+      "hoaFee": 225,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27523215,
+        "lng": -97.75453141
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT6078272/00.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT6078272/01.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT6078272/02.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT6078272/03.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT6078272/04.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT6078272/05.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT6078272/06.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT6078272/07.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT6078272/08.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT6078272/09.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT6078272/10.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT6078272/11.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT6078272/12.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT6078272/13.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT6078272/14.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT6078272/15.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT6078272/16.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT6078272/17.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT6078272/18.jpg",
+          "width": 1200,
+          "height": 800,
+          "alt": "1111 W 10th St  #104, Clarksville, Austin, photo 19"
         }
       ],
       "isSample": false
