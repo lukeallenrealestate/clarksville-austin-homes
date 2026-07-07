@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T14:28:30.034Z",
+  "generatedAt": "2026-07-07T13:22:47.179Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -184,19 +184,19 @@
         {
           "src": "/listings/ACT2683918/00.jpg",
           "width": 2048,
-          "height": 1362,
+          "height": 1364,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 1"
         },
         {
           "src": "/listings/ACT2683918/01.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1365,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 2"
         },
         {
           "src": "/listings/ACT2683918/02.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1365,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 3"
         },
         {
@@ -208,97 +208,97 @@
         {
           "src": "/listings/ACT2683918/04.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1360,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 5"
         },
         {
           "src": "/listings/ACT2683918/05.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1360,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 6"
         },
         {
           "src": "/listings/ACT2683918/06.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1360,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 7"
         },
         {
           "src": "/listings/ACT2683918/07.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1366,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 8"
         },
         {
           "src": "/listings/ACT2683918/08.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1365,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 9"
         },
         {
           "src": "/listings/ACT2683918/09.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1365,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 10"
         },
         {
           "src": "/listings/ACT2683918/10.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1365,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 11"
         },
         {
           "src": "/listings/ACT2683918/11.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1365,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 12"
         },
         {
           "src": "/listings/ACT2683918/12.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1365,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 13"
         },
         {
           "src": "/listings/ACT2683918/13.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1365,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 14"
         },
         {
           "src": "/listings/ACT2683918/14.jpg",
-          "width": 2048,
-          "height": 1363,
+          "width": 1024,
+          "height": 1536,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 15"
         },
         {
           "src": "/listings/ACT2683918/15.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1365,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 16"
         },
         {
           "src": "/listings/ACT2683918/16.jpg",
           "width": 2048,
-          "height": 1363,
+          "height": 1366,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 17"
         },
         {
           "src": "/listings/ACT2683918/17.jpg",
-          "width": 2048,
-          "height": 1360,
+          "width": 1024,
+          "height": 1536,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 18"
         },
         {
           "src": "/listings/ACT2683918/18.jpg",
           "width": 2048,
-          "height": 1360,
+          "height": 1366,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 19"
         },
         {
           "src": "/listings/ACT2683918/19.jpg",
           "width": 2048,
-          "height": 1360,
+          "height": 1366,
           "alt": "1006  Baylor St  #204, Clarksville, Austin, photo 20"
         }
       ],
@@ -1042,154 +1042,6 @@
           "width": 2048,
           "height": 1536,
           "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 17"
-        }
-      ],
-      "isSample": false
-    },
-    {
-      "id": "ACT5851438",
-      "slug": "1006-shelley-ave",
-      "address": "1006  Shelley Ave",
-      "propertyType": "single-family",
-      "categories": [
-        "single-family",
-        "bungalow"
-      ],
-      "status": "active",
-      "price": 1950000,
-      "beds": 5,
-      "baths": 3.5,
-      "sqft": 3239,
-      "yearBuilt": 1919,
-      "lotSizeAcres": 0.1506,
-      "listDate": "2026-04-19",
-      "description": "Tucked into the highly sought-after Clarksville area, 1006 Shelley Ave blends classic Austin character with an unbeatable central location just minutes from downtown. This charming home is rich with vintage details, including copper-like ceilings, stained glass windows, warm wood floors, and inviting living spaces that feel both timeless and welcoming. The front house offers a flexible floorplan with natural light and high ceilings. This home showcases distinctive architectural touches you won’t find in today’s new construction. Picture yourself enjoying your evenings on the large front porch or in the screened-in back porch overlooking the private backyard. A major bonus is the detached back house, providing exceptional flexibility for a guest suite, home office, studio, or potential income-producing rental (buyer to verify use). With its own separate space and added privacy, it enhances both the functionality and value of the property. All of this with easy access to downtown Austin, Lady Bird Lake and beloved neighborhood spots like Jeffrey's, Medici Roasting, and Clarksville Market- making this a rare opportunity to own a character-rich, multi-structure property in one of Austin’s most iconic locations. Front house is 2189 sqf (per FPG), 3 bed/2 bath + office & screened porch - downstairs built in 1919.; upstairs finished out much later. Back House is 1050 sqf (per FPG), 2 bed/1.5 bath with private access from alley and built in approx 2004.",
-      "listOffice": "Team Price Real Estate",
-      "listAgent": "Erin Dunnigan",
-      "geo": {
-        "lat": 30.27771488,
-        "lng": -97.7559406
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT5851438/00.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 1"
-        },
-        {
-          "src": "/listings/ACT5851438/01.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 2"
-        },
-        {
-          "src": "/listings/ACT5851438/02.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 3"
-        },
-        {
-          "src": "/listings/ACT5851438/03.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 4"
-        },
-        {
-          "src": "/listings/ACT5851438/04.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 5"
-        },
-        {
-          "src": "/listings/ACT5851438/05.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 6"
-        },
-        {
-          "src": "/listings/ACT5851438/06.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 7"
-        },
-        {
-          "src": "/listings/ACT5851438/07.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 8"
-        },
-        {
-          "src": "/listings/ACT5851438/08.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 9"
-        },
-        {
-          "src": "/listings/ACT5851438/09.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 10"
-        },
-        {
-          "src": "/listings/ACT5851438/10.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 11"
-        },
-        {
-          "src": "/listings/ACT5851438/11.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 12"
-        },
-        {
-          "src": "/listings/ACT5851438/12.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 13"
-        },
-        {
-          "src": "/listings/ACT5851438/13.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 14"
-        },
-        {
-          "src": "/listings/ACT5851438/14.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 15"
-        },
-        {
-          "src": "/listings/ACT5851438/15.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 16"
-        },
-        {
-          "src": "/listings/ACT5851438/16.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 17"
-        },
-        {
-          "src": "/listings/ACT5851438/17.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 18"
-        },
-        {
-          "src": "/listings/ACT5851438/18.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 19"
-        },
-        {
-          "src": "/listings/ACT5851438/19.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1006  Shelley Ave, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
