@@ -70,6 +70,16 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Clarksville insights",
     blurb: "Original guides on investing, moving, and buying in 78703.",
   },
+  bungalows: {
+    href: "/clarksville-bungalows-for-sale",
+    title: "Clarksville bungalows",
+    blurb: "Historic Craftsman cottages on small, walkable lots.",
+  },
+  oldWestAustin: {
+    href: "/old-west-austin-homes",
+    title: "Old West Austin homes",
+    blurb: "The broader 78703 area: Clarksville, Old Enfield, and more.",
+  },
   insightInvestment: {
     href: "/insights/is-clarksville-a-good-investment",
     title: "Is Clarksville a good investment?",

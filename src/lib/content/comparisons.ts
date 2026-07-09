@@ -53,6 +53,44 @@ export const COMPARISONS_DATA: Record<string, Comparison> = {
     otherFor:
       "Old Enfield suits buyers seeking a larger estate home, more land, and a quieter, grander historic streetscape, often at a higher entry point.",
   },
+  "clarksville-vs-bryker-woods": {
+    slug: "clarksville-vs-bryker-woods",
+    other: "Bryker Woods",
+    intro:
+      "Clarksville and Bryker Woods are both prized central-Austin neighborhoods inside the broader Old West Austin area, but they attract different buyers. Clarksville is the historic, walkable freedmen's town minutes from downtown and the West Lynn dining scene. Bryker Woods sits a bit north, a quieter, family-oriented enclave of cottages and Tudors near the medical district with its own well-regarded elementary.",
+    rows: [
+      { dimension: "Setting", clarksville: "West of downtown, historic district", other: "Farther north, near the 35th Street medical district" },
+      { dimension: "Feel", clarksville: "Historic, walkable, urban-village", other: "Quiet, residential, family-oriented" },
+      { dimension: "Housing", clarksville: "Cottages, bungalows, condos, modern infill", other: "Cottages, Tudors, and traditional homes" },
+      { dimension: "Lots", clarksville: "Generally small historic lots", other: "Modest to mid-size residential lots" },
+      { dimension: "Schools", clarksville: "Mathews, O. Henry, Austin High", other: "Bryker Woods Elementary, O. Henry, Austin High" },
+      { dimension: "Walkability", clarksville: "Dining and grocery on foot", other: "More residential; walkable to parks and schools" },
+      { dimension: "Best for", clarksville: "Walk-to-downtown history and character", other: "Quiet family living near central medical and schools" },
+    ],
+    clarksvilleFor:
+      "Clarksville suits buyers who want walkable daily life, historic character, and downtown proximity, and who prize location over lot size.",
+    otherFor:
+      "Bryker Woods suits families who want a quieter, established residential street near strong schools and the central medical district, with a bit more everyday calm.",
+  },
+  "clarksville-vs-downtown-austin": {
+    slug: "clarksville-vs-downtown-austin",
+    other: "Downtown Austin",
+    intro:
+      "Many buyers weigh a Clarksville home against a downtown Austin high-rise condo. They are only minutes apart but offer opposite lifestyles: Clarksville is a walkable, tree-lined historic neighborhood of houses and boutique condos, while downtown is the vertical urban core of towers, nightlife, and lock-and-leave living.",
+    rows: [
+      { dimension: "Setting", clarksville: "Historic residential neighborhood", other: "High-rise urban core" },
+      { dimension: "Housing", clarksville: "Single-family homes, cottages, boutique condos", other: "High-rise condominium towers" },
+      { dimension: "Outdoor space", clarksville: "Yards, porches, tree canopy", other: "Balconies and shared amenity decks" },
+      { dimension: "Lifestyle", clarksville: "Neighborhood village, walk to West Lynn dining", other: "Nightlife, restaurants, and the lake trail at the door" },
+      { dimension: "HOA / upkeep", clarksville: "Low for houses; moderate for condos", other: "Higher monthly HOA dues typical" },
+      { dimension: "Price per sq ft", clarksville: "High, land-backed", other: "High, view and floor dependent" },
+      { dimension: "Best for", clarksville: "Character, some space, quiet minutes from downtown", other: "Turnkey vertical living in the core" },
+    ],
+    clarksvilleFor:
+      "Clarksville suits buyers who want the walkability and energy of central Austin but prefer a real neighborhood, a yard or a porch, and historic character over a tower.",
+    otherFor:
+      "Downtown suits buyers who want full-service, lock-and-leave high-rise living with nightlife and the lake at their doorstep and no yard to maintain.",
+  },
   "clarksville-vs-pemberton-heights": {
     slug: "clarksville-vs-pemberton-heights",
     other: "Pemberton Heights",

@@ -113,6 +113,28 @@ export const COMPARISONS: Guide[] = [
     kind: "comparison",
   },
   {
+    slug: "clarksville-vs-bryker-woods",
+    title: "Clarksville vs Bryker Woods: Comparing Two Central Austin Neighborhoods",
+    navLabel: "Clarksville vs Bryker Woods",
+    description:
+      "Historic, walkable Clarksville or quiet, family-friendly Bryker Woods? A side-by-side on schools, housing, walkability, and lifestyle in central Austin.",
+    hero: PHOTOS.streetscape,
+    published: "2026-07-09",
+    updated: "2026-07-09",
+    kind: "comparison",
+  },
+  {
+    slug: "clarksville-vs-downtown-austin",
+    title: "Clarksville vs Downtown Austin: House or High-Rise?",
+    navLabel: "Clarksville vs Downtown Austin",
+    description:
+      "A Clarksville home or a downtown Austin condo tower? Compare lifestyle, outdoor space, HOA, price, and who each option suits, minutes apart in central Austin.",
+    hero: PHOTOS.newBuild,
+    published: "2026-07-09",
+    updated: "2026-07-09",
+    kind: "comparison",
+  },
+  {
     slug: "clarksville-vs-pemberton-heights",
     title: "Clarksville vs Pemberton Heights: A Buyer's Comparison",
     navLabel: "Clarksville vs Pemberton Heights",

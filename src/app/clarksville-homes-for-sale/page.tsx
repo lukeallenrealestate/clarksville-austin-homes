@@ -45,7 +45,10 @@ export default async function HomesForSalePage() {
       }
       related={[
         { href: "/clarksville-condos-for-sale", title: "Condos for sale", blurb: "Lock-and-leave living and entry-point ownership in Clarksville." },
+        { href: "/clarksville-bungalows-for-sale", title: "Bungalows for sale", blurb: "Historic Craftsman cottages on small, walkable lots." },
         { href: "/clarksville-luxury-homes", title: "Luxury homes", blurb: "The $2M-plus tier: estates, infill, and signature new builds." },
+        { href: "/clarksville-new-construction", title: "New construction", blurb: "The Belvedere, Westline, The Clarksville, and more." },
+        { href: "/old-west-austin-homes", title: "Old West Austin homes", blurb: "The broader 78703 area and its historic neighborhoods." },
         { href: "/clarksville-market-report", title: "Market report", blurb: "Dated, sourced values so you know what is real." },
       ]}
     />
