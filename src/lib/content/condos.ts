@@ -7,6 +7,8 @@
  * Never present a number as settled when sources disagree. The page renders the
  * verify note as a visible "confirm before offer" caveat.
  */
+export type CondoImage = { src: string; width: number; height: number; alt: string };
+
 export type CondoBuilding = {
   slug: string;
   name: string;
@@ -19,6 +21,10 @@ export type CondoBuilding = {
   priceNote?: string;
   verifyNote?: string;
   featured: boolean;
+  /** Optional hero + gallery photography and a required credit line when used. */
+  heroImage?: CondoImage;
+  gallery?: CondoImage[];
+  imageCredit?: string;
 };
 
 export const CONDOS: CondoBuilding[] = [
@@ -26,19 +32,46 @@ export const CONDOS: CondoBuilding[] = [
     slug: "the-clarksville",
     name: "The Clarksville Condominiums",
     status: "selling",
-    design: "Franco Studios",
     address: "1711 Enfield Road",
     summary:
-      "A character-driven, 10-home boutique condominium in the heart of Clarksville, conceived as a counterbalance to Austin's trend toward uniform, hyper-modern design. Austin Monthly recognized Clarksville as a rare pocket where history, charm, and walkable living converge.",
+      "A character-driven, 10-home boutique condominium at the Clarksville and Old Enfield edge, a reimagined mid-century building conceived as a counterbalance to Austin's trend toward uniform, hyper-modern design. Austin Monthly recognized Clarksville as a rare pocket where history, charm, and walkable living converge.",
     details: [
-      "10 boutique residences designed by Franco Studios",
-      "At 1711 Enfield Road, in the heart of the Clarksville historic district",
+      "10 boutique condominium residences in a reimagined mid-century building",
+      "At 1711 Enfield Road, at the Clarksville and Old Enfield edge",
       "Character-driven design for artists, romantics, and creatives",
       "Sold largely off-market; Luke Allen is on the sales team",
     ],
     priceNote:
       "Pricing and availability are handled directly. Contact Luke Allen for current details and a private tour.",
     featured: true,
+    heroImage: {
+      src: "/images/the-clarksville/the-clarksville-4.jpg",
+      width: 2500,
+      height: 1666,
+      alt: "Exterior of The Clarksville Condominiums, a reimagined dark-brick mid-century building at 1711 Enfield Road, Austin",
+    },
+    gallery: [
+      {
+        src: "/images/the-clarksville/the-clarksville-2.jpg",
+        width: 2500,
+        height: 1635,
+        alt: "Interior at The Clarksville with a marble fireplace, herringbone wood floors, and a black leather sofa",
+      },
+      {
+        src: "/images/the-clarksville/the-clarksville-1.jpg",
+        width: 2500,
+        height: 1657,
+        alt: "A spiral staircase and chandelier reflected in a gilt mirror inside a residence at The Clarksville",
+      },
+      {
+        src: "/images/the-clarksville/the-clarksville-3.jpg",
+        width: 1193,
+        height: 1800,
+        alt: "Editorial interior detail from The Clarksville Condominiums in Clarksville, Austin",
+      },
+    ],
+    imageCredit:
+      "Photography courtesy of The Clarksville (theclarksvilleatx.com), shown here to represent the development Luke Allen is on the sales team for.",
   },
   {
     slug: "the-belvedere",

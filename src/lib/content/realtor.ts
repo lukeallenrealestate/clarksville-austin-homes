@@ -15,7 +15,6 @@ export const CLARKSVILLE_PROJECT = {
   url: "https://www.theclarksvilleatx.com/",
   address: "1711 Enfield Road, Austin, TX 78703",
   units: 10,
-  designer: "Franco Studios",
   note: "A character-driven, 10-home boutique condominium in the heart of Clarksville, recognized by Austin Monthly as part of a rare pocket where history, charm, and walkable living converge.",
 };
 

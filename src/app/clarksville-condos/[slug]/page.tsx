@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { pageMeta } from "@/lib/seo";
@@ -46,7 +47,7 @@ export default async function CondoPage({ params }: { params: Promise<{ slug: st
         eyebrow="Clarksville Condo Building"
         title={c.name}
         lead={c.summary}
-        photo={PHOTOS.newBuild}
+        photo={c.heroImage ?? PHOTOS.newBuild}
         crumbs={[
           { name: "Neighborhood", path: "/neighborhood" },
           { name: "Condo Buildings", path: "/clarksville-condos" },
@@ -116,6 +117,31 @@ export default async function CondoPage({ params }: { params: Promise<{ slug: st
           </aside>
         </Container>
       </section>
+
+      {c.gallery?.length ? (
+        <section className="border-t border-line bg-cream py-16">
+          <Container>
+            <h2 className="font-display text-2xl text-ink">Inside {c.name}</h2>
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {c.gallery.map((img) => (
+                <div
+                  key={img.src}
+                  className="relative aspect-[4/3] overflow-hidden rounded-[3px] border border-line"
+                >
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="img-grade object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+            {c.imageCredit ? <p className="mt-5 text-xs text-muted">{c.imageCredit}</p> : null}
+          </Container>
+        </section>
+      ) : null}
 
       <RelatedLinks
         links={[

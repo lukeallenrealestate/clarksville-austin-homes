@@ -186,8 +186,7 @@ export default function ClarksvilleRealtorPage() {
               </h2>
               <p className="mt-4 max-w-xl leading-relaxed text-ink-soft">{CLARKSVILLE_PROJECT.note}</p>
               <p className="font-num mt-4 text-sm text-muted">
-                {CLARKSVILLE_PROJECT.units} residences &middot; {CLARKSVILLE_PROJECT.address} &middot;
-                Design by {CLARKSVILLE_PROJECT.designer}
+                {CLARKSVILLE_PROJECT.units} residences &middot; {CLARKSVILLE_PROJECT.address}
               </p>
             </div>
             <div className="lg:text-right">
