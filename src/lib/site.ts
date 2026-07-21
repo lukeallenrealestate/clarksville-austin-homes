@@ -41,6 +41,8 @@ export const AGENT = {
   // Public profiles Google should associate with this agent (entity linking).
   sameAs: [
     "https://austintxhomes.co",
+    "https://www.tarrytownatxhomes.com",
+    "https://www.fifthandwestaustin.com",
     "https://www.facebook.com/LukeAllen10000/",
     "https://www.instagram.com/lukeallenrealty/",
     "https://www.youtube.com/channel/UCVwDTcZHOySZEikL5T9AjbQ",

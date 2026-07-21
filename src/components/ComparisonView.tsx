@@ -83,6 +83,18 @@ export function ComparisonView({ slug }: { slug: string }) {
             <div className="rounded-[3px] border-l-2 border-canopy bg-paper p-7">
               <h3 className="font-display text-2xl text-ink">Choose {data.other} if</h3>
               <p className="mt-3 text-sm leading-relaxed text-ink-soft">{data.otherFor}</p>
+              {data.otherUrl ? (
+                <p className="mt-4 text-sm leading-relaxed text-ink-soft">
+                  Leaning that way?{" "}
+                  <a
+                    href={data.otherUrl}
+                    className="font-semibold text-brass-deep underline underline-offset-2"
+                  >
+                    Explore {data.other} in depth on our dedicated {data.other} site
+                  </a>
+                  , with live listings, a neighborhood guide, and market data.
+                </p>
+              ) : null}
             </div>
           </div>
           <p className="mt-8 max-w-2xl text-sm leading-relaxed text-ink-soft">

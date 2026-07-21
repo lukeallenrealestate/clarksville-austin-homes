@@ -13,6 +13,8 @@ export type Comparison = {
   rows: CompareRow[];
   clarksvilleFor: string;
   otherFor: string;
+  /** Optional dedicated site for the other neighborhood (contextual link). */
+  otherUrl?: string;
 };
 
 export const COMPARISONS_DATA: Record<string, Comparison> = {
@@ -34,6 +36,7 @@ export const COMPARISONS_DATA: Record<string, Comparison> = {
       "Clarksville suits buyers who want to walk to dinner and downtown, value historic character and a tight neighborhood fabric, and accept smaller lots for that location.",
     otherFor:
       "Tarrytown suits buyers who want more land, a quieter and greener setting, and proximity to Lake Austin, and who do not mind driving for daily errands.",
+    otherUrl: "https://www.tarrytownatxhomes.com",
   },
   "clarksville-vs-old-enfield": {
     slug: "clarksville-vs-old-enfield",
