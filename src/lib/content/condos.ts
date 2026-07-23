@@ -25,6 +25,14 @@ export type CondoBuilding = {
   heroImage?: CondoImage;
   gallery?: CondoImage[];
   imageCredit?: string;
+  logo?: CondoImage;
+  /** Exclusive off-market listing treatment (availability, pricing, parking). */
+  exclusive?: boolean;
+  unitsTotal?: number;
+  unitsSold?: number;
+  unitTypes?: { name: string; sqft: number; price: number }[];
+  parkingNote?: string;
+  exclusiveNote?: string;
 };
 
 export const CONDOS: CondoBuilding[] = [
@@ -34,16 +42,35 @@ export const CONDOS: CondoBuilding[] = [
     status: "selling",
     address: "1711 Enfield Road",
     summary:
-      "A character-driven, 10-home boutique condominium at the Clarksville and Old Enfield edge, a reimagined mid-century building conceived as a counterbalance to Austin's trend toward uniform, hyper-modern design. Austin Monthly recognized Clarksville as a rare pocket where history, charm, and walkable living converge.",
+      "A character-driven collection of just ten boutique condominiums at the Clarksville and Old Enfield edge, a reimagined mid-century building for artists, romantics, and creatives. Sold exclusively and entirely off-market, from the high $300s, one of the only ways left to own in 78703 at this price.",
     details: [
       "10 boutique condominium residences in a reimagined mid-century building",
-      "At 1711 Enfield Road, at the Clarksville and Old Enfield edge",
-      "Character-driven design for artists, romantics, and creatives",
-      "Sold largely off-market; Luke Allen is on the sales team",
+      "At 1711 Enfield Road, at the Clarksville and Old Enfield edge, walkable to West Lynn",
+      "Character-driven, editorial interiors: herringbone floors, marble, and warm materials",
+      "One dedicated parking space per residence, a rarity this close to downtown",
+      "Sold exclusively and off-market; Luke Allen is on the sales team",
     ],
     priceNote:
-      "Pricing and availability are handled directly. Contact Luke Allen for current details and a private tour.",
+      "Prices and availability are current as of the latest update and subject to change. Contact Luke Allen directly for what remains and to arrange a private, in-person showing.",
     featured: true,
+    exclusive: true,
+    unitsTotal: 10,
+    unitsSold: 7,
+    unitTypes: [
+      { name: "2 Bed / 1 Bath", sqft: 950, price: 519000 },
+      { name: "1 Bed + Loft", sqft: 850, price: 474000 },
+      { name: "1 Bedroom", sqft: 650, price: 389000 },
+    ],
+    parkingNote:
+      "Every residence includes one dedicated parking space. Five guest parking spaces remain for the community once all ten homes are sold.",
+    exclusiveNote:
+      "The Clarksville is sold exclusively and entirely off-market. You will not find it on the MLS or on Zillow, and there are no public floor plans or virtual tours by design. These homes reveal themselves in person, on a private walk-through, not on a screen. If you want in, the only way is to come see it.",
+    logo: {
+      src: "/images/the-clarksville/logo.webp",
+      width: 300,
+      height: 436,
+      alt: "The Clarksville ATX emblem",
+    },
     heroImage: {
       src: "/images/the-clarksville/the-clarksville-4.jpg",
       width: 2500,
@@ -51,27 +78,24 @@ export const CONDOS: CondoBuilding[] = [
       alt: "Exterior of The Clarksville Condominiums, a reimagined dark-brick mid-century building at 1711 Enfield Road, Austin",
     },
     gallery: [
-      {
-        src: "/images/the-clarksville/the-clarksville-2.jpg",
-        width: 2500,
-        height: 1635,
-        alt: "Interior at The Clarksville with a marble fireplace, herringbone wood floors, and a black leather sofa",
-      },
-      {
-        src: "/images/the-clarksville/the-clarksville-1.jpg",
-        width: 2500,
-        height: 1657,
-        alt: "A spiral staircase and chandelier reflected in a gilt mirror inside a residence at The Clarksville",
-      },
-      {
-        src: "/images/the-clarksville/the-clarksville-3.jpg",
-        width: 1193,
-        height: 1800,
-        alt: "Editorial interior detail from The Clarksville Condominiums in Clarksville, Austin",
-      },
+      { src: "/images/the-clarksville/the-clarksville-2.jpg", width: 2500, height: 1635, alt: "Interior at The Clarksville with a marble fireplace, herringbone wood floors, and a black leather sofa" },
+      { src: "/images/the-clarksville/the-clarksville-11.jpg", width: 1600, height: 1049, alt: "Exterior of The Clarksville, dark-brick facade with black metal stairs under a tree canopy" },
+      { src: "/images/the-clarksville/the-clarksville-1.jpg", width: 2500, height: 1657, alt: "A spiral staircase and chandelier reflected in a gilt mirror inside a residence at The Clarksville" },
+      { src: "/images/the-clarksville/the-clarksville-5.jpg", width: 2500, height: 1657, alt: "Editorial interior photograph at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-6.jpg", width: 2500, height: 1657, alt: "Interior photograph of a residence at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-7.jpg", width: 2500, height: 1657, alt: "Interior living space at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-8.jpg", width: 1800, height: 1104, alt: "Editorial photograph at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-9.jpg", width: 1800, height: 1201, alt: "Interior detail at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-16.jpg", width: 2500, height: 1657, alt: "Editorial interior photograph at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-10.jpg", width: 1264, height: 1800, alt: "Interior at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-12.jpg", width: 1263, height: 1800, alt: "Detail at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-13.jpg", width: 1151, height: 1800, alt: "Interior detail at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-14.jpg", width: 1183, height: 1800, alt: "Interior at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-15.jpg", width: 2500, height: 3847, alt: "Editorial photograph at The Clarksville Condominiums, Austin" },
+      { src: "/images/the-clarksville/the-clarksville-3.jpg", width: 1193, height: 1800, alt: "Editorial interior detail from The Clarksville Condominiums in Clarksville, Austin" },
     ],
     imageCredit:
-      "Photography courtesy of The Clarksville (theclarksvilleatx.com), shown here to represent the development Luke Allen is on the sales team for.",
+      "Photography and logo courtesy of The Clarksville (theclarksvilleatx.com), shown here to represent the development Luke Allen is on the sales team for.",
   },
   {
     slug: "the-belvedere",
