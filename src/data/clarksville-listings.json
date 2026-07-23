@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T12:26:58.462Z",
+  "generatedAt": "2026-07-23T12:25:08.135Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -455,6 +455,155 @@
       "isSample": false
     },
     {
+      "id": "ACT6941789",
+      "slug": "802-blanco-st",
+      "address": "802  Blanco St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "luxury",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 2350000,
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2368,
+      "yearBuilt": 1915,
+      "lotSizeAcres": 0.1359,
+      "listDate": "2026-07-22",
+      "description": "Located beneath a canopy of mature trees in the heart of historic Old West Austin/Clarksville, this beautifully restored/renovated residence blends timeless architecture with exceptional modern updates and an effortless indoor-outdoor lifestyle. Thoughtfully reimagined, the home preserves its historic character while enhancing comfort, functionality, and design for today's lifestyle. The heart of the home features a dramatic wall of glass that opens to a private backyard retreat with a sparkling pool, sauna, sprawling artificial turf lawn, spacious storage building, and an expansive patio ideal for entertaining. The flexible floor plan offers two bedrooms and a full bath on the main level, while upstairs features a spacious primary suite with a spa-inspired bath and peaceful treetop views. A second ensuite bedroom provides an ideal guest suite or additional primary, while a dedicated home office delivers the privacy professionals desire. Extensive improvements include all new windows and doors, premium kitchen appliances, updated baths, custom lighting, upgraded electrical, enhanced internet wiring, extensive drainage and site improvements, prof landscaping, and architectural landscape lighting. A covered carport and long driveway provide off-street parking for up to three vehicles, an uncommon luxury in this sought-after neighborhood. Just steps from the transformative 6th & Blanco development by MML Hospitality, residents enjoy luxury accommodations, destination dining, boutique retail, and a vibrant pedestrian-friendly atmosphere. With an outstanding Walk Score of 93, neighborhood cafes, acclaimed restaurants, parks, shopping, and downtown Austin are all within reach. Rich in history, thoughtfully restored, and ideally located, this exceptional property offers a rare opportunity to own a distinctive home in one of Austin's most cherished historic neighborhoods, where timeless character, modern luxury, and an unmatched Austin lifestyle come together.",
+      "listOffice": "Compass RE Texas, LLC",
+      "listAgent": "Charlotte Lipscomb",
+      "geo": {
+        "lat": 30.27478547,
+        "lng": -97.75604753
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT6941789/00.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT6941789/01.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT6941789/02.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT6941789/03.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT6941789/04.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT6941789/05.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT6941789/06.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT6941789/07.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT6941789/08.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT6941789/09.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT6941789/10.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT6941789/11.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT6941789/12.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT6941789/13.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT6941789/14.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT6941789/15.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT6941789/16.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT6941789/17.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT6941789/18.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT6941789/19.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "802  Blanco St, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
       "id": "ACT5249509",
       "slug": "1406-w-9th-st-802-802",
       "address": "1406 W 9th St  #802",
@@ -904,7 +1053,7 @@
         "condo"
       ],
       "status": "active",
-      "price": 569000,
+      "price": 549000,
       "beds": 2,
       "baths": 2.5,
       "sqft": 1146,
@@ -1628,156 +1777,6 @@
           "width": 626,
           "height": 419,
           "alt": "Community pool featuring a patio area"
-        }
-      ],
-      "isSample": false
-    },
-    {
-      "id": "ACT7529704",
-      "slug": "1503-w-9th-st-204-204",
-      "address": "1503 W 9th St  #204",
-      "unit": "Unit 204",
-      "propertyType": "condo",
-      "categories": [
-        "condo"
-      ],
-      "status": "active",
-      "price": 292499,
-      "beds": 1,
-      "baths": 1,
-      "sqft": 570,
-      "yearBuilt": 1966,
-      "lotSizeAcres": 0.0172,
-      "listDate": "2026-04-20",
-      "description": "Located in the heart of historic Clarksville, one of Austin’s most charming and walkable neighborhoods, this move-in ready 1-bedroom, 1-bath condo offers a rare opportunity to own in the coveted 78703 zip code for under $295K. Positioned on the second floor of a boutique 12-unit mid-century garden-style complex, the home welcomes you with a serene, landscaped courtyard and light-filled, thoughtfully designed interiors.\n\nInside, vaulted ceilings, real tongue-and-groove hardwood floors, and expansive windows create an airy, inviting atmosphere. The open-concept kitchen and living area is ideal for both everyday living and entertaining, featuring Silestone countertops, a glass tile backsplash, stainless steel appliances, and a full appliance package that conveys. The spacious bedroom offers a quiet retreat with a walk-in closet, while the efficient layout maximizes comfort and livability.\n\nAdditional highlights include a dedicated parking space and a true lock-and-leave lifestyle, perfect for professionals, students, or investors. Just steps from Clarksville Park, Jeffrey’s, Josephine House, Fresh Plus Grocery, and some of Austin’s most beloved restaurants, coffee shops, and boutiques, and minutes to downtown, UT, and Lady Bird Lake, this location delivers the best of central Austin living.\n\nWhether you’re a first-time buyer, investor, or searching for a pied-à-terre this is a rare chance to own in Clarksville at a price point that’s increasingly hard to find.\n\n*Minimum lease term 6 months. HOA prohibits transient or hotel-type use, so Airbnb/short-term rentals are not allowed*",
-      "listOffice": "Gottesman Residential R.E.",
-      "listAgent": "Ashley Southerland",
-      "hoaFee": 384,
-      "hoaFrequency": "Monthly",
-      "geo": {
-        "lat": 30.27673624,
-        "lng": -97.75984903
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT7529704/00.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Open-concept living space featuring hardwood-fini"
-        },
-        {
-          "src": "/listings/ACT7529704/01.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Central courtyard with concrete paving, mature tr"
-        },
-        {
-          "src": "/listings/ACT7529704/02.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Open-concept living space featuring wood-finish f"
-        },
-        {
-          "src": "/listings/ACT7529704/03.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Concrete courtyard featuring built-in planters an"
-        },
-        {
-          "src": "/listings/ACT7529704/04.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Expansive living area featuring rich wood-finish"
-        },
-        {
-          "src": "/listings/ACT7529704/05.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Open-concept living space with dark wood-finish f"
-        },
-        {
-          "src": "/listings/ACT7529704/06.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Open-concept living area with wood-finish floorin"
-        },
-        {
-          "src": "/listings/ACT7529704/07.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Open-concept living space featuring wood-finish f"
-        },
-        {
-          "src": "/listings/ACT7529704/08.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Contemporary galley kitchen featuring wood-finish"
-        },
-        {
-          "src": "/listings/ACT7529704/09.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Modern kitchen and living area featuring dark woo"
-        },
-        {
-          "src": "/listings/ACT7529704/10.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Room featuring wood-finish flooring, a ceiling fa"
-        },
-        {
-          "src": "/listings/ACT7529704/11.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Vaulted ceilings with a ceiling fan, large window"
-        },
-        {
-          "src": "/listings/ACT7529704/12.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Bedroom featuring wood-finish flooring, a vaulted"
-        },
-        {
-          "src": "/listings/ACT7529704/13.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Bathroom featuring a white subway tile shower sur"
-        },
-        {
-          "src": "/listings/ACT7529704/14.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "1503 W 9th St  #204, Clarksville, Austin, photo 15"
-        },
-        {
-          "src": "/listings/ACT7529704/15.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Expansive concrete patio area with a privacy wall"
-        },
-        {
-          "src": "/listings/ACT7529704/16.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "1503 W 9th St  #204, Clarksville, Austin, photo 17"
-        },
-        {
-          "src": "/listings/ACT7529704/17.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Multi-level residential building featuring a brow"
-        },
-        {
-          "src": "/listings/ACT7529704/18.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Multi-story brown siding exterior with a carport"
-        },
-        {
-          "src": "/listings/ACT7529704/19.jpg",
-          "width": 2000,
-          "height": 1500,
-          "alt": "Exterior property featuring a brown siding facade"
         }
       ],
       "isSample": false
