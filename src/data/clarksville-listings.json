@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T13:40:32.095Z",
+  "generatedAt": "2026-07-28T12:56:35.200Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1041,6 +1041,156 @@
       "isSample": false
     },
     {
+      "id": "ACT1122261",
+      "slug": "1106-w-6th-st-206-206",
+      "address": "1106 W 6th St  #206",
+      "unit": "Unit 206",
+      "propertyType": "townhouse",
+      "categories": [
+        "single-family"
+      ],
+      "status": "active",
+      "price": 699000,
+      "beds": 2,
+      "baths": 1.5,
+      "sqft": 1146,
+      "yearBuilt": 1979,
+      "lotSizeAcres": 0.0386,
+      "listDate": "2026-07-27",
+      "description": "Situated at the gateway to one of Austin's most coveted neighborhoods, Encinal Condominiums is one of downtown Austin's earliest luxury condominium communities and remains an architectural landmark along the West Sixth Street corridor. The 22-residence development was thoughtfully designed to preserve the property's mature live oak grove, with homes intentionally arranged along a winding hillside to create a uniquely private community just blocks from downtown. Tucked away from the bustle of Clarksville, Unit 206 offers an exceptional opportunity to own a home in this sought-after and resurgent neighborhood.\n\nWhether enjoying your morning coffee or watching the city lights come alive in the evening, the downtown skyline, visible from the top level, creates an unforgettable setting. An attached two-car garage, a true rarity this close to downtown, provides secure parking and valuable extra storage.\n\nWhat truly sets this home apart is its position adjacent to the transformative Sixth & Blanco development. The approximately $150 million mixed-use destination, just steps from Encinal, is poised to become one of the city's most significant luxury developments. Upon completion, the project will feature curated restaurants and boutique retail, a luxury hotel, beautifully landscaped public gathering spaces, and an exclusive collection of residences, creating a vibrant, pedestrian-friendly destination unlike anything else in Austin.\n\nFor Encinal homeowners, this means more than exceptional dining and shopping just steps away, it represents an investment in a neighborhood experiencing thoughtful, world-class reinvestment.\n\nWhether you're looking for a lock-and-leave primary residence, an in-town retreat, or a strategic investment in one of Austin's most exciting neighborhoods, this townhome offers a rare combination of location, views, convenience, and long-term potential.",
+      "listOffice": "Christies Intl Real Estate Lone Star",
+      "listAgent": "Andrea Hamilton",
+      "hoaFee": 772,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.2726681,
+        "lng": -97.75548366
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT1122261/00.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT1122261/01.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT1122261/02.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT1122261/03.jpg",
+          "width": 1536,
+          "height": 1024,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT1122261/04.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT1122261/05.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT1122261/06.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT1122261/07.jpg",
+          "width": 1536,
+          "height": 1024,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT1122261/08.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT1122261/09.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT1122261/10.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT1122261/11.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT1122261/12.jpg",
+          "width": 1536,
+          "height": 1024,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT1122261/13.jpg",
+          "width": 1536,
+          "height": 1024,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT1122261/14.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT1122261/15.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT1122261/16.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT1122261/17.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT1122261/18.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT1122261/19.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1106 W 6th St  #206, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
       "id": "ACT8662044",
       "slug": "1506-w-13th-st-1-1",
       "address": "1506 W 13th St  #1",
@@ -1065,8 +1215,8 @@
       "hoaFee": 694,
       "hoaFrequency": "Monthly",
       "geo": {
-        "lat": 30.28138654,
-        "lng": -97.7559961
+        "lat": 30.28105505,
+        "lng": -97.75746595
       },
       "photos": [
         {
