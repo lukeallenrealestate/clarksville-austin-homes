@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T12:56:35.200Z",
+  "generatedAt": "2026-07-29T13:02:14.796Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -884,6 +884,158 @@
           "width": 2048,
           "height": 1536,
           "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 17"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT7169520",
+      "slug": "1111-w-12th-st-108-108",
+      "address": "1111 W 12th St  #108",
+      "unit": "Unit 108",
+      "building": "de Saligny",
+      "propertyType": "condo",
+      "categories": [
+        "condo",
+        "new-construction"
+      ],
+      "status": "active",
+      "price": 990000,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 962,
+      "yearBuilt": 1981,
+      "lotSizeAcres": 0.0351,
+      "listDate": "2026-05-12",
+      "description": "One of only 20 residences in the architecturally significant de Saligny, designed by Howard Barnstone and set in the heart of Old West Austin, this Clarksville condo offers a level of finish, privacy, and walkability that is genuinely difficult to find in Austin at any price. The end-unit position places it elevated on the hill, with sweeping views that take in the downtown skyline, a partial view of the Capitol, and brilliant morning sunrises. Below, the pool is shared exclusively among the building's 20 owners, and watching the still water from your own living room has a quiet, restorative quality that is hard to put into words. The unit has been taken to the studs and fully remodeled with new plumbing, new wiring, and thoughtful finishes throughout, all on a single, easy level. Herringbone hardwood floors run through the living area, where a gas log fireplace anchors the room. Hunter Douglas shades and custom Restoration Hardware panel drapes in both the living room and bedroom allow precise control of the light, and as an end unit, there is no shortage of it. The kitchen and bathroom feature custom marble countertops and Miele appliances, a standard of finish more common in a private home than a condominium. The gated patio extends your living space outdoors, offering room for a pet and a side gated run, a rare find in a lock-and-leave setting. Just beyond, a generous grassy area serves as a natural gathering spot where neighbors meet and dogs play. When you want more, walk to Josephine House, Jeffrey's, Cipollina, Caffe Medici, Fresh Plus, and the independent shops along West Lynn. Pease Park and Shoal Creek are minutes on foot. For a buyer seeking a pied-&#224;-terre, second home, or a luxury Austin condo with no compromise on location or quality, this is a rare opportunity in 78703.",
+      "listOffice": "Moreland Properties",
+      "listAgent": "Anna Lee",
+      "hoaFee": 740.36,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27747388,
+        "lng": -97.75371436
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT7169520/00.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT7169520/01.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT7169520/02.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT7169520/03.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT7169520/04.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT7169520/05.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT7169520/06.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT7169520/07.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT7169520/08.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT7169520/09.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT7169520/10.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT7169520/11.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT7169520/12.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT7169520/13.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT7169520/14.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT7169520/15.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT7169520/16.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT7169520/17.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT7169520/18.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT7169520/19.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1111 W 12th St  #108, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
