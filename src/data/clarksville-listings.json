@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T11:49:47.558Z",
+  "generatedAt": "2026-08-11T11:46:12.724Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -2208,8 +2208,38 @@
         {
           "src": "/listings/ACT4810918/14.jpg",
           "width": 2048,
-          "height": 1365,
+          "height": 1533,
           "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT4810918/15.jpg",
+          "width": 2048,
+          "height": 1533,
+          "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT4810918/16.jpg",
+          "width": 2048,
+          "height": 1533,
+          "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT4810918/17.jpg",
+          "width": 2048,
+          "height": 1533,
+          "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT4810918/18.jpg",
+          "width": 2048,
+          "height": 1533,
+          "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT4810918/19.jpg",
+          "width": 2048,
+          "height": 1533,
+          "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
