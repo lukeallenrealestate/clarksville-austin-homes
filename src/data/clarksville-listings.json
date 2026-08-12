@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T11:46:12.724Z",
+  "generatedAt": "2026-08-12T11:49:09.340Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -2390,6 +2390,156 @@
           "width": 2048,
           "height": 1365,
           "alt": "1406  Windsor Rd  #305, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT2214329",
+      "slug": "1200-enfield-rd-106-106",
+      "address": "1200  Enfield Rd  #106",
+      "unit": "Unit 106",
+      "propertyType": "condo",
+      "categories": [
+        "condo"
+      ],
+      "status": "active",
+      "price": 367500,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 700,
+      "yearBuilt": 1970,
+      "lotSizeAcres": 0,
+      "listDate": "2026-08-11",
+      "description": "Welcome to the Miriam Residences: A boutique Old Enfield community blending Austin history with modern living. Unit 106 is a first-floor unit renovated in 2016 under designer Joel Mozersky, the building offers Bosch appliances, free-standing refrigerator, Euro washer/dryer in-unit (conveys), dishwasher, smooth level-5 drywall, and commercial-grade aluminum windows. Shared laundry with full-size machines is also available on the first floor. Perfect for seasonal ownership or investment, the community provides flexible short- and long-term rental options, supported by Austin’s remarkably low historic tax rate. Owners also enjoy access to the pool and amenities at the Historic Miriam “Ma” Ferguson Estate next door. Unbeatable location: walk to Jeffrey’s, Josephine House, and Fresh Plus Grocery (.4 mi), with Pease Park just 2 minutes away and Sixth & Blanco (.7 mi). Zoned to Casis Elementary. Other units available, please text for full availability.",
+      "listOffice": "DEN Property Group",
+      "listAgent": "William Steakley",
+      "hoaFee": 267,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.28087968,
+        "lng": -97.75412628
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT2214329/00.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "A welcoming stone wall with \"Miriam\" inscribed ma"
+        },
+        {
+          "src": "/listings/ACT2214329/01.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "A sleek, contemporary kitchen with integrated app"
+        },
+        {
+          "src": "/listings/ACT2214329/02.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "A tranquil poolside retreat with chic umbrellas a"
+        },
+        {
+          "src": "/listings/ACT2214329/03.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "A vibrant coral entry door welcomes guests to thi"
+        },
+        {
+          "src": "/listings/ACT2214329/04.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "Recessed lighting illuminates this versatile livi"
+        },
+        {
+          "src": "/listings/ACT2214329/05.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "An inviting open-concept area features tile floor"
+        },
+        {
+          "src": "/listings/ACT2214329/06.jpg",
+          "width": 2048,
+          "height": 1361,
+          "alt": "Minimalist living space offers natural light and"
+        },
+        {
+          "src": "/listings/ACT2214329/07.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "An open-concept living space features dark tile f"
+        },
+        {
+          "src": "/listings/ACT2214329/08.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "Clean lines define this combined living and kitch"
+        },
+        {
+          "src": "/listings/ACT2214329/09.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "A window-lined dining area offers views of the ne"
+        },
+        {
+          "src": "/listings/ACT2214329/10.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "Clean lines define this bright dining area, featu"
+        },
+        {
+          "src": "/listings/ACT2214329/11.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "A streamlined kitchen and dining area with clean"
+        },
+        {
+          "src": "/listings/ACT2214329/12.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "A streamlined kitchen presents ample grey cabinet"
+        },
+        {
+          "src": "/listings/ACT2214329/13.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "A well-appointed kitchen showcasing contemporary"
+        },
+        {
+          "src": "/listings/ACT2214329/14.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "Bright bedroom with sleek tile flooring and ample"
+        },
+        {
+          "src": "/listings/ACT2214329/15.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "A well-lit bedroom features contemporary flooring"
+        },
+        {
+          "src": "/listings/ACT2214329/16.jpg",
+          "width": 2048,
+          "height": 1361,
+          "alt": "An inviting bedroom with a comfortable bed, a mod"
+        },
+        {
+          "src": "/listings/ACT2214329/17.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "A well-lit bathroom features a modern double vani"
+        },
+        {
+          "src": "/listings/ACT2214329/18.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "A well-appointed bathroom features a single vanit"
+        },
+        {
+          "src": "/listings/ACT2214329/19.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "White brick wall with a distinct nameplate greets"
         }
       ],
       "isSample": false
