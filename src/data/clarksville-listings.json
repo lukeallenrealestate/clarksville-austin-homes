@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T11:49:09.340Z",
+  "generatedAt": "2026-08-13T11:50:12.990Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1186,6 +1186,156 @@
           "width": 2048,
           "height": 1536,
           "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 17"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT9106955",
+      "slug": "1010-w-10th-st-302-302",
+      "address": "1010 W 10th St  #302",
+      "unit": "Unit 302",
+      "propertyType": "condo",
+      "categories": [
+        "condo"
+      ],
+      "status": "active",
+      "price": 1375000,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2077,
+      "yearBuilt": 2016,
+      "lotSizeAcres": 0.0283,
+      "listDate": "2026-08-12",
+      "description": "Positioned atop a boutique residential building in an unparalleled location between Downtown, Old West Austin, and the vibrant dining and shopping destinations along North Lamar, Residence 302 offers sophisticated living moments from the best of Austin. As a top-floor residence, this 3-bedroom, 2.5-bathroom condo combines privacy, convenience, and elevated design in a truly exceptional setting.\nThe thoughtfully designed interiors center around an open-concept kitchen, living, and dining space ideal for both everyday living and entertaining, with large windows that showcase iconic views of the Texas State Capitol. The stunning modern kitchen is appointed with high-end Miele appliances, abundant cabinetry, and sleek finishes, seamlessly flowing into the light-filled living areas. Just beyond, a private terrace provides the perfect place to enjoy morning coffee or relaxing nights. \nThe spacious primary suite serves as a serene retreat, featuring a generous walk-in closet, dual vanities, a large walk-in shower, and a luxurious soaking tub. Two additional bedrooms offer flexibility for guests or a home office. Residents enjoy access to a tranquil pool, secured access, valet trash service, two reserved parking spaces, and individual walk-in storage units, creating a lock-and-leave lifestyle in one of Austin’s most desirable urban locations.. Tax and assessed values are estimates for illustration purposes only. All figures should be independently verified.",
+      "listOffice": "Moreland Properties",
+      "listAgent": "Trey Phillips",
+      "hoaFee": 586,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27533764,
+        "lng": -97.75316759
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT9106955/00.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT9106955/01.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT9106955/02.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT9106955/03.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT9106955/04.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT9106955/05.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT9106955/06.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT9106955/07.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT9106955/08.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT9106955/09.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT9106955/10.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT9106955/11.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT9106955/12.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT9106955/13.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT9106955/14.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT9106955/15.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT9106955/16.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT9106955/17.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT9106955/18.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT9106955/19.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
