@@ -29,6 +29,14 @@ export default async function HomePage() {
   const listings = (await getActiveListings()).slice(0, 3);
   const snap = await getMarketSnapshot();
   const featuredCondos = CONDOS.filter((c) => c.featured);
+  const clark = CONDOS.find((c) => c.slug === "the-clarksville");
+  const clarkRemaining =
+    clark && clark.unitsTotal != null && clark.unitsSold != null
+      ? clark.unitsTotal - clark.unitsSold
+      : undefined;
+  const clarkFrom = clark?.unitTypes?.length
+    ? Math.min(...clark.unitTypes.map((u) => u.price))
+    : undefined;
 
   return (
     <>
@@ -140,6 +148,49 @@ export default async function HomePage() {
           </div>
         </Container>
       </section>
+
+      {/* THE CLARKSVILLE: live exclusive off-market listing spotlight */}
+      {clark?.heroImage ? (
+        <section className="grid bg-ink text-paper lg:grid-cols-2">
+          <div className="relative min-h-[320px] lg:min-h-[560px]">
+            <Image
+              src={clark.heroImage.src}
+              alt={clark.heroImage.alt}
+              fill
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="img-grade object-cover"
+            />
+            {clark.logo ? (
+              <div className="absolute left-5 top-5 rounded-full bg-paper/90 p-2.5 backdrop-blur">
+                <Image src={clark.logo.src} alt={clark.logo.alt} width={clark.logo.width} height={clark.logo.height} className="h-12 w-auto" />
+              </div>
+            ) : null}
+          </div>
+          <div className="flex flex-col justify-center gap-6 px-6 py-14 sm:px-10 lg:px-16">
+            <Eyebrow tone="dark">Exclusive off-market release</Eyebrow>
+            <h2 className="font-display text-[2.4rem] leading-[1.05] sm:text-[3rem]">
+              The Clarksville Condominiums
+            </h2>
+            <p className="max-w-md leading-relaxed text-cream-soft">
+              Ten boutique homes at 1711 Enfield. Seven sold. Sold privately, never listed on the MLS
+              or Zillow, with no public floor plans by design. One of the last ways to own in 78703
+              {clarkFrom ? ` from ${usdShort(clarkFrom)}` : ""}. You have to see them in person.
+            </p>
+            <div className="flex gap-10">
+              {clarkRemaining != null ? <Stat tone="dark" value={clarkRemaining} label="Remaining" /> : null}
+              {clarkFrom ? <Stat tone="dark" value={usdShort(clarkFrom)} label="From" /> : null}
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/clarksville-condos/the-clarksville" className="btn btn-brass">
+                See The Clarksville
+              </Link>
+              <a href={AGENT.phoneHref} className="btn btn-ghost-light">
+                Private showing
+              </a>
+            </div>
+          </div>
+        </section>
+      ) : null}
 
       {/* NEIGHBORHOOD EDITORIAL SPLIT */}
       <section className="border-y border-line bg-cream py-20">

@@ -74,7 +74,7 @@ export default function BuyingPage() {
 
       <FaqSection faqs={HOME_FAQS} title="Buyer questions about Clarksville" />
       <RelatedLinks
-        links={[LINKS.insightMoving, LINKS.homesForSale, LINKS.market]}
+        links={[LINKS.offMarket, LINKS.insightMoving, LINKS.homesForSale]}
         title="Start your search"
       />
       <ContactCta

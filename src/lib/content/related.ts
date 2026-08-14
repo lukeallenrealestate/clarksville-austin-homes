@@ -80,6 +80,11 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Old West Austin homes",
     blurb: "The broader 78703 area: Clarksville, Old Enfield, and more.",
   },
+  offMarket: {
+    href: "/off-market-clarksville-homes",
+    title: "Off-market Clarksville homes",
+    blurb: "See homes before they hit Zillow, through Luke's private network.",
+  },
   insightInvestment: {
     href: "/insights/is-clarksville-a-good-investment",
     title: "Is Clarksville a good investment?",

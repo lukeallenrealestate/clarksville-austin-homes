@@ -130,6 +130,7 @@ export const NAV: NavItem[] = [
   { href: "/clarksville-bungalows-for-sale", label: "Bungalows", group: "listings", inNav: false, fresh: true },
   { href: "/clarksville-new-construction", label: "New Construction", group: "listings", inNav: false, fresh: true },
   { href: "/old-west-austin-homes", label: "Old West Austin Homes", group: "listings", inNav: false, fresh: true },
+  { href: "/off-market-clarksville-homes", label: "Off-Market Homes", group: "listings", inNav: false },
   { href: "/clarksville-market-report", label: "Market Report", short: "Market", group: "listings", inNav: true, fresh: true },
   { href: "/neighborhood", label: "Neighborhood Guide", short: "Neighborhood", group: "neighborhood", inNav: true },
   { href: "/clarksville-history", label: "History", group: "neighborhood", inNav: false },
