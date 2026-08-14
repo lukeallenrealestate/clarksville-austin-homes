@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T11:50:12.990Z",
+  "generatedAt": "2026-08-14T11:46:02.670Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -148,156 +148,6 @@
           "width": 2048,
           "height": 1365,
           "alt": "1411 W 10th St, Clarksville, Austin, photo 20"
-        }
-      ],
-      "isSample": false
-    },
-    {
-      "id": "ACT2829537",
-      "slug": "1104-maufrais-st",
-      "address": "1104  Maufrais St",
-      "propertyType": "single-family",
-      "categories": [
-        "single-family",
-        "luxury",
-        "new-construction",
-        "bungalow"
-      ],
-      "status": "active",
-      "price": 3650000,
-      "beds": 5,
-      "baths": 4,
-      "sqft": 3651,
-      "yearBuilt": 2026,
-      "lotSizeAcres": 0.1552,
-      "listDate": "2026-08-07",
-      "description": "Welcome to 1104 Maufrais, a Modern New Construction Home in the heart of Clarksville, built by Vinson Radke Homes. This residence showcases exquisite architecture, luxurious finishes and thoughtful layout. Designed with family living in mind, this sun-filled residence offers a seamless blend of elegance and functionality. Featuring 5 bedrooms and 4-bathrooms, this home offers ample space for both relaxation and entertainment. Could also be utilized as 3 Bedroom and 2 Offices. This 3651 sq ft single family home has alley access with garage apartment (1 Bed 1 Bath) to use for extra space or income producing opportunities! Designed with a focus on clarksville’s bungalow charm mixed with today’s modern luxury deems this project The Shades of Bungalow. One block from West Austin Dog Park that is getting expansive renovation to the playground, walkways, dog run and amenities.Conveniently located within walking distance to popular eateries along West Lynn- Josephine House, Jeffrey’s, Galaxy Cafe, Medici Coffee & Howler Brother HQ to name a few. Room for a Pool.",
-      "listOffice": "Agency Texas Inc",
-      "listAgent": "Laura Vinson",
-      "geo": {
-        "lat": 30.27876437,
-        "lng": -97.75726387
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT2829537/00.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "A modern facade with varied materials and sharp l"
-        },
-        {
-          "src": "/listings/ACT2829537/01.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Modern architecture with clean lines and large wi"
-        },
-        {
-          "src": "/listings/ACT2829537/02.jpg",
-          "width": 1500,
-          "height": 998,
-          "alt": "Modern architecture showcases towering windows an"
-        },
-        {
-          "src": "/listings/ACT2829537/03.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "An inviting covered patio with a paved surface ex"
-        },
-        {
-          "src": "/listings/ACT2829537/04.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "A modern garage with an upper-level dormer provid"
-        },
-        {
-          "src": "/listings/ACT2829537/05.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "A striking modern entryway features a wooden ceil"
-        },
-        {
-          "src": "/listings/ACT2829537/06.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Culinary aspirations meet sophisticated design in"
-        },
-        {
-          "src": "/listings/ACT2829537/07.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Blonde hardwood floors extend across this versati"
-        },
-        {
-          "src": "/listings/ACT2829537/08.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "A well-lit kitchen with sleek wooden cabinetry an"
-        },
-        {
-          "src": "/listings/ACT2829537/09.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "An inviting kitchen with a central island and a b"
-        },
-        {
-          "src": "/listings/ACT2829537/10.jpg",
-          "width": 1600,
-          "height": 1064,
-          "alt": "Marble countertops and a gold faucet create a ref"
-        },
-        {
-          "src": "/listings/ACT2829537/11.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Floor-to-ceiling windows illuminate this expansiv"
-        },
-        {
-          "src": "/listings/ACT2829537/12.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Floor-to-ceiling windows and a fireplace define t"
-        },
-        {
-          "src": "/listings/ACT2829537/13.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Blonde wood flooring unifies the open-concept liv"
-        },
-        {
-          "src": "/listings/ACT2829537/14.jpg",
-          "width": 1536,
-          "height": 1024,
-          "alt": "Well-lit living room offers a sleek fireplace, bu"
-        },
-        {
-          "src": "/listings/ACT2829537/15.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "A spacious room offers ample natural light throug"
-        },
-        {
-          "src": "/listings/ACT2829537/16.jpg",
-          "width": 1248,
-          "height": 832,
-          "alt": "A well-appointed home office boasts built-in shel"
-        },
-        {
-          "src": "/listings/ACT2829537/17.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Light wood flooring and bright white walls create"
-        },
-        {
-          "src": "/listings/ACT2829537/18.jpg",
-          "width": 1600,
-          "height": 1064,
-          "alt": "A well-appointed bathroom features a striking mar"
-        },
-        {
-          "src": "/listings/ACT2829537/19.jpg",
-          "width": 1600,
-          "height": 1064,
-          "alt": "Blonde wood stairs lead to upper levels, compleme"
         }
       ],
       "isSample": false
@@ -624,7 +474,7 @@
       "lotSizeAcres": 0.1952,
       "listDate": "2026-08-07",
       "description": "1315 W 9th B boasts a stunning view of downtown and amazing location in Clarksville. Two building townhome living with no connected walls with the one neighbor. Immaculate design by Dick Clark + Associates and build by Vinson Radke Homes on this modern townhome. Private unit in the back has its own yard space and rooftop deck where the views really shine. \n\n3 bed 3 bath home with 2 car garage. Thoughtful interior design with modern selections throughout. High end Thermador appliance package with cooktop, double ovens, and wine fridge. Main level living dining kitchen with expansive glass and sliding doors opening to the private yard. 1 bed 1 bath on main level with second living and 2 car garage below. On the top floor is another guest bedroom with ensuite bath, primary suite with an amazing view, and laundry room. As soon as you hit the top of the stairs the view of downtown is waiting for you. New construction at its finest, custom home builder spared no expenses on the quality of this product. No HOA Fees.",
-      "listOffice": "LPT Realty, LLC",
+      "listOffice": "LPT Realty LLC - Ascend Group",
       "listAgent": "Laura Vinson",
       "hoaFee": 0,
       "hoaFrequency": "See Remarks",
@@ -1336,6 +1186,154 @@
           "width": 2048,
           "height": 1365,
           "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT1045827",
+      "slug": "1406-w-13th-st",
+      "address": "1406 W 13TH St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 1299000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1578,
+      "yearBuilt": 1940,
+      "lotSizeAcres": 0.1932,
+      "listDate": "2026-04-18",
+      "description": "Some homes give you more square footage. This one gives you more Austin.\nSet in coveted Clarksville, 1406 W 13th Street offers a rare opportunity to own a charming single-story home in one of Austin’s most established close-in neighborhoods.\nThe thoughtfully laid-out interior retains much of its original character while updated bathrooms and a new roof add meaningful improvements. Natural light, original details, and an easy, livable floor plan make the home inviting from day one.\nOutside, mature landscaping and bamboo create a private backdrop for the spacious backyard and cowboy pool, with plenty of room to imagine what’s next. A future owner might expand the existing footprint, create a larger primary suite, reimagine the detached garage as an office, studio, gym, or additional living space, or add a more substantial pool. Or simply move in, enjoy the home as it is, and make improvements over time.\nAnd then there’s Clarksville. The appeal isn’t simply proximity to Austin, it’s the ability to make central Austin part of everyday life. Walk to neighborhood favorites, spend an afternoon at Pease Park, head downtown for dinner, or simply enjoy the character and community of one of Austin’s most beloved neighborhoods.\nFor the buyer who values location, character, and possibility over simply having more square footage, 1406 W 13th offers something increasingly difficult to find: a beautiful home to enjoy today, with room to create something even more personal tomorrow.\nLess house. More Austin.",
+      "listOffice": "Christies Intl Real Estate Lone Star",
+      "listAgent": "Khani Zulu",
+      "geo": {
+        "lat": 30.28033672,
+        "lng": -97.75637497
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT1045827/00.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A charming home welcomes with a well-maintained f"
+        },
+        {
+          "src": "/listings/ACT1045827/01.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A charming brick residence awaits, featuring a gr"
+        },
+        {
+          "src": "/listings/ACT1045827/02.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A welcoming front porch features a bold red door"
+        },
+        {
+          "src": "/listings/ACT1045827/03.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A private backyard oasis features a unique stock"
+        },
+        {
+          "src": "/listings/ACT1045827/04.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A private yard with a cozy patio and string light"
+        },
+        {
+          "src": "/listings/ACT1045827/05.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A private backyard oasis features a paved patio p"
+        },
+        {
+          "src": "/listings/ACT1045827/06.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "An inviting backyard patio with a grilling statio"
+        },
+        {
+          "src": "/listings/ACT1045827/07.jpg",
+          "width": 2048,
+          "height": 1368,
+          "alt": "An inviting private yard awaits with a stock tank"
+        },
+        {
+          "src": "/listings/ACT1045827/08.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A classic white mantelpiece, adorned with elegant"
+        },
+        {
+          "src": "/listings/ACT1045827/09.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "An aerial perspective reveals a prime lot nestled"
+        },
+        {
+          "src": "/listings/ACT1045827/10.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A radiant living room features a classic fireplac"
+        },
+        {
+          "src": "/listings/ACT1045827/11.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "Hardwood floors and generous natural light define"
+        },
+        {
+          "src": "/listings/ACT1045827/12.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "A well-laid-out floor plan reveals ample living s"
+        },
+        {
+          "src": "/listings/ACT1045827/13.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A well-lit dining area features polished hardwood"
+        },
+        {
+          "src": "/listings/ACT1045827/14.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A well-lit kitchen with classic hardwood flooring"
+        },
+        {
+          "src": "/listings/ACT1045827/15.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "Well-lit sleeping quarters with rich hardwood flo"
+        },
+        {
+          "src": "/listings/ACT1045827/16.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A well-appointed bathroom features a sleek vanity"
+        },
+        {
+          "src": "/listings/ACT1045827/17.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "Hardwood flooring extends through this naturally"
+        },
+        {
+          "src": "/listings/ACT1045827/18.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "A compact, bright bathroom featuring an artistic"
+        },
+        {
+          "src": "/listings/ACT1045827/19.jpg",
+          "width": 2048,
+          "height": 1367,
+          "alt": "Hardwood floors and generous windows illuminate t"
         }
       ],
       "isSample": false
@@ -2104,7 +2102,7 @@
         "condo"
       ],
       "status": "active",
-      "price": 425000,
+      "price": 422500,
       "beds": 1,
       "baths": 1,
       "sqft": 933,
@@ -2125,13 +2123,13 @@
           "src": "/listings/ACT7831367/00.jpg",
           "width": 2048,
           "height": 1365,
-          "alt": "White brick fireplace with a black firebox"
+          "alt": "Living area featuring terracotta tile flooring, a"
         },
         {
           "src": "/listings/ACT7831367/01.jpg",
           "width": 2048,
           "height": 1365,
-          "alt": "Living area featuring terracotta tile flooring, a"
+          "alt": "Saltillo tile flooring, a painted brick fireplace"
         },
         {
           "src": "/listings/ACT7831367/02.jpg",
@@ -2149,7 +2147,7 @@
           "src": "/listings/ACT7831367/04.jpg",
           "width": 2048,
           "height": 1365,
-          "alt": "Saltillo tile flooring, a painted brick fireplace"
+          "alt": "White brick fireplace with a black firebox"
         },
         {
           "src": "/listings/ACT7831367/05.jpg",
