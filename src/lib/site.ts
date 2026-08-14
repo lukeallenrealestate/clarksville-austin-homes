@@ -141,6 +141,7 @@ export const NAV: NavItem[] = [
   { href: "/insights", label: "Insights", group: "neighborhood", inNav: false },
   { href: "/buying-in-clarksville", label: "Buying", group: "transact", inNav: false },
   { href: "/sell-your-clarksville-home", label: "Sell / Home Value", short: "Sell", group: "transact", inNav: true },
+  { href: "/what-is-my-clarksville-home-worth", label: "Home Valuation", group: "transact", inNav: false },
   { href: "/clarksville-realtor", label: "Clarksville Realtor", short: "Realtor", group: "transact", inNav: true },
   { href: "/about", label: "About Luke", group: "transact", inNav: false },
   { href: "/contact", label: "Contact", group: "transact", inNav: true },

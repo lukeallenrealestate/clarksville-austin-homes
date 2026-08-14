@@ -95,6 +95,60 @@ export const INSIGHTS: Insight[] = [
       },
     ],
   },
+  {
+    slug: "insights/clarksville-new-construction-compared",
+    title: "Clarksville New Construction Compared: The Belvedere, Westline, and The Clarksville",
+    navLabel: "New construction compared",
+    description:
+      "A buyer's comparison of Clarksville's boutique new-construction condominiums, The Belvedere, Westline, and The Clarksville, on price, size, ownership, and lifestyle.",
+    hero: PHOTOS.newBuild,
+    published: "2026-07-21",
+    updated: "2026-07-21",
+    kind: "insights",
+    readMins: 6,
+    category: "New Construction",
+    faqs: [
+      {
+        q: "What new construction is available in Clarksville, Austin?",
+        a: "Clarksville's boutique new-construction and recently reimagined condominiums include The Belvedere at 300 Pressler, Westline at 1406 West 9th, The Colorfield on Baylor, and The Clarksville at 1711 Enfield. They range from full-service luxury condos to lock-and-leave residences to off-market boutique homes, at price points from the high $300s into the multi-millions.",
+      },
+      {
+        q: "Which is better, The Belvedere, Westline, or The Clarksville?",
+        a: "It depends on what you want. The Belvedere offers full-service, trail-connected luxury; Westline offers larger lock-and-leave residences with private garages; The Clarksville offers character-driven, off-market homes at the most accessible entry point. The right one comes down to budget, size, and whether you value amenities, space, or price.",
+      },
+      {
+        q: "What is the most affordable new construction in Clarksville?",
+        a: "Among current options, The Clarksville Condominiums at 1711 Enfield offers the most accessible entry, with one-bedroom homes from the high $300s, sold off-market. Contact Luke Allen for current availability across every Clarksville building.",
+      },
+    ],
+  },
+  {
+    slug: "insights/selling-clarksville-home-off-market",
+    title: "How to Sell a Clarksville Home Off-Market",
+    navLabel: "Selling off-market",
+    description:
+      "Why many Clarksville homes sell privately, and how an off-market or pocket sale works for sellers who want discretion, control, or a quiet, qualified buyer.",
+    hero: PHOTOS.streetscape,
+    published: "2026-07-21",
+    updated: "2026-07-21",
+    kind: "insights",
+    readMins: 6,
+    category: "Selling",
+    faqs: [
+      {
+        q: "Can I sell my Clarksville home off-market?",
+        a: "Yes. In a low-inventory, high-demand neighborhood like Clarksville, off-market and pre-market sales are common. A specialist with a network of qualified buyers can often find the right buyer privately, without ever posting your home on the MLS or Zillow. Contact Luke Allen to discuss whether an off-market sale fits your goals.",
+      },
+      {
+        q: "What is a pocket listing when selling?",
+        a: "A pocket listing is a home marketed privately, to an agent's network of buyers, rather than publicly on the MLS. Sellers choose it for privacy, to test price, or to avoid the disruption of showings and open houses, while still reaching serious, qualified buyers.",
+      },
+      {
+        q: "Is it better to sell off-market in Clarksville?",
+        a: "It depends on your priorities. A public listing maximizes exposure and competing offers; an off-market sale maximizes privacy, control, and convenience, and in a scarce neighborhood like Clarksville, demand is strong enough that a quiet sale can still command a strong price. The right choice is a conversation, not a default.",
+      },
+    ],
+  },
 ];
 
 export function getInsight(slug: string): Insight | undefined {

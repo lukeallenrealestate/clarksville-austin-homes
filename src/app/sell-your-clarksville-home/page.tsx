@@ -86,7 +86,7 @@ export default function SellPage() {
       </section>
 
       <FaqSection faqs={SELLER_FAQS} title="Clarksville seller questions" />
-      <RelatedLinks links={[LINKS.market, LINKS.neighborhood, LINKS.homesForSale]} />
+      <RelatedLinks links={[LINKS.valuation, LINKS.insightSellOffMarket, LINKS.market]} />
       <ContactCta
         intent="value"
         showAddress

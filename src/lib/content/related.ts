@@ -85,6 +85,21 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Off-market Clarksville homes",
     blurb: "See homes before they hit Zillow, through Luke's private network.",
   },
+  valuation: {
+    href: "/what-is-my-clarksville-home-worth",
+    title: "What is my home worth?",
+    blurb: "A real Clarksville valuation on actual comps, not a Zestimate.",
+  },
+  insightNewConstruction: {
+    href: "/insights/clarksville-new-construction-compared",
+    title: "New construction compared",
+    blurb: "The Belvedere, Westline, and The Clarksville, side by side.",
+  },
+  insightSellOffMarket: {
+    href: "/insights/selling-clarksville-home-off-market",
+    title: "Selling off-market",
+    blurb: "How a quiet, private Clarksville sale actually works.",
+  },
   insightInvestment: {
     href: "/insights/is-clarksville-a-good-investment",
     title: "Is Clarksville a good investment?",

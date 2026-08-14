@@ -4,6 +4,7 @@ import { ListingsView } from "@/components/ListingsView";
 import { getListingsByCategory, DATA_AS_OF } from "@/lib/listings";
 import { PHOTOS } from "@/lib/photos";
 import { CONDO_FAQS } from "@/lib/content/faqs";
+import { LINKS } from "@/lib/content/related";
 
 export const revalidate = 3600;
 
@@ -47,9 +48,9 @@ export default async function NewConstructionPage() {
         </>
       }
       related={[
+        LINKS.insightNewConstruction,
         { href: "/clarksville-condos", title: "Condo buildings guide", blurb: "Every building, its developer, and what to verify." },
         { href: "/clarksville-luxury-homes", title: "Luxury homes", blurb: "The high end, new and historic." },
-        { href: "/clarksville-architecture", title: "Architecture & rules", blurb: "Why new builds are rare and what is allowed." },
       ]}
     />
   );
