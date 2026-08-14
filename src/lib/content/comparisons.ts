@@ -94,6 +94,63 @@ export const COMPARISONS_DATA: Record<string, Comparison> = {
     otherFor:
       "Downtown suits buyers who want full-service, lock-and-leave high-rise living with nightlife and the lake at their doorstep and no yard to maintain.",
   },
+  "clarksville-vs-zilker": {
+    slug: "clarksville-vs-zilker",
+    other: "Zilker",
+    intro:
+      "Clarksville and Zilker are both beloved central-Austin neighborhoods, but they orient around different things. Clarksville is the walkable historic district west of downtown, built around West Lynn dining and proximity to the core. Zilker sits just south of Lady Bird Lake, built around its namesake park, Barton Springs, and an outdoor, active lifestyle.",
+    rows: [
+      { dimension: "Location", clarksville: "West of downtown, north of the river", other: "South of Lady Bird Lake, around Zilker Park" },
+      { dimension: "Feel", clarksville: "Historic, walkable, urban-village", other: "Park-centric, active, laid-back" },
+      { dimension: "Housing", clarksville: "Cottages, bungalows, condos, modern infill", other: "Bungalows, updated homes, and newer builds" },
+      { dimension: "Signature", clarksville: "West Lynn dining, National Register district", other: "Zilker Park, Barton Springs, ACL Festival" },
+      { dimension: "Walkability", clarksville: "Walk to dining and downtown", other: "Walk to the park, pool, and greenbelt" },
+      { dimension: "Schools", clarksville: "Mathews, O. Henry, Austin High", other: "Zilker Elementary, O. Henry, Austin High" },
+      { dimension: "Best for", clarksville: "Historic character minutes from downtown", other: "Outdoor life at the park's edge" },
+    ],
+    clarksvilleFor:
+      "Clarksville suits buyers who want historic character, walkable dining, and downtown proximity in a protected district.",
+    otherFor:
+      "Zilker suits buyers who orient their life around the park, Barton Springs, and the greenbelt, and want an active, outdoor-forward setting south of the river.",
+  },
+  "clarksville-vs-hyde-park": {
+    slug: "clarksville-vs-hyde-park",
+    other: "Hyde Park",
+    intro:
+      "Clarksville and Hyde Park are two of Austin's most storied historic neighborhoods, and buyers who love one often consider the other. Clarksville is the freedmen's town west of downtown, walkable and refined. Hyde Park, north-central near the University of Texas, was Austin's first planned suburb, a streetcar-era grid of Victorian and Craftsman homes.",
+    rows: [
+      { dimension: "Location", clarksville: "West of downtown", other: "North-central, near the University of Texas" },
+      { dimension: "Origin", clarksville: "Freedmen's town, founded 1871", other: "Austin's first planned suburb, 1890s" },
+      { dimension: "Feel", clarksville: "Historic, walkable, downtown-adjacent", other: "Historic, leafy, university-adjacent" },
+      { dimension: "Housing", clarksville: "Cottages, bungalows, condos, infill", other: "Victorian and Craftsman bungalows" },
+      { dimension: "Walkability", clarksville: "West Lynn dining, walk to downtown", other: "Walk to local cafes, the Triangle, and UT" },
+      { dimension: "Price", clarksville: "Higher, downtown-proximity premium", other: "Generally more accessible than Clarksville" },
+      { dimension: "Best for", clarksville: "Downtown proximity and luxury historic homes", other: "Historic charm at a friendlier price, near UT" },
+    ],
+    clarksvilleFor:
+      "Clarksville suits buyers who want walk-to-downtown location, luxury historic and new-construction options, and a protected district.",
+    otherFor:
+      "Hyde Park suits buyers who want classic Austin bungalow charm, a strong sense of community near the university, often at a more accessible entry point.",
+  },
+  "clarksville-vs-travis-heights": {
+    slug: "clarksville-vs-travis-heights",
+    other: "Travis Heights",
+    intro:
+      "Clarksville and Travis Heights sit on opposite sides of the river and offer distinctly different personalities. Clarksville is the refined, walkable historic district west of downtown. Travis Heights, south of Lady Bird Lake near South Congress, is eclectic, hilly, and bohemian, one of the most characterful pockets of 78704.",
+    rows: [
+      { dimension: "Location", clarksville: "West of downtown, north of the river", other: "South of the river, near South Congress" },
+      { dimension: "Feel", clarksville: "Refined historic, walkable", other: "Eclectic, bohemian, hilly" },
+      { dimension: "Housing", clarksville: "Cottages, bungalows, condos, infill", other: "Bungalows, mid-century, and custom homes" },
+      { dimension: "Signature", clarksville: "West Lynn dining, historic district", other: "South Congress (SoCo), Blunn Creek greenbelt" },
+      { dimension: "Walkability", clarksville: "Walk to downtown and West Lynn", other: "Walk to SoCo shops and restaurants" },
+      { dimension: "Schools", clarksville: "Mathews, O. Henry, Austin High", other: "Travis Heights Elementary, Lively, Travis High" },
+      { dimension: "Best for", clarksville: "Historic character and downtown proximity", other: "Eclectic SoCo energy south of the river" },
+    ],
+    clarksvilleFor:
+      "Clarksville suits buyers who want a refined, protected historic neighborhood within walking distance of downtown and West Lynn.",
+    otherFor:
+      "Travis Heights suits buyers drawn to South Congress energy, eclectic architecture, and a hilly, creek-laced setting south of the river.",
+  },
   "clarksville-vs-pemberton-heights": {
     slug: "clarksville-vs-pemberton-heights",
     other: "Pemberton Heights",

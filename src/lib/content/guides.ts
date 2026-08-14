@@ -135,6 +135,39 @@ export const COMPARISONS: Guide[] = [
     kind: "comparison",
   },
   {
+    slug: "clarksville-vs-zilker",
+    title: "Clarksville vs Zilker: Historic Village or Park Life?",
+    navLabel: "Clarksville vs Zilker",
+    description:
+      "Walkable historic Clarksville or park-centric Zilker? Compare location, housing, schools, and lifestyle across two central Austin neighborhoods.",
+    hero: PHOTOS.park,
+    published: "2026-07-21",
+    updated: "2026-07-21",
+    kind: "comparison",
+  },
+  {
+    slug: "clarksville-vs-hyde-park",
+    title: "Clarksville vs Hyde Park: Two Historic Austin Neighborhoods",
+    navLabel: "Clarksville vs Hyde Park",
+    description:
+      "Downtown-adjacent Clarksville or the streetcar-era bungalows of Hyde Park? A side-by-side on price, housing, walkability, and character.",
+    hero: PHOTOS.bungalow,
+    published: "2026-07-21",
+    updated: "2026-07-21",
+    kind: "comparison",
+  },
+  {
+    slug: "clarksville-vs-travis-heights",
+    title: "Clarksville vs Travis Heights: West Side or SoCo?",
+    navLabel: "Clarksville vs Travis Heights",
+    description:
+      "Refined, walkable Clarksville or eclectic Travis Heights near South Congress? Compare the two across housing, schools, walkability, and lifestyle.",
+    hero: PHOTOS.streetscape,
+    published: "2026-07-21",
+    updated: "2026-07-21",
+    kind: "comparison",
+  },
+  {
     slug: "clarksville-vs-pemberton-heights",
     title: "Clarksville vs Pemberton Heights: A Buyer's Comparison",
     navLabel: "Clarksville vs Pemberton Heights",

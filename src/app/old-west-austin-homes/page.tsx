@@ -156,7 +156,7 @@ export default async function OldWestAustinPage() {
 
       <RelatedLinks
         title="Go deeper"
-        links={[LINKS.market, LINKS.history, LINKS.realtor, LINKS.homesForSale, LINKS.condos, LINKS.buying]}
+        links={[LINKS.comparisons, LINKS.market, LINKS.realtor, LINKS.homesForSale, LINKS.condos, LINKS.buying]}
       />
 
       <ContactCta

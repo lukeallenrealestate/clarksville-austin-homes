@@ -149,6 +149,60 @@ export const INSIGHTS: Insight[] = [
       },
     ],
   },
+  {
+    slug: "insights/clarksville-property-taxes-cost-of-ownership",
+    title: "Clarksville Property Taxes and the Real Cost of Ownership",
+    navLabel: "Property taxes and costs",
+    description:
+      "Beyond the mortgage: property taxes, homestead exemptions, HOA and condo dues, and insurance to budget when you buy in Clarksville and 78703.",
+    hero: PHOTOS.bungalow,
+    published: "2026-07-21",
+    updated: "2026-07-21",
+    kind: "insights",
+    readMins: 6,
+    category: "Buyer Guide",
+    faqs: [
+      {
+        q: "What are property taxes in Clarksville, Austin?",
+        a: "Clarksville is in Travis County, where combined property tax rates typically land in the low-2-percent range of assessed value, varying by year and taxing entities. On a home valued around $1.5M, that can mean roughly $30,000 or more per year before exemptions. A homestead exemption reduces the taxable value on your primary residence. Always confirm the current rate and your assessed value with the Travis Central Appraisal District (TCAD).",
+      },
+      {
+        q: "Does Clarksville have HOA fees?",
+        a: "Single-family homes in Clarksville generally have no HOA. Condominiums do: monthly dues vary widely by building and cover services, amenities, insurance, and reserves. Confirm the exact dues and what they include for any specific building before you offer.",
+      },
+      {
+        q: "What does it cost to own a Clarksville home beyond the mortgage?",
+        a: "Budget for property taxes (the largest add-on in Texas, which has no state income tax), homeowners insurance, maintenance on older historic homes, and, for condos, monthly HOA dues. For historic homes, factor in specialized upkeep and any requirements tied to a landmark designation.",
+      },
+    ],
+  },
+  {
+    slug: "insights/best-time-to-sell-clarksville-home",
+    title: "When Is the Best Time to Sell a Home in Clarksville?",
+    navLabel: "Best time to sell",
+    description:
+      "Does season matter when selling in Clarksville? Why a scarce, high-demand neighborhood behaves differently, and what actually determines your result.",
+    hero: PHOTOS.porch,
+    published: "2026-07-21",
+    updated: "2026-07-21",
+    kind: "insights",
+    readMins: 5,
+    category: "Selling",
+    faqs: [
+      {
+        q: "When is the best time to sell a house in Clarksville, Austin?",
+        a: "Austin's broader market is busiest in spring and early summer, when buyer demand peaks. But Clarksville is scarce and in high demand year-round, so timing matters less here than in a typical suburb. A well-priced, well-presented Clarksville home can sell in any season, and off-market sales happen year-round.",
+      },
+      {
+        q: "Do homes sell faster in spring in Austin?",
+        a: "Generally yes, spring brings the most active buyers citywide, which can mean faster sales and more competing offers. In a low-inventory neighborhood like Clarksville, however, the shortage of homes can outweigh seasonality, so strong homes move well outside the spring window too.",
+      },
+      {
+        q: "Should I wait to sell my Clarksville home?",
+        a: "It depends on your goals more than the calendar. Because Clarksville demand is durable, the bigger levers are pricing on real comps, condition and presentation, and whether an on-market or off-market strategy fits your situation. A specialist can tell you whether waiting actually helps or just delays.",
+      },
+    ],
+  },
 ];
 
 export function getInsight(slug: string): Insight | undefined {
