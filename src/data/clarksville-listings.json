@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T11:46:02.670Z",
+  "generatedAt": "2026-08-15T11:22:41.269Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -148,6 +148,156 @@
           "width": 2048,
           "height": 1365,
           "alt": "1411 W 10th St, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT1777653",
+      "slug": "1104-maufrais-st",
+      "address": "1104  Maufrais St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "luxury",
+        "new-construction",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 3650000,
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3651,
+      "yearBuilt": 2026,
+      "lotSizeAcres": 0.1552,
+      "listDate": "2026-08-14",
+      "description": "Welcome to 1104 Maufrais, a Modern New Construction Home in the heart of Clarksville, built by Vinson Radke Homes. This residence showcases exquisite architecture, luxurious finishes and thoughtful layout. Designed with family living in mind, this sun-filled residence offers a seamless blend of elegance and functionality. Featuring 5 bedrooms and 4-bathrooms, this home offers ample space for both relaxation and entertainment. Could also be utilized as 3 Bedroom and 2 Offices. This 3651 sq ft single family home has alley access with garage apartment (1 Bed 1 Bath) to use for extra space or income producing opportunities! Designed with a focus on clarksville’s bungalow charm mixed with today’s modern luxury deems this project The Shades of Bungalow. One block from West Austin Dog Park that is getting expansive renovation to the playground, walkways, dog run and amenities.Conveniently located within walking distance to popular eateries along West Lynn- Josephine House, Jeffrey’s, Galaxy Cafe, Medici Coffee & Howler Brother HQ to name a few. Room for a Pool.",
+      "listOffice": "LPT Realty LLC - Ascend Group",
+      "listAgent": "Laura Vinson",
+      "geo": {
+        "lat": 30.27882759,
+        "lng": -97.75732133
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT1777653/00.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "A modern facade with varied materials and sharp l"
+        },
+        {
+          "src": "/listings/ACT1777653/01.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Modern architecture with clean lines and large wi"
+        },
+        {
+          "src": "/listings/ACT1777653/02.jpg",
+          "width": 1500,
+          "height": 998,
+          "alt": "Modern architecture showcases towering windows an"
+        },
+        {
+          "src": "/listings/ACT1777653/03.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "An inviting covered patio with a paved surface ex"
+        },
+        {
+          "src": "/listings/ACT1777653/04.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "A modern garage with an upper-level dormer provid"
+        },
+        {
+          "src": "/listings/ACT1777653/05.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "A striking modern entryway features a wooden ceil"
+        },
+        {
+          "src": "/listings/ACT1777653/06.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Culinary aspirations meet sophisticated design in"
+        },
+        {
+          "src": "/listings/ACT1777653/07.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Blonde hardwood floors extend across this versati"
+        },
+        {
+          "src": "/listings/ACT1777653/08.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "A well-lit kitchen with sleek wooden cabinetry an"
+        },
+        {
+          "src": "/listings/ACT1777653/09.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "An inviting kitchen with a central island and a b"
+        },
+        {
+          "src": "/listings/ACT1777653/10.jpg",
+          "width": 1600,
+          "height": 1064,
+          "alt": "Marble countertops and a gold faucet create a ref"
+        },
+        {
+          "src": "/listings/ACT1777653/11.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Floor-to-ceiling windows illuminate this expansiv"
+        },
+        {
+          "src": "/listings/ACT1777653/12.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Floor-to-ceiling windows and a fireplace define t"
+        },
+        {
+          "src": "/listings/ACT1777653/13.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Blonde wood flooring unifies the open-concept liv"
+        },
+        {
+          "src": "/listings/ACT1777653/14.jpg",
+          "width": 1536,
+          "height": 1024,
+          "alt": "Well-lit living room offers a sleek fireplace, bu"
+        },
+        {
+          "src": "/listings/ACT1777653/15.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "A spacious room offers ample natural light throug"
+        },
+        {
+          "src": "/listings/ACT1777653/16.jpg",
+          "width": 1248,
+          "height": 832,
+          "alt": "A well-appointed home office boasts built-in shel"
+        },
+        {
+          "src": "/listings/ACT1777653/17.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Light wood flooring and bright white walls create"
+        },
+        {
+          "src": "/listings/ACT1777653/18.jpg",
+          "width": 1600,
+          "height": 1064,
+          "alt": "A well-appointed bathroom features a striking mar"
+        },
+        {
+          "src": "/listings/ACT1777653/19.jpg",
+          "width": 1600,
+          "height": 1064,
+          "alt": "Blonde wood stairs lead to upper levels, compleme"
         }
       ],
       "isSample": false
@@ -1809,7 +1959,7 @@
       "yearBuilt": 1979,
       "lotSizeAcres": 0.0598,
       "listDate": "2026-04-13",
-      "description": "Experience the perfect blend of comfort, style, and location in this beautifully updated 2-bedroom, 2.5-bath condo, where each bedroom features its own private ensuite bath for ultimate convenience and privacy. Thoughtfully remodeled, the kitchen and bathrooms shine with granite countertops, updated cabinetry, new sinks, and modern fixtures, and stainless steel appliances. The kitchen flows seamlessly into the inviting living area, enhanced by warm bamboo flooring, while new carpeting upstairs adds a fresh, cozy feel.\n\nThoughtful updates/upgrades include new Andersen windows installed in 2025, and sliding balcony doors, bringing in abundant natural light while improving energy efficiency. The home offers a peaceful, treehouse-like atmosphere, providing a quiet retreat right in the heart of downtown. Unbeatable proximity to everyday conveniences, including grocery stores, restaurants, shops, and easy access to MoPac for commuting\n\nThe well-managed HOA adds exceptional value, covering internet, cable, and gas for the fireplace and range, while proactively maintaining the community with scheduled capital improvements. Residents can also take advantage of the relaxing pool area and an updated clubhouse, ideal for gatherings. Additional features include centrally heated water and a community-wide water softener system, enhancing comfort and ease of living in this exceptional condo.",
+      "description": "Experience the perfect blend of comfort, style, and location in this beautifully updated 2-bedroom, 2.5-bath condo.",
       "listOffice": "Redfin Corporation",
       "listAgent": "Barb Cooper",
       "hoaFee": 679.72,
@@ -1824,120 +1974,6 @@
           "width": 2048,
           "height": 1365,
           "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 1"
-        },
-        {
-          "src": "/listings/ACT5051277/01.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 2"
-        },
-        {
-          "src": "/listings/ACT5051277/02.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 3"
-        },
-        {
-          "src": "/listings/ACT5051277/03.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 4"
-        },
-        {
-          "src": "/listings/ACT5051277/04.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 5"
-        },
-        {
-          "src": "/listings/ACT5051277/05.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 6"
-        },
-        {
-          "src": "/listings/ACT5051277/06.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 7"
-        },
-        {
-          "src": "/listings/ACT5051277/07.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 8"
-        },
-        {
-          "src": "/listings/ACT5051277/08.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 9"
-        },
-        {
-          "src": "/listings/ACT5051277/09.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 10"
-        },
-        {
-          "src": "/listings/ACT5051277/10.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 11"
-        },
-        {
-          "src": "/listings/ACT5051277/11.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 12"
-        },
-        {
-          "src": "/listings/ACT5051277/12.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 13"
-        },
-        {
-          "src": "/listings/ACT5051277/13.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 14"
-        },
-        {
-          "src": "/listings/ACT5051277/14.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 15"
-        },
-        {
-          "src": "/listings/ACT5051277/15.jpg",
-          "width": 2048,
-          "height": 1447,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 16"
-        },
-        {
-          "src": "/listings/ACT5051277/16.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 17"
-        },
-        {
-          "src": "/listings/ACT5051277/17.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 18"
-        },
-        {
-          "src": "/listings/ACT5051277/18.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 19"
-        },
-        {
-          "src": "/listings/ACT5051277/19.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
