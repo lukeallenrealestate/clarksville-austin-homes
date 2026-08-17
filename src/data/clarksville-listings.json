@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T11:22:52.751Z",
+  "generatedAt": "2026-08-17T11:29:12.048Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -901,6 +901,155 @@
           "width": 2048,
           "height": 1365,
           "alt": "613  Baylor St, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT4237205",
+      "slug": "1609-w-12th-st",
+      "address": "1609 W 12th St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "luxury",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 2495000,
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2875,
+      "yearBuilt": 1940,
+      "lotSizeAcres": 0.1665,
+      "listDate": "2026-08-16",
+      "description": "Warm, modern living meets classic Clarksville charm in this beautifully reimagined urban retreat, just steps from Jeffrey's, Josephine House, and Caf&#233; Medici. The original 1940 cottage was fully restored and expanded in 2023 with a sophisticated modern addition, creating a seamless 2,875 sq ft, 4-bedroom, 3.5-bath residence filled with curated details and refined craftsmanship. Inside, hand-selected finishes include marble handrails, full-slab backsplash, fluted cabinetry, boutique tile and wallpaper, and a striking wraparound skylight that floods the staircase tower with natural light. The lower-level kitchen is a showpiece with soapstone and marble counters, a Bertazzoni range, and paneled appliances. A spacious living and dining area opens directly to the private backyard and deck, creating effortless indoor-outdoor flow.The exterior features a metal and TPO roof, custom half-round gutters, Andersen windows, and a steel accordion door opening to thoughtfully designed landscaping with custom steel accents, irrigation, xeriscaping, and a composite deck. The original structure was taken to the studs and rebuilt with new electrical, plumbing, HVAC, spray-foam insulation, drywall, and a redesigned floor plan. Engineered oak flooring pairs with custom cabinetry and modern tile throughout. The comfortable primary suite features a spacious wet room with soaking tub and double shower, floating double vanity, and large walk-in closet. Laundry is available on both levels, with a stackable unit upstairs and full laundry room with sink below. Two additional bedrooms and a full secondary bath complete the bedroom level. At the main entry, the original portion offers a flexible bedroom, full bath, and bar with sink and beverage fridge, ideal as a guest suite, office, or private second living area. A private driveway and carport provide convenient alley access.",
+      "listOffice": "Compass RE Texas, LLC",
+      "listAgent": "Wendi Slaton Anderson",
+      "geo": {
+        "lat": 30.28030296,
+        "lng": -97.75976196
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT4237205/00.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT4237205/01.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT4237205/02.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT4237205/03.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT4237205/04.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT4237205/05.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT4237205/06.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT4237205/07.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT4237205/08.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT4237205/09.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT4237205/10.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT4237205/11.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT4237205/12.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT4237205/13.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT4237205/14.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT4237205/15.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT4237205/16.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT4237205/17.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT4237205/18.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT4237205/19.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1609 W 12th St, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
@@ -1943,42 +2092,6 @@
       "isSample": false
     },
     {
-      "id": "ACT5051277",
-      "slug": "606-w-lynn-st-21-21",
-      "address": "606 W Lynn St  #21",
-      "unit": "Unit 21",
-      "propertyType": "condo",
-      "categories": [
-        "condo"
-      ],
-      "status": "active",
-      "price": 549000,
-      "beds": 2,
-      "baths": 2.5,
-      "sqft": 1146,
-      "yearBuilt": 1979,
-      "lotSizeAcres": 0.0598,
-      "listDate": "2026-04-13",
-      "description": "Experience the perfect blend of comfort, style, and location in this beautifully updated 2-bedroom, 2.5-bath condo.",
-      "listOffice": "Redfin Corporation",
-      "listAgent": "Barb Cooper",
-      "hoaFee": 679.72,
-      "hoaFrequency": "Monthly",
-      "geo": {
-        "lat": 30.27585442,
-        "lng": -97.7628967
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT5051277/00.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "606 W Lynn St  #21, Clarksville, Austin, photo 1"
-        }
-      ],
-      "isSample": false
-    },
-    {
       "id": "ACT1653995",
       "slug": "1115-w-10th-st-205-205",
       "address": "1115 W 10th St  #205",
@@ -2574,6 +2687,156 @@
           "width": 2048,
           "height": 1365,
           "alt": "1406  Windsor Rd  #305, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT3988856",
+      "slug": "1208-enfield-rd-105-105",
+      "address": "1208  Enfield Rd  #105",
+      "unit": "Unit 105",
+      "propertyType": "condo",
+      "categories": [
+        "condo"
+      ],
+      "status": "active",
+      "price": 375000,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 698,
+      "yearBuilt": 1965,
+      "lotSizeAcres": 0.028,
+      "listDate": "2026-08-16",
+      "description": "There is a reason this part of Austin remains so hard to replicate. 1208 Enfield Rd #105 puts you in Old West Austin with easy access to downtown while keeping the scale and character of an established neighborhood.\nInside, the 1-bedroom, 1-bath condo has been updated with a clean, modern approach. The kitchen features quartz countertops, stainless appliances, crisp white uppers, blue lower cabinetry, and a freestanding island that adds both prep space and flexibility. LVP flooring carries through the home, and the bedroom offers substantial built-in storage. A full-size washer and dryer are located inside the primary closet, keeping everyday function neatly out of sight.\nAt 698 square feet, the layout makes smart use of the space without feeling overworked. The property also includes access to a shared courtyard and common area.\nClose to Jeffrey’s, Josephine House, Fresh Plus, downtown Austin, and major commuter routes, this is a central Austin condo that gets the important things right: location, function, and a fresh interior that is ready for its next owner.\n\nAll values are approximate and to be verified.",
+      "listOffice": "Keller Williams Realty",
+      "listAgent": "Anthony Gibson",
+      "hoaFee": 225,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.28130032,
+        "lng": -97.75472186
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT3988856/00.jpg",
+          "width": 2048,
+          "height": 1535,
+          "alt": "An open floorplan seamlessly connects the central"
+        },
+        {
+          "src": "/listings/ACT3988856/01.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT3988856/02.jpg",
+          "width": 2048,
+          "height": 1535,
+          "alt": "Smooth wood-look flooring and recessed lighting d"
+        },
+        {
+          "src": "/listings/ACT3988856/03.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT3988856/04.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT3988856/05.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT3988856/06.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT3988856/07.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT3988856/08.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT3988856/09.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT3988856/10.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT3988856/11.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT3988856/12.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT3988856/13.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT3988856/14.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT3988856/15.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT3988856/16.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT3988856/17.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT3988856/18.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT3988856/19.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1208  Enfield Rd  #105, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
