@@ -1,157 +1,8 @@
 {
-  "generatedAt": "2026-08-18T11:28:05.439Z",
+  "generatedAt": "2026-08-19T11:27:42.447Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
-    {
-      "id": "ACT1778900",
-      "slug": "1411-w-10th-st",
-      "address": "1411 W 10th St",
-      "propertyType": "single-family",
-      "categories": [
-        "single-family",
-        "luxury",
-        "bungalow"
-      ],
-      "status": "active",
-      "price": 6500000,
-      "beds": 7,
-      "baths": 6.5,
-      "sqft": 6647,
-      "yearBuilt": 1925,
-      "lotSizeAcres": 0.602,
-      "listDate": "2026-02-12",
-      "description": "Discover an exceptionally rare opportunity to immerse yourself in the vibrant urban lifestyle of Austin, all while enjoying the charm and privacy of a unique compound! Nestled on an expansive .60-acre lot at 1411 W 10th Street, this updated Clarksville Estate was originally built in 1925. This prime location is just 1 mile from downtown Austin and half a mile from popular spots such as Medici and Swedish Hill. Jeffrey's, Josephine House, and the flagship Whole Foods are a leisurely 5-minute walk away. Spanning 6,647 square feet, this estate features a spacious 5-bedroom, 3.5-bath primary residence along with a separate 935 SF 2-bedroom, 1-bath guest home. The guest home includes a full kitchen, living area, and a wraparound porch overlooking the inviting pool area, which features an outdoor kitchen, shower, and fireplace. Additionally, there’s a stylish 925-square-foot garage apartment with downtown views, complete with a full kitchen and bath. The primary bedroom has been extensively renovated, offering stunning downtown views and a spa-like bathroom for your relaxation. The fully fenced front and side yards provide inviting spaces for intimate gatherings or larger group entertaining. This exceptional property offers the perfect blend of comfort, charm, and urban convenience!",
-      "listOffice": "Compass RE Texas, LLC",
-      "listAgent": "Wendi Slaton Anderson",
-      "geo": {
-        "lat": 30.27769734,
-        "lng": -97.75859398
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT1778900/00.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 1"
-        },
-        {
-          "src": "/listings/ACT1778900/01.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 2"
-        },
-        {
-          "src": "/listings/ACT1778900/02.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 3"
-        },
-        {
-          "src": "/listings/ACT1778900/03.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 4"
-        },
-        {
-          "src": "/listings/ACT1778900/04.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 5"
-        },
-        {
-          "src": "/listings/ACT1778900/05.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 6"
-        },
-        {
-          "src": "/listings/ACT1778900/06.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 7"
-        },
-        {
-          "src": "/listings/ACT1778900/07.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 8"
-        },
-        {
-          "src": "/listings/ACT1778900/08.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 9"
-        },
-        {
-          "src": "/listings/ACT1778900/09.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 10"
-        },
-        {
-          "src": "/listings/ACT1778900/10.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 11"
-        },
-        {
-          "src": "/listings/ACT1778900/11.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 12"
-        },
-        {
-          "src": "/listings/ACT1778900/12.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 13"
-        },
-        {
-          "src": "/listings/ACT1778900/13.jpg",
-          "width": 1024,
-          "height": 1536,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 14"
-        },
-        {
-          "src": "/listings/ACT1778900/14.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 15"
-        },
-        {
-          "src": "/listings/ACT1778900/15.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 16"
-        },
-        {
-          "src": "/listings/ACT1778900/16.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 17"
-        },
-        {
-          "src": "/listings/ACT1778900/17.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 18"
-        },
-        {
-          "src": "/listings/ACT1778900/18.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 19"
-        },
-        {
-          "src": "/listings/ACT1778900/19.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1411 W 10th St, Clarksville, Austin, photo 20"
-        }
-      ],
-      "isSample": false
-    },
     {
       "id": "ACT1777653",
       "slug": "1104-maufrais-st",
@@ -2576,8 +2427,8 @@
         },
         {
           "src": "/listings/ACT4810918/01.jpg",
-          "width": 2048,
-          "height": 1365,
+          "width": 1537,
+          "height": 1023,
           "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 2"
         },
         {
@@ -2588,8 +2439,8 @@
         },
         {
           "src": "/listings/ACT4810918/03.jpg",
-          "width": 2048,
-          "height": 1365,
+          "width": 1537,
+          "height": 1023,
           "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 4"
         },
         {
@@ -2624,8 +2475,8 @@
         },
         {
           "src": "/listings/ACT4810918/09.jpg",
-          "width": 2048,
-          "height": 1365,
+          "width": 1537,
+          "height": 1023,
           "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 10"
         },
         {
@@ -2655,19 +2506,19 @@
         {
           "src": "/listings/ACT4810918/14.jpg",
           "width": 2048,
-          "height": 1533,
+          "height": 1365,
           "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 15"
         },
         {
           "src": "/listings/ACT4810918/15.jpg",
           "width": 2048,
-          "height": 1533,
+          "height": 1365,
           "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 16"
         },
         {
           "src": "/listings/ACT4810918/16.jpg",
           "width": 2048,
-          "height": 1533,
+          "height": 1365,
           "alt": "1610  Waterston Ave  #11, Clarksville, Austin, photo 17"
         },
         {
