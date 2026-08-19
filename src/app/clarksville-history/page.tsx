@@ -21,7 +21,7 @@ export default function HistoryPage() {
       guide={guide}
       lead="Clarksville is not a marketing name. It is a freedmen's town founded in 1871, one of the oldest west of the Mississippi, and its survival is the reason the neighborhood feels the way it does today."
       faqs={HISTORY_FAQS}
-      related={[LINKS.landmarks, LINKS.architecture, LINKS.living]}
+      related={[LINKS.story, LINKS.landmarks, LINKS.homeStyles]}
       ctaHeading="Buy or sell where the history lives"
     >
       <p>

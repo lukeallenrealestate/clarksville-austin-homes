@@ -75,6 +75,16 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Historic landmarks",
     blurb: "The five places that hold the neighborhood's story.",
   },
+  story: {
+    href: "/story-of-clarksville",
+    title: "The story of Clarksville",
+    blurb: "A visual timeline, 1871 to today.",
+  },
+  homeStyles: {
+    href: "/clarksville-home-styles",
+    title: "Clarksville home styles",
+    blurb: "A field guide: bungalows, cottages, mid-century, and infill.",
+  },
   realtor: {
     href: "/clarksville-realtor",
     title: "Luke Allen, Clarksville Realtor",
