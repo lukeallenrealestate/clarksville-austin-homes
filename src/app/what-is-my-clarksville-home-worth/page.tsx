@@ -136,7 +136,7 @@ export default function ValuationPage() {
 
       <RelatedLinks
         title="Selling in Clarksville"
-        links={[LINKS.selling, LINKS.market, LINKS.offMarket, LINKS.realtor, LINKS.insightInvestment]}
+        links={[LINKS.listingAgent, LINKS.selling, LINKS.market, LINKS.offMarket, LINKS.realtor]}
       />
 
       <ContactCta

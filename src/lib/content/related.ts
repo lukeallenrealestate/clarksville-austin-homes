@@ -105,6 +105,11 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "What is my home worth?",
     blurb: "A real Clarksville valuation on actual comps, not a Zestimate.",
   },
+  listingAgent: {
+    href: "/clarksville-listing-agent",
+    title: "Sell your Clarksville home",
+    blurb: "List with a 5-star Clarksville specialist. Free home value.",
+  },
   insightNewConstruction: {
     href: "/insights/clarksville-new-construction-compared",
     title: "New construction compared",
