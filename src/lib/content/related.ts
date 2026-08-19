@@ -65,6 +65,16 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Neighborhood comparisons",
     blurb: "Clarksville vs Tarrytown, Zilker, Hyde Park, and more.",
   },
+  living: {
+    href: "/living-in-clarksville",
+    title: "A day in Clarksville",
+    blurb: "What it actually feels like to live here, hour by hour.",
+  },
+  landmarks: {
+    href: "/clarksville-landmarks",
+    title: "Historic landmarks",
+    blurb: "The five places that hold the neighborhood's story.",
+  },
   realtor: {
     href: "/clarksville-realtor",
     title: "Luke Allen, Clarksville Realtor",
