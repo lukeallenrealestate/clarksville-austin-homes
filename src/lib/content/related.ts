@@ -90,6 +90,11 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Clarksville home styles",
     blurb: "A field guide: bungalows, cottages, mid-century, and infill.",
   },
+  map: {
+    href: "/clarksville-map",
+    title: "The Clarksville map",
+    blurb: "Boundaries, landmarks, dining, parks, and schools on one page.",
+  },
   realtor: {
     href: "/clarksville-realtor",
     title: "Luke Allen, Clarksville Realtor",

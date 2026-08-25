@@ -185,11 +185,11 @@ export default function Landmarks() {
             through 150 years of history and be home in time for dinner.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Link href="/clarksville-history" className="btn btn-brass">
-              Read the full history
+            <Link href="/clarksville-map" className="btn btn-brass">
+              See the map
             </Link>
-            <Link href="/clarksville-homes-for-sale" className="btn btn-ghost-light">
-              Homes in the district
+            <Link href="/clarksville-history" className="btn btn-ghost-light">
+              Read the full history
             </Link>
           </div>
         </Container>

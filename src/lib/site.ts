@@ -142,6 +142,7 @@ export const NAV: NavItem[] = [
   { href: "/clarksville-landmarks", label: "Historic Landmarks", group: "neighborhood", inNav: false },
   { href: "/story-of-clarksville", label: "The Story of Clarksville", group: "neighborhood", inNav: false },
   { href: "/clarksville-home-styles", label: "Home Styles", group: "neighborhood", inNav: false },
+  { href: "/clarksville-map", label: "Neighborhood Map", group: "neighborhood", inNav: false },
   { href: "/clarksville-condos", label: "Condo Buildings", group: "neighborhood", inNav: false },
   { href: "/insights", label: "Insights", group: "neighborhood", inNav: false },
   { href: "/clarksville-vs-austin-neighborhoods", label: "Neighborhood Comparisons", group: "neighborhood", inNav: false },
