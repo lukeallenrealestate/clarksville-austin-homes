@@ -135,6 +135,11 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Buy in Clarksville",
     blurb: "Work with a buyer's specialist. On-market and off-market access.",
   },
+  lockAndLeave: {
+    href: "/clarksville-lock-and-leave",
+    title: "Lock-and-leave living",
+    blurb: "Second homes and low-maintenance condos, walkable and secure.",
+  },
   insightNewConstruction: {
     href: "/insights/clarksville-new-construction-compared",
     title: "New construction compared",

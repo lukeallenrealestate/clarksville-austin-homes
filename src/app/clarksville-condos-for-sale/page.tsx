@@ -47,9 +47,9 @@ export default async function CondosForSalePage() {
         </>
       }
       related={[
+        { href: "/clarksville-lock-and-leave", title: "Lock-and-leave living", blurb: "Second homes and low-maintenance condos in the neighborhood." },
         { href: "/clarksville-condos", title: "Condo buildings guide", blurb: "The Belvedere, Westline, Colorfield, de Saligny, and more." },
         { href: "/clarksville-new-construction", title: "New construction", blurb: "Everything currently being built or recently delivered." },
-        { href: "/clarksville-homes-for-sale", title: "All homes", blurb: "The full Clarksville for-sale picture." },
       ]}
     />
   );
