@@ -90,7 +90,7 @@ export default function ComparisonsHub() {
 
       <RelatedLinks
         title="Explore Clarksville"
-        links={[LINKS.oldWestAustin, LINKS.homesForSale, LINKS.neighborhood, LINKS.realtor, LINKS.market, LINKS.buying]}
+        links={[LINKS.why, LINKS.oldWestAustin, LINKS.homesForSale, LINKS.realtor, LINKS.market, LINKS.buying]}
       />
 
       <ContactCta

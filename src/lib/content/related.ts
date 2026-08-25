@@ -80,6 +80,11 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "The story of Clarksville",
     blurb: "A visual timeline, 1871 to today.",
   },
+  why: {
+    href: "/why-clarksville",
+    title: "Why Clarksville",
+    blurb: "The case for Austin's most walkable historic neighborhood.",
+  },
   homeStyles: {
     href: "/clarksville-home-styles",
     title: "Clarksville home styles",
