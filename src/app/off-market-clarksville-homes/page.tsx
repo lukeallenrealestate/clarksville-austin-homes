@@ -141,7 +141,7 @@ export default function OffMarketPage() {
 
       <RelatedLinks
         title="Keep exploring"
-        links={[LINKS.homesForSale, LINKS.realtor, LINKS.condos, LINKS.buying, LINKS.market, LINKS.oldWestAustin]}
+        links={[LINKS.buyWithLuke, LINKS.homesForSale, LINKS.realtor, LINKS.condos, LINKS.market, LINKS.oldWestAustin]}
       />
 
       <section className="bg-heritage py-14 text-paper">

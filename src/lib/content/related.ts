@@ -125,6 +125,11 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Sell your Clarksville home",
     blurb: "List with a 5-star Clarksville specialist. Free home value.",
   },
+  buyWithLuke: {
+    href: "/buy-in-clarksville",
+    title: "Buy in Clarksville",
+    blurb: "Work with a buyer's specialist. On-market and off-market access.",
+  },
   insightNewConstruction: {
     href: "/insights/clarksville-new-construction-compared",
     title: "New construction compared",
