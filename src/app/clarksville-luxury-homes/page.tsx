@@ -45,9 +45,9 @@ export default async function LuxuryHomesPage() {
         </>
       }
       related={[
+        { href: "/austin-neighborhoods-for-doctors", title: "For physicians relocating", blurb: "Minutes from the hospitals, in a home worthy of the move." },
         { href: "/clarksville-new-construction", title: "New construction", blurb: "The newest luxury product in the neighborhood." },
-        { href: "/clarksville-architecture", title: "Architecture guide", blurb: "Styles, landmarks, and what renovation rules apply." },
-        { href: "/sell-your-clarksville-home", title: "Sell your home", blurb: "What a luxury Clarksville home is worth today." },
+        { href: "/clarksville-lock-and-leave", title: "Lock-and-leave living", blurb: "Low-maintenance homes for demanding schedules." },
       ]}
     />
   );

@@ -148,6 +148,7 @@ export const NAV: NavItem[] = [
   { href: "/insights", label: "Insights", group: "neighborhood", inNav: false },
   { href: "/clarksville-vs-austin-neighborhoods", label: "Neighborhood Comparisons", group: "neighborhood", inNav: false },
   { href: "/buy-in-clarksville", label: "Buy in Clarksville", group: "transact", inNav: false },
+  { href: "/austin-neighborhoods-for-doctors", label: "For Physicians Relocating", group: "transact", inNav: false },
   { href: "/buying-in-clarksville", label: "Buying Guide", group: "transact", inNav: false },
   { href: "/clarksville-listing-agent", label: "Sell Your Home", short: "Sell", group: "transact", inNav: true },
   { href: "/sell-your-clarksville-home", label: "Selling Guide", group: "transact", inNav: false },

@@ -140,6 +140,11 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Lock-and-leave living",
     blurb: "Second homes and low-maintenance condos, walkable and secure.",
   },
+  doctors: {
+    href: "/austin-neighborhoods-for-doctors",
+    title: "For physicians relocating",
+    blurb: "Minutes from the hospitals, in a home worthy of the move.",
+  },
   insightNewConstruction: {
     href: "/insights/clarksville-new-construction-compared",
     title: "New construction compared",
