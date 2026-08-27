@@ -1,158 +1,8 @@
 {
-  "generatedAt": "2026-08-26T11:32:36.278Z",
+  "generatedAt": "2026-08-27T20:56:29.112Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
-    {
-      "id": "ACT1777653",
-      "slug": "1104-maufrais-st",
-      "address": "1104  Maufrais St",
-      "propertyType": "single-family",
-      "categories": [
-        "single-family",
-        "luxury",
-        "new-construction",
-        "bungalow"
-      ],
-      "status": "active",
-      "price": 3650000,
-      "beds": 5,
-      "baths": 4,
-      "sqft": 3651,
-      "yearBuilt": 2026,
-      "lotSizeAcres": 0.1552,
-      "listDate": "2026-08-14",
-      "description": "Welcome to 1104 Maufrais, a Modern New Construction Home in the heart of Clarksville, built by Vinson Radke Homes. This residence showcases exquisite architecture, luxurious finishes and thoughtful layout. Designed with family living in mind, this sun-filled residence offers a seamless blend of elegance and functionality. Featuring 5 bedrooms and 4-bathrooms, this home offers ample space for both relaxation and entertainment. Could also be utilized as 3 Bedroom and 2 Offices. This 3651 sq ft single family home has alley access with garage apartment (1 Bed 1 Bath) to use for extra space or income producing opportunities! Designed with a focus on clarksville’s bungalow charm mixed with today’s modern luxury deems this project The Shades of Bungalow. One block from West Austin Dog Park that is getting expansive renovation to the playground, walkways, dog run and amenities.Conveniently located within walking distance to popular eateries along West Lynn- Josephine House, Jeffrey’s, Galaxy Cafe, Medici Coffee & Howler Brother HQ to name a few. Room for a Pool.",
-      "listOffice": "LPT Realty LLC - Ascend Group",
-      "listAgent": "Laura Vinson",
-      "geo": {
-        "lat": 30.27882759,
-        "lng": -97.75732133
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT1777653/00.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Modern architecture with clean lines and large wi"
-        },
-        {
-          "src": "/listings/ACT1777653/01.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "A modern facade with varied materials and sharp l"
-        },
-        {
-          "src": "/listings/ACT1777653/02.jpg",
-          "width": 1500,
-          "height": 998,
-          "alt": "Modern architecture showcases towering windows an"
-        },
-        {
-          "src": "/listings/ACT1777653/03.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "An inviting covered patio with a paved surface ex"
-        },
-        {
-          "src": "/listings/ACT1777653/04.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "A modern garage with an upper-level dormer provid"
-        },
-        {
-          "src": "/listings/ACT1777653/05.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "A striking modern entryway features a wooden ceil"
-        },
-        {
-          "src": "/listings/ACT1777653/06.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Culinary aspirations meet sophisticated design in"
-        },
-        {
-          "src": "/listings/ACT1777653/07.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Blonde hardwood floors extend across this versati"
-        },
-        {
-          "src": "/listings/ACT1777653/08.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "A well-lit kitchen with sleek wooden cabinetry an"
-        },
-        {
-          "src": "/listings/ACT1777653/09.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "An inviting kitchen with a central island and a b"
-        },
-        {
-          "src": "/listings/ACT1777653/10.jpg",
-          "width": 1600,
-          "height": 1064,
-          "alt": "Marble countertops and a gold faucet create a ref"
-        },
-        {
-          "src": "/listings/ACT1777653/11.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Floor-to-ceiling windows illuminate this expansiv"
-        },
-        {
-          "src": "/listings/ACT1777653/12.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Floor-to-ceiling windows and a fireplace define t"
-        },
-        {
-          "src": "/listings/ACT1777653/13.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Blonde wood flooring unifies the open-concept liv"
-        },
-        {
-          "src": "/listings/ACT1777653/14.jpg",
-          "width": 1536,
-          "height": 1024,
-          "alt": "Well-lit living room offers a sleek fireplace, bu"
-        },
-        {
-          "src": "/listings/ACT1777653/15.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "A spacious room offers ample natural light throug"
-        },
-        {
-          "src": "/listings/ACT1777653/16.jpg",
-          "width": 1248,
-          "height": 832,
-          "alt": "A well-appointed home office boasts built-in shel"
-        },
-        {
-          "src": "/listings/ACT1777653/17.jpg",
-          "width": 1500,
-          "height": 1000,
-          "alt": "Light wood flooring and bright white walls create"
-        },
-        {
-          "src": "/listings/ACT1777653/18.jpg",
-          "width": 1600,
-          "height": 1064,
-          "alt": "A well-appointed bathroom features a striking mar"
-        },
-        {
-          "src": "/listings/ACT1777653/19.jpg",
-          "width": 1600,
-          "height": 1064,
-          "alt": "Blonde wood stairs lead to upper levels, compleme"
-        }
-      ],
-      "isSample": false
-    },
     {
       "id": "ACT4014928",
       "slug": "1406-w-9th-st-301-301",
@@ -302,158 +152,6 @@
           "width": 1187,
           "height": 1536,
           "alt": "View of layout"
-        }
-      ],
-      "isSample": false
-    },
-    {
-      "id": "ACT2070305",
-      "slug": "1315-w-9th-st-b-b",
-      "address": "1315 W 9th St  #B",
-      "unit": "Unit B",
-      "propertyType": "single-family",
-      "categories": [
-        "single-family",
-        "luxury",
-        "new-construction"
-      ],
-      "status": "active",
-      "price": 3100000,
-      "beds": 3,
-      "baths": 3,
-      "sqft": 3003,
-      "yearBuilt": 2024,
-      "lotSizeAcres": 0.1952,
-      "listDate": "2026-08-07",
-      "description": "1315 W 9th B boasts a stunning view of downtown and amazing location in Clarksville. Two building townhome living with no connected walls with the one neighbor. Immaculate design by Dick Clark + Associates and build by Vinson Radke Homes on this modern townhome. Private unit in the back has its own yard space and rooftop deck where the views really shine. \n\n3 bed 3 bath home with 2 car garage. Thoughtful interior design with modern selections throughout. High end Thermador appliance package with cooktop, double ovens, and wine fridge. Main level living dining kitchen with expansive glass and sliding doors opening to the private yard. 1 bed 1 bath on main level with second living and 2 car garage below. On the top floor is another guest bedroom with ensuite bath, primary suite with an amazing view, and laundry room. As soon as you hit the top of the stairs the view of downtown is waiting for you. New construction at its finest, custom home builder spared no expenses on the quality of this product. No HOA Fees.",
-      "listOffice": "LPT Realty LLC - Ascend Group",
-      "listAgent": "Laura Vinson",
-      "hoaFee": 0,
-      "hoaFrequency": "See Remarks",
-      "geo": {
-        "lat": 30.27599397,
-        "lng": -97.75830049
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT2070305/00.jpg",
-          "width": 1710,
-          "height": 1140,
-          "alt": "Floor-to-ceiling windows offer captivating city v"
-        },
-        {
-          "src": "/listings/ACT2070305/01.jpg",
-          "width": 1710,
-          "height": 1140,
-          "alt": "Floor-to-ceiling windows frame a dynamic cityscap"
-        },
-        {
-          "src": "/listings/ACT2070305/02.jpg",
-          "width": 1710,
-          "height": 1140,
-          "alt": "Floor-to-ceiling windows offer captivating city v"
-        },
-        {
-          "src": "/listings/ACT2070305/03.jpg",
-          "width": 1710,
-          "height": 1140,
-          "alt": "A spacious primary bathroom boasts a freestanding"
-        },
-        {
-          "src": "/listings/ACT2070305/04.jpg",
-          "width": 930,
-          "height": 1395,
-          "alt": "A freestanding soaking tub complements the double"
-        },
-        {
-          "src": "/listings/ACT2070305/05.jpg",
-          "width": 1710,
-          "height": 1140,
-          "alt": "A spacious, naturally illuminated bathroom featur"
-        },
-        {
-          "src": "/listings/ACT2070305/06.jpg",
-          "width": 1710,
-          "height": 1140,
-          "alt": "Minimalist bedroom design features built-in stora"
-        },
-        {
-          "src": "/listings/ACT2070305/07.jpg",
-          "width": 930,
-          "height": 1395,
-          "alt": "Hardwood flooring complements a bedroom's tall wi"
-        },
-        {
-          "src": "/listings/ACT2070305/08.jpg",
-          "width": 930,
-          "height": 1346,
-          "alt": "A well-lit primary bathroom features a glass-encl"
-        },
-        {
-          "src": "/listings/ACT2070305/09.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "A sleek, contemporary kitchen with a substantial"
-        },
-        {
-          "src": "/listings/ACT2070305/10.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "An open-concept living space with a sophisticated"
-        },
-        {
-          "src": "/listings/ACT2070305/11.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "A contemporary kitchen features sleek dark cabine"
-        },
-        {
-          "src": "/listings/ACT2070305/12.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "A sleek, contemporary kitchen with pristine stone"
-        },
-        {
-          "src": "/listings/ACT2070305/13.jpg",
-          "width": 1710,
-          "height": 1140,
-          "alt": "An open-concept living space integrates a sophist"
-        },
-        {
-          "src": "/listings/ACT2070305/14.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Floor-to-ceiling glass invites garden views into"
-        },
-        {
-          "src": "/listings/ACT2070305/15.jpg",
-          "width": 1710,
-          "height": 1140,
-          "alt": "Blonde hardwood floors complement a modern living"
-        },
-        {
-          "src": "/listings/ACT2070305/16.jpg",
-          "width": 1710,
-          "height": 1140,
-          "alt": "An open-concept living space with sleek, dark cab"
-        },
-        {
-          "src": "/listings/ACT2070305/17.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Blonde hardwood floors complement a sleek, open s"
-        },
-        {
-          "src": "/listings/ACT2070305/18.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "An open-concept interior unites kitchen, dining,"
-        },
-        {
-          "src": "/listings/ACT2070305/19.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "A well-lit contemporary bathroom offers a spaciou"
         }
       ],
       "isSample": false
@@ -2250,7 +1948,7 @@
       "categories": [
         "condo"
       ],
-      "status": "active",
+      "status": "pending",
       "price": 425000,
       "beds": 2,
       "baths": 2,
@@ -3137,6 +2835,144 @@
           "width": 2048,
           "height": 1363,
           "alt": "White brick wall with a distinct nameplate greets"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT5376892",
+      "slug": "1208-enfield-rd-104-104",
+      "address": "1208  Enfield Rd  #104",
+      "unit": "Unit 104",
+      "propertyType": "condo",
+      "categories": [
+        "condo"
+      ],
+      "status": "active",
+      "price": 360000,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 705,
+      "yearBuilt": 1965,
+      "lotSizeAcres": 0,
+      "listDate": "2026-08-26",
+      "description": "Introducing a coveted ground-floor back corner unit at The Miriam, a midcentury-chic Clarksville community in one of Central Austin’s most beloved neighborhoods. Tucked into the back of the complex away from the buzz of Enfield Road, this 1-bedroom, 1-bath residence offers a quieter, more private setting while keeping you right in the middle of everything Clarksville has to offer. With 705 square feet, the thoughtfully designed interior features an open floorplan, nice natural light, no carpet, stone countertops, recessed lighting, built-in features, and a spacious walk-in closet. The kitchen offers playful pops of color, stainless steel appliances, ample storage, and an open connection to the living and dining areas, creating an easy, functional layout that lives larger than its footprint.\n\nBuilt in 1965, yet fully updated, The Miriam retains its distinctive midcentury character with clean architectural lines, colorful accents, and an intimate community feel. As a ground-floor corner residence, Unit 104 offers the convenience of single-level living with no stairs and a desirable position within the complex.\n\nThe location is quintessential Clarksville, walk to Josephine House, Jeffrey’s, Fresh Plus, Taco Flats, and the shops and dining along West Lynn, with Downtown Austin, Lady Bird Lake, Pease Park, and the Hike-and-Bike Trail all nearby. One parking space and in-unit washer and dryer add everyday convenience. Stylish, low-maintenance, and incredibly well located, this is a rare opportunity to own a ground-floor corner residence in the heart of one of Austin’s most beloved neighborhoods.",
+      "listOffice": "Brodsky Properties",
+      "listAgent": "Abbie Pilgrim",
+      "hoaFee": 220,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.28120761,
+        "lng": -97.7545151
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT5376892/00.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT5376892/01.jpg",
+          "width": 941,
+          "height": 626,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT5376892/02.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT5376892/03.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT5376892/04.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT5376892/05.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT5376892/06.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT5376892/07.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT5376892/08.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT5376892/09.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT5376892/10.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT5376892/11.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT5376892/12.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT5376892/13.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT5376892/14.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT5376892/15.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT5376892/16.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT5376892/17.jpg",
+          "width": 2048,
+          "height": 1363,
+          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 18"
         }
       ],
       "isSample": false
