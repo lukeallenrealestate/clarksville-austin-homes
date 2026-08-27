@@ -35,13 +35,34 @@ export async function POST(req: Request) {
   const lead = { ...data, receivedAt: new Date().toISOString() };
   console.log("[lead]", lead);
 
+  // Temporary diagnostic (secret-gated) to confirm what production can see/do.
+  const debug = req.headers.get("x-lead-debug") === "clark-diag-8827";
+
+  let emailSent = false;
+  let emailError: string | null = null;
   try {
-    const sent = await sendLeadEmail(lead);
-    if (!sent) {
+    emailSent = await sendLeadEmail(lead);
+    if (!emailSent) {
       console.warn("[lead] email not configured (set GMAIL_USER / GMAIL_APP_PASSWORD)");
     }
   } catch (err) {
+    emailError = err instanceof Error ? `${err.message}` : String(err);
     console.error("[lead] email delivery failed", err);
+  }
+
+  if (debug) {
+    return NextResponse.json({
+      ok: true,
+      debug: {
+        emailSent,
+        emailError,
+        hasUser: !!process.env.GMAIL_USER,
+        userLen: (process.env.GMAIL_USER ?? "").length,
+        passLen: (process.env.GMAIL_APP_PASSWORD ?? "").length,
+        leadTo: process.env.LEAD_TO ?? "(unset)",
+        hasWebhook: !!process.env.LEAD_WEBHOOK_URL,
+      },
+    });
   }
 
   // CRM fan-out (Realtor OS webhook). Maps our form fields to the CRM's shape
