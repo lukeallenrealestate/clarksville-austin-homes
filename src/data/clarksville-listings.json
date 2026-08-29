@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T21:20:23.777Z",
+  "generatedAt": "2026-08-29T15:32:28.257Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -919,7 +919,7 @@
       "price": 2350000,
       "beds": 4,
       "baths": 3.5,
-      "sqft": 2368,
+      "sqft": 2390,
       "yearBuilt": 1915,
       "lotSizeAcres": 0.1359,
       "listDate": "2026-07-22",
