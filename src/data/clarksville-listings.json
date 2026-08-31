@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T15:14:05.914Z",
+  "generatedAt": "2026-08-31T17:57:06.297Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -149,159 +149,6 @@
           "width": 1600,
           "height": 1064,
           "alt": "Blonde wood stairs lead to upper levels, compleme"
-        }
-      ],
-      "isSample": false
-    },
-    {
-      "id": "ACT4014928",
-      "slug": "1406-w-9th-st-301-301",
-      "address": "1406 W 9th St  #301",
-      "unit": "Unit 301",
-      "building": "Westline",
-      "propertyType": "condo",
-      "categories": [
-        "condo",
-        "luxury",
-        "new-construction"
-      ],
-      "status": "active",
-      "price": 3350000,
-      "beds": 3,
-      "baths": 2.5,
-      "sqft": 2919,
-      "yearBuilt": 2025,
-      "lotSizeAcres": 0.08,
-      "listDate": "2025-03-18",
-      "description": "To be completed Summer 2025! Located in Clarksville’s highly sought-after Westline community, 1406 W 9th Street #301 offers a rare standalone home in Austin’s newest blend of traditional charm and contemporary sophistication. With three bedrooms, two full bathrooms, a powder room, and two living spaces spread across two levels, this residence is designed for effortless living. The thoughtful layout ensures privacy for visiting family and guests, while the two-car garage and lock-and-leave lifestyle provide unmatched convenience. Perfectly positioned on the corner of the Westline community, the home strikes a harmonious balance between individuality and community. Crafted by the renowned Cumby Group, this home is part of an exclusive collection of 16 residences that seamlessly blend historical elements with modern design. Westline reimagines the architectural narrative of Clarksville while offering modern connectivity to downtown Austin. With its proximity to Lady Bird Lake, downtown Austin and world-class restaurants, this Westline home offers an exceptional opportunity to experience the best of both worlds in one of Austin’s most treasured neighborhoods. Tax and assessed values are estimates for illustration purposes only. All figures should be independently verified.",
-      "listOffice": "Moreland Properties",
-      "listAgent": "Trey Phillips",
-      "hoaFee": 781,
-      "hoaFrequency": "Monthly",
-      "geo": {
-        "lat": 30.2765049,
-        "lng": -97.75835301
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT4014928/00.jpg",
-          "width": 2048,
-          "height": 1534,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 1"
-        },
-        {
-          "src": "/listings/ACT4014928/01.jpg",
-          "width": 2048,
-          "height": 1533,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 2"
-        },
-        {
-          "src": "/listings/ACT4014928/02.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 3"
-        },
-        {
-          "src": "/listings/ACT4014928/03.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 4"
-        },
-        {
-          "src": "/listings/ACT4014928/04.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 5"
-        },
-        {
-          "src": "/listings/ACT4014928/05.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 6"
-        },
-        {
-          "src": "/listings/ACT4014928/06.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 7"
-        },
-        {
-          "src": "/listings/ACT4014928/07.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 8"
-        },
-        {
-          "src": "/listings/ACT4014928/08.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 9"
-        },
-        {
-          "src": "/listings/ACT4014928/09.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 10"
-        },
-        {
-          "src": "/listings/ACT4014928/10.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 11"
-        },
-        {
-          "src": "/listings/ACT4014928/11.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 12"
-        },
-        {
-          "src": "/listings/ACT4014928/12.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 13"
-        },
-        {
-          "src": "/listings/ACT4014928/13.jpg",
-          "width": 2048,
-          "height": 1533,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 14"
-        },
-        {
-          "src": "/listings/ACT4014928/14.jpg",
-          "width": 2048,
-          "height": 1533,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 15"
-        },
-        {
-          "src": "/listings/ACT4014928/15.jpg",
-          "width": 2048,
-          "height": 1533,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 16"
-        },
-        {
-          "src": "/listings/ACT4014928/16.jpg",
-          "width": 2048,
-          "height": 1533,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 17"
-        },
-        {
-          "src": "/listings/ACT4014928/17.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #301, Clarksville, Austin, photo 18"
-        },
-        {
-          "src": "/listings/ACT4014928/18.jpg",
-          "width": 1427,
-          "height": 928,
-          "alt": "Map"
-        },
-        {
-          "src": "/listings/ACT4014928/19.jpg",
-          "width": 1187,
-          "height": 1536,
-          "alt": "View of layout"
         }
       ],
       "isSample": false
@@ -1199,142 +1046,6 @@
           "width": 2048,
           "height": 1368,
           "alt": "1309 W 10th St, Clarksville, Austin, photo 20"
-        }
-      ],
-      "isSample": false
-    },
-    {
-      "id": "ACT5249509",
-      "slug": "1406-w-9th-st-802-802",
-      "address": "1406 W 9th St  #802",
-      "unit": "Unit 802",
-      "building": "Westline",
-      "propertyType": "single-family",
-      "categories": [
-        "single-family",
-        "luxury",
-        "new-construction",
-        "bungalow"
-      ],
-      "status": "active",
-      "price": 2150000,
-      "beds": 3,
-      "baths": 2.5,
-      "sqft": 2302,
-      "yearBuilt": 2025,
-      "lotSizeAcres": 0.0814,
-      "listDate": "2026-04-17",
-      "description": "Expected completion Summer/Fall 2026! Westline is a curated collection of 16 modern and historic-inspired residences in the heart of Clarksville, offering four distinct luxury design schemes. Homes range from 2, 4 bedrooms, each with a private two-car garage. The architecture blends classic peaked rooflines and chimney accents with modern windows and doors, complemented by rich stone detailing at the lower levels. Manicured lawns and white picket fences evoke the charm of the West Line Historic District, honoring its legacy of expansive estates while introducing a refined, contemporary lifestyle. Ideally located, Westline offers seamless access to Downtown Austin while preserving the neighborhood’s historic suburban character. Residence #802 (Floorplan G) features two en suite guest bedrooms and a spacious laundry room on the main level. The second level showcases an open-concept living space anchored by a gourmet kitchen with a center island, breakfast bar, and premium GE appliance package. Light, bright interior selections include White Patina European oak hardwood floors, Calacatta Gold marble countertops, and a white herringbone backsplash. The primary suite is complete with an expansive walk-in closet and dual vanity. Clarksville is a highly walkable neighborhood known for its historic bungalows, parks, and vibrant mix of caf&#233;s and shops. Located approximately one mile from Downtown Austin, Westline offers convenient access to West Austin Neighborhood Park, the Hike & Bike Trail, Lady Bird Lake, Whole Foods Market, Trader Joe’s, and major highways. Photos are representative of a similar floorplan and finish-out and do not depict the actual unit. Variations in layout, finishes, views, and features may exist. Buyers should verify all details, features, & conditions in person. Tax and assessed values are estimates based on the list price for illustration purposes only; all figures should be independently verified. MORE at EricMorelandGroup.com/Westline",
-      "listOffice": "Moreland Properties",
-      "listAgent": "Trey Phillips",
-      "hoaFee": 700,
-      "hoaFrequency": "Monthly",
-      "geo": {
-        "lat": 30.27680842,
-        "lng": -97.75848479
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT5249509/00.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 1"
-        },
-        {
-          "src": "/listings/ACT5249509/01.jpg",
-          "width": 2048,
-          "height": 1152,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 2"
-        },
-        {
-          "src": "/listings/ACT5249509/02.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 3"
-        },
-        {
-          "src": "/listings/ACT5249509/03.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 4"
-        },
-        {
-          "src": "/listings/ACT5249509/04.jpg",
-          "width": 1187,
-          "height": 1536,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 5"
-        },
-        {
-          "src": "/listings/ACT5249509/05.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 6"
-        },
-        {
-          "src": "/listings/ACT5249509/06.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 7"
-        },
-        {
-          "src": "/listings/ACT5249509/07.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 8"
-        },
-        {
-          "src": "/listings/ACT5249509/08.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 9"
-        },
-        {
-          "src": "/listings/ACT5249509/09.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 10"
-        },
-        {
-          "src": "/listings/ACT5249509/10.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 11"
-        },
-        {
-          "src": "/listings/ACT5249509/11.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 12"
-        },
-        {
-          "src": "/listings/ACT5249509/12.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 13"
-        },
-        {
-          "src": "/listings/ACT5249509/13.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 14"
-        },
-        {
-          "src": "/listings/ACT5249509/14.jpg",
-          "width": 2048,
-          "height": 1225,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 15"
-        },
-        {
-          "src": "/listings/ACT5249509/15.jpg",
-          "width": 1427,
-          "height": 928,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 16"
-        },
-        {
-          "src": "/listings/ACT5249509/16.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "1406 W 9th St  #802, Clarksville, Austin, photo 17"
         }
       ],
       "isSample": false
@@ -3176,14 +2887,14 @@
         },
         {
           "src": "/listings/ACT5376892/01.jpg",
-          "width": 941,
-          "height": 626,
+          "width": 2048,
+          "height": 1363,
           "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 2"
         },
         {
           "src": "/listings/ACT5376892/02.jpg",
-          "width": 2048,
-          "height": 1363,
+          "width": 941,
+          "height": 626,
           "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 3"
         },
         {
