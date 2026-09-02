@@ -2,22 +2,21 @@ import nodemailer from "nodemailer";
 import { AGENT } from "./site";
 
 /**
- * Lead delivery by email through Gmail SMTP.
+ * Lead delivery by email.
  *
- * Setup (one time):
- *   1. On the Google account for luke@austinmdg.com, turn on 2-Step
- *      Verification (required to create an App Password).
- *   2. Create an App Password: Google Account > Security > App passwords.
- *      Pick "Mail" / "Other", name it "Clarksville site". Copy the 16
- *      characters (Google shows them with spaces; remove the spaces).
- *   3. In .env.local (and Vercel env) set:
- *        GMAIL_USER=luke@austinmdg.com
- *        GMAIL_APP_PASSWORD=the16charpassword
- *        LEAD_TO=luke@austinmdg.com        (optional, defaults to the agent email)
+ * Preferred: Resend (a transactional email service) for reliable inbox delivery.
+ * Set in Vercel env:
+ *   RESEND_API_KEY=re_xxx
+ *   RESEND_FROM="Clarksville Leads <leads@clarksvilleaustinhomes.com>"  (optional;
+ *      defaults to onboarding@resend.dev, which works before domain verification)
+ *   LEAD_TO=luke@austinmdg.com   (where leads are delivered)
  *
- * If those are not set, the lead route falls back to logging the lead so
- * nothing is lost. The email is sent FROM your account TO you, with the
- * prospect's address as reply-to, so you can reply with one tap.
+ * Fallback: Gmail SMTP (from luke@austinmdg.com to luke@austinmdg.com). This
+ * self-send can be filtered to spam by Gmail, which is why Resend is preferred.
+ *   GMAIL_USER / GMAIL_APP_PASSWORD / LEAD_TO
+ *
+ * If neither is configured, the lead route logs the lead so nothing is lost.
+ * Either way the prospect's address is the reply-to, so you reply with one tap.
  */
 export type Lead = {
   name?: string;
@@ -36,20 +35,10 @@ const intentLabel: Record<string, string> = {
   general: "General inquiry",
 };
 
-export async function sendLeadEmail(lead: Lead): Promise<boolean> {
-  const user = process.env.GMAIL_USER;
-  const pass = process.env.GMAIL_APP_PASSWORD;
-  if (!user || !pass) return false;
-
-  const to = process.env.LEAD_TO ?? AGENT.email;
+function buildMessage(lead: Lead) {
   const label = intentLabel[lead.intent ?? "general"] ?? "Inquiry";
-
-  const transporter = nodemailer.createTransport({
-    service: "gmail",
-    auth: { user, pass },
-  });
-
-  const lines = [
+  const subject = `New ${label} lead: ${lead.name ?? "website visitor"}`;
+  const text = [
     `New lead from clarksvilleaustinhomes.com`,
     ``,
     `Intent:   ${label}`,
@@ -62,8 +51,7 @@ export async function sendLeadEmail(lead: Lead): Promise<boolean> {
     lead.message?.trim() || "(none)",
     ``,
     `Received: ${lead.receivedAt ?? ""}`,
-  ];
-
+  ].join("\n");
   const html = `
     <div style="font-family:Georgia,serif;color:#1E1B16;max-width:560px">
       <h2 style="margin:0 0 4px">New Clarksville lead</h2>
@@ -77,17 +65,66 @@ export async function sendLeadEmail(lead: Lead): Promise<boolean> {
       <p style="margin:16px 0 4px;color:#8a8474;font-family:Arial,sans-serif">Message</p>
       <p style="margin:0;white-space:pre-wrap;font-family:Arial,sans-serif">${escapeHtml(lead.message) || "(none)"}</p>
     </div>`;
+  return { subject, text, html };
+}
 
+/** Send via Resend's HTTP API. Returns true on success. */
+async function sendViaResend(lead: Lead, to: string): Promise<boolean> {
+  const key = process.env.RESEND_API_KEY;
+  if (!key) return false;
+  const from = process.env.RESEND_FROM || "Clarksville Leads <onboarding@resend.dev>";
+  const { subject, text, html } = buildMessage(lead);
+
+  const res = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${key}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      from,
+      to: [to],
+      subject,
+      text,
+      html,
+      ...(lead.email ? { reply_to: lead.email } : {}),
+    }),
+  });
+
+  if (!res.ok) {
+    const body = await res.text().catch(() => "");
+    throw new Error(`Resend ${res.status}: ${body.slice(0, 300)}`);
+  }
+  return true;
+}
+
+/** Send via Gmail SMTP (fallback). */
+async function sendViaGmail(lead: Lead, to: string): Promise<boolean> {
+  const user = process.env.GMAIL_USER;
+  const pass = process.env.GMAIL_APP_PASSWORD;
+  if (!user || !pass) return false;
+
+  const { subject, text, html } = buildMessage(lead);
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: { user, pass },
+  });
   await transporter.sendMail({
     from: `"Clarksville Austin Homes" <${user}>`,
     to,
     replyTo: lead.email,
-    subject: `New ${label} lead: ${lead.name ?? "website visitor"}`,
-    text: lines.join("\n"),
+    subject,
+    text,
     html,
   });
-
   return true;
+}
+
+export async function sendLeadEmail(lead: Lead): Promise<boolean> {
+  const to = process.env.LEAD_TO ?? AGENT.email;
+  // Prefer Resend when configured; fall back to Gmail SMTP.
+  if (process.env.RESEND_API_KEY) return sendViaResend(lead, to);
+  return sendViaGmail(lead, to);
 }
 
 function escapeHtml(s?: string): string {
