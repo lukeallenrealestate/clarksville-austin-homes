@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T15:25:26.304Z",
+  "generatedAt": "2026-09-02T15:01:28.977Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -149,6 +149,155 @@
           "width": 1600,
           "height": 1064,
           "alt": "Blonde wood stairs lead to upper levels, compleme"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT4373966",
+      "slug": "1102-charlotte-st",
+      "address": "1102  Charlotte St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "luxury",
+        "new-construction"
+      ],
+      "status": "active",
+      "price": 2999999,
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 3090,
+      "yearBuilt": 2026,
+      "lotSizeAcres": 0.131,
+      "listDate": "2026-09-01",
+      "description": "In the heart of Clarksville - a rare new construction thoughtfully designed to complement surrounding homes with the low maintenance of a new home. This modern zen cottage was Designed by Pollen Architecture with construction and curated interiors by Cary Paul Studios (2026 Best Builder via Austin Home Magazine). At 3,090 sq ft and with 4-bedrooms and 3.5-bath over 3 levels, this residence blends architectural intention with boutique-level craftsmanship. Cypress cladding echoes the neighborhood in its 70s heyday. Accented with a standing-seam metal roof, and framed by Sierra Pacific windows, the exterior is classic yet warm and modern. The front porch is another neighborhood theme, re-interpreted with a cantilevered roof overhang. Inside, natural light pours across open, airy living spaces anchored by a tiled floor to ceiling fireplace, the dramatic centerpiece of the living room. Every detail has been carefully considered, from custom cabinetry to boutique tile selections to hand-selected designer lighting, resulting in a home that feels elevated yet inviting. Cypress and white oak wood accent the interior in many spaces, with the wood slat wrapped staircase and kitchen wall as the main feature in the living and dining spaces. With its blend of craftsmanship, warmth, and modern design, this is Clarksville living at its finest, a rare chance to own a new construction home in one of Austin’s most cherished historic neighborhoods.",
+      "listOffice": "All City Real Estate Ltd. Co",
+      "listAgent": "Heather Banks",
+      "geo": {
+        "lat": 30.28107348,
+        "lng": -97.76123995
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT4373966/00.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT4373966/01.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT4373966/02.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT4373966/03.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT4373966/04.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT4373966/05.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT4373966/06.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT4373966/07.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT4373966/08.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT4373966/09.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT4373966/10.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT4373966/11.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT4373966/12.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT4373966/13.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT4373966/14.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT4373966/15.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT4373966/16.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT4373966/17.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT4373966/18.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT4373966/19.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1102  Charlotte St, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
