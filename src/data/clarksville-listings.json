@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T15:01:28.977Z",
+  "generatedAt": "2026-09-03T14:55:17.986Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1051,6 +1051,154 @@
       "isSample": false
     },
     {
+      "id": "ACT6790121",
+      "slug": "1800-w-10th-st",
+      "address": "1800 W 10th St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 1449900,
+      "beds": 3,
+      "baths": 2.5,
+      "sqft": 2192,
+      "yearBuilt": 1980,
+      "lotSizeAcres": 0.1452,
+      "listDate": "2026-09-03",
+      "description": "There simply aren't many homes like this left in Austin. This 2,200 square foot reverse-floorplan, bungalow sits tucked into one of the city's oldest and most beloved neighborhoods, surrounded by mature, wild landscaping that gives it the feel of a treehouse in the middle of everything. The first thing to greet you before you walk into the house is the Austin skyline - unobstructed and genuinely stunning. The main living level has been updated beautifully - a big, well-designed kitchen with a huge custom island, two living areas, and a dedicated office with an adjacent half bath. Out back, large sliding glass doors open onto a wraparound deck that disappears into the tree canopy. It's private in a way that's hard to describe. All three bedrooms are downstairs, away from the living areas. The primary bath has been upgraded with high-quality fixtures and finishes, a stand-alone tub, and large, doorless walk-in shower. Out back off the primary suite is a custom built four-person sauna with a sleek cold plunge tub for your morning rituals. Newer siding and paint on the exterior, and the yard maintenance is about as close to zero as it gets - no lawnmower required. The neighbor situation is genuinely unusual in the best way. Of the three surrounding properties, one is a the Clarksville Neighborhood Center and the other is the community health center, open only on weekdays until 4pm and closed on the weekends so there is always parking available for your dinner or party guests. It is remarkably quiet here and the privacy is unmatched. Above all, the walkability speaks for itself. Deep Eddy Pool, Town Lake Trail, Zilker Park, Fresh Plus, Medici, Taco Flats, Jeffrey's, Josephine House, Pool Burger, Deep Eddy Cabaret, Donn's Depot, the Mean Eyed Cat - all of it on foot. Adding to its unique history, the property was once owned by Whole Foods founder John Mackey. A rare Clarksville find offering style, privacy, incredible views, and one of Austin’s most coveted locations.",
+      "listOffice": "Bramlett Partners",
+      "listAgent": "Jeremy Vandermause",
+      "geo": {
+        "lat": 30.28129819,
+        "lng": -97.76383509
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT6790121/00.jpg",
+          "width": 2048,
+          "height": 1533,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT6790121/01.jpg",
+          "width": 2048,
+          "height": 1533,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT6790121/02.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT6790121/03.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT6790121/04.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT6790121/05.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT6790121/06.jpg",
+          "width": 2048,
+          "height": 1362,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT6790121/07.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT6790121/08.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT6790121/09.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT6790121/10.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT6790121/11.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT6790121/12.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT6790121/13.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT6790121/14.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT6790121/15.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT6790121/16.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT6790121/17.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT6790121/18.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT6790121/19.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "1800 W 10th St, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
       "id": "ACT9106955",
       "slug": "1010-w-10th-st-302-302",
       "address": "1010 W 10th St  #302",
@@ -1359,7 +1507,7 @@
         "condo",
         "new-construction"
       ],
-      "status": "active",
+      "status": "pending",
       "price": 990000,
       "beds": 1,
       "baths": 1,
@@ -1646,6 +1794,154 @@
           "width": 1024,
           "height": 768,
           "alt": "901 W 9th St  #508, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT4800359",
+      "slug": "705-patterson-ave",
+      "address": "705  Patterson Ave",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 899000,
+      "beds": 2,
+      "baths": 1,
+      "sqft": 1131,
+      "yearBuilt": 1916,
+      "lotSizeAcres": 0.1558,
+      "listDate": "2026-09-02",
+      "description": "A true Clarksville gem, this charming 100-year-old Craftsman bungalow beautifully blends historic character with modern comfort. Offering 2 bedrooms and 1 bathroom, the home features original loblolly pine floors, custom built-ins, and unique architectural details that reflect its rich history. Funky tile accents in the kitchen and bathroom add a fun, distinctive touch.\n\nOutside, a covered front porch spans the width of the home, creating the perfect spot to enjoy your morning coffee, while a spacious ipe hardwood deck overlooks the oversized backyard and its magnificent 400-year-old heritage oak. The private, lush outdoor space feels like a true oasis, ideal for relaxing, entertaining, or enjoying Austin's beautiful weather.\n\nLocated in the heart of beloved Clarksville, you'll be just minutes from some of Austin's best cafes, boutiques, restaurants, and neighborhood favorites. With its unbeatable location, vintage charm, and inviting indoor and outdoor spaces, this special bungalow offers a quintessential Austin living experience.",
+      "listOffice": "Compass RE Texas, LLC",
+      "listAgent": "Austin Stowell",
+      "geo": {
+        "lat": 30.27793296,
+        "lng": -97.76559387
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT4800359/00.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT4800359/01.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT4800359/02.jpg",
+          "width": 1920,
+          "height": 1281,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT4800359/03.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT4800359/04.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT4800359/05.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT4800359/06.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT4800359/07.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT4800359/08.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT4800359/09.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT4800359/10.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT4800359/11.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT4800359/12.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT4800359/13.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT4800359/14.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT4800359/15.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT4800359/16.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT4800359/17.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT4800359/18.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT4800359/19.jpg",
+          "width": 1920,
+          "height": 1280,
+          "alt": "705  Patterson Ave, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
