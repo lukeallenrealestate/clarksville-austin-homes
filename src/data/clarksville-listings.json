@@ -1,8 +1,160 @@
 {
-  "generatedAt": "2026-09-09T15:02:39.328Z",
+  "generatedAt": "2026-09-10T14:55:50.400Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
+    {
+      "id": "ACT5750327",
+      "slug": "1006-baylor-st-303-303",
+      "address": "1006  Baylor St  #303",
+      "unit": "Unit 303",
+      "propertyType": "condo",
+      "categories": [
+        "condo",
+        "luxury",
+        "new-construction"
+      ],
+      "status": "active",
+      "price": 3785000,
+      "beds": 3,
+      "baths": 3.5,
+      "sqft": 3290,
+      "yearBuilt": 2025,
+      "lotSizeAcres": 0,
+      "listDate": "2026-09-09",
+      "description": "Residence 303 at The Colorfield is a 3,302 square foot third floor residence in Clarksville, designed by Alterstudio Architecture with expansive glass, generous proportions, and a bright, natural interior palette.\n\nThe single level floor plan offers three bedrooms, three and one half baths, and a versatile den suited to a private office, media room, library, or additional guest space. A covered terrace extends the living area outdoors, while expansive glazing across the kitchen, dining, and living spaces fills the residence with natural light and creates a seamless connection to the surrounding city.\n\nThe primary suite offers a private retreat with an oversized custom walk-in closet and spa inspired bath featuring a freestanding soaking tub and dual vanities. Wide plank white oak flooring, light oak millwork, and white and light toned stone create a sophisticated interior that feels warm, timeless, and distinctly contemporary.\n\nThe chef's kitchen is equipped with a complete Gaggenau appliance suite, including built-in refrigerator and freezer, gas cooktop, wall oven, coffee system, dishwasher, and dual wine columns. A generous laundry room with built-in cabinetry, storage, and extensive countertop space provides additional functionality. Two reserved garage parking spaces are included.\n\nThe Colorfield is a boutique collection of just ten luxury condominiums in Clarksville, in the heart of Old West Austin. Residents enjoy a secure parking garage, staffed concierge and front desk, and two elevators, all within minutes of Downtown Austin, the Texas Capitol, Lady Bird Lake, and some of Austin's most desirable dining, shopping, parks, and cultural destinations.\n\nConstruction is complete, and Residence 303 is available now.",
+      "listOffice": "Kuper Sotheby's Int'l Realty",
+      "listAgent": "Bridget Ramey",
+      "hoaFee": 2276,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27606632,
+        "lng": -97.75312357
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT5750327/00.jpg",
+          "width": 1200,
+          "height": 901,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT5750327/01.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT5750327/02.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT5750327/03.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT5750327/04.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT5750327/05.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT5750327/06.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT5750327/07.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT5750327/08.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT5750327/09.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT5750327/10.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT5750327/11.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT5750327/12.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT5750327/13.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT5750327/14.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT5750327/15.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT5750327/16.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT5750327/17.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT5750327/18.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT5750327/19.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
     {
       "id": "ACT6161477",
       "slug": "1104-maufrais-st",
@@ -149,6 +301,158 @@
           "width": 1600,
           "height": 1064,
           "alt": "Blonde wood stairs lead to upper levels, compleme"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT4148495",
+      "slug": "1006-baylor-st-201-201",
+      "address": "1006  Baylor St  #201",
+      "unit": "Unit 201",
+      "propertyType": "condo",
+      "categories": [
+        "condo",
+        "luxury",
+        "new-construction"
+      ],
+      "status": "active",
+      "price": 3250000,
+      "beds": 3,
+      "baths": 3.5,
+      "sqft": 3575,
+      "yearBuilt": 2025,
+      "lotSizeAcres": 0,
+      "listDate": "2026-09-09",
+      "description": "Residence 201 at The Colorfield is a 3,575 square foot corner residence in Clarksville, designed by Alterstudio Architecture and defined by expansive glass, natural light, and a warm, refined material palette. Floor to ceiling curtain wall glass wraps the residence, capturing eastern exposure and views toward Downtown Austin and the Texas Capitol.\n\nThe single level floor plan offers three bedrooms, three and one half baths, and a versatile den that can serve as a private office, media room, library, or additional guest space. Two secondary bedrooms each open to a private balcony, while a separate covered terrace creates an additional outdoor living area.\n\nThe primary suite is designed as a private retreat with a generous walk-in closet and spa inspired bath featuring a freestanding soaking tub and dual vanities. Throughout the residence, wide plank white oak flooring, light oak millwork, white and light toned stone, and carefully considered architectural details create an interior that feels bright, natural, and timeless.\n\nA chef's kitchen with Gaggenau appliances, generous storage, and open living and dining spaces completes the residence. Two reserved garage parking spaces are included.\n\nThe Colorfield is an intimate collection of just ten luxury condominiums in the heart of Clarksville and Old West Austin. Residents enjoy a secure parking garage, staffed concierge and front desk, and two elevators serving the building, all within minutes of Downtown Austin, the Texas Capitol, Lady Bird Lake, and some of Austin's most celebrated restaurants, shops, and cultural destinations.\n\nConstruction is complete, and Residence 201 is available now.",
+      "listOffice": "Kuper Sotheby's Int'l Realty",
+      "listAgent": "Bridget Ramey",
+      "hoaFee": 2457,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27605937,
+        "lng": -97.75309943
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT4148495/00.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT4148495/01.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT4148495/02.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT4148495/03.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT4148495/04.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT4148495/05.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT4148495/06.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT4148495/07.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT4148495/08.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT4148495/09.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT4148495/10.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT4148495/11.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT4148495/12.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT4148495/13.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT4148495/14.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT4148495/15.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT4148495/16.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT4148495/17.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT4148495/18.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT4148495/19.jpg",
+          "width": 1800,
+          "height": 1350,
+          "alt": "1006  Baylor St  #201, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
@@ -450,6 +754,158 @@
           "width": 2048,
           "height": 1365,
           "alt": "A well-lit contemporary bathroom offers a spaciou"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT3991234",
+      "slug": "1006-baylor-st-202-202",
+      "address": "1006  Baylor St  #202",
+      "unit": "Unit 202",
+      "propertyType": "condo",
+      "categories": [
+        "condo",
+        "luxury",
+        "new-construction"
+      ],
+      "status": "active",
+      "price": 2990000,
+      "beds": 3,
+      "baths": 3.5,
+      "sqft": 3281,
+      "yearBuilt": 2025,
+      "lotSizeAcres": 0,
+      "listDate": "2026-09-09",
+      "description": "Residence 202 at The Colorfield is a 3,293 square foot luxury condominium in Austin's Clarksville neighborhood, designed by Alterstudio Architecture with a sophisticated darker interior palette and direct access from a private elevator lobby.\n\nThe single level residence offers three bedrooms, three and one half baths, and a flexible den that can function as a private office, media room, library, or additional guest space. A covered terrace extends the living area outdoors, while the open kitchen, living, and dining spaces create a natural setting for both everyday living and entertaining.\n\nThe primary suite features a substantial walk-in closet and spa inspired bath with a freestanding soaking tub. Rich walnut inspired and black millwork, darker tile and stone selections, white countertops, brass accents, and white oak flooring give Residence 202 a distinctive architectural character that feels sophisticated, warm, and contemporary.\n\nThe kitchen is appointed with a complete Gaggenau appliance suite, including built-in refrigerator and freezer, gas cooktop, wall oven, coffee system, dishwasher, and dual wine columns. A generous laundry room provides built-in cabinetry and extensive countertop space. Two reserved garage parking spaces are included.\n\nThe Colorfield is a boutique collection of only ten luxury residences in Clarksville, in the heart of Old West Austin. The building offers a secure parking garage, staffed concierge and front desk, and two elevators, with Downtown Austin, the Texas Capitol, Lady Bird Lake, dining, shopping, and neighborhood destinations just minutes away.\n\nResidence 202 is complete and move-in ready.",
+      "listOffice": "Kuper Sotheby's Int'l Realty",
+      "listAgent": "Bridget Ramey",
+      "hoaFee": 2250,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.2760061,
+        "lng": -97.7531343
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT3991234/00.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT3991234/01.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT3991234/02.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT3991234/03.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT3991234/04.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT3991234/05.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT3991234/06.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT3991234/07.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT3991234/08.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT3991234/09.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT3991234/10.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT3991234/11.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT3991234/12.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT3991234/13.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT3991234/14.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT3991234/15.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT3991234/16.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT3991234/17.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT3991234/18.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT3991234/19.jpg",
+          "width": 1200,
+          "height": 900,
+          "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
@@ -1197,6 +1653,37 @@
           "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 20"
         }
       ],
+      "isSample": false
+    },
+    {
+      "id": "ACT7665020",
+      "slug": "1111-w-12th-st-107-107",
+      "address": "1111 W 12th St  #107",
+      "unit": "Unit 107",
+      "building": "de Saligny",
+      "propertyType": "condo",
+      "categories": [
+        "condo",
+        "new-construction"
+      ],
+      "status": "active",
+      "price": 1345000,
+      "beds": 2,
+      "baths": 2.5,
+      "sqft": 1592,
+      "yearBuilt": 1981,
+      "lotSizeAcres": 0.0713,
+      "listDate": "2026-09-10",
+      "description": "Unique opportunity to own a character-rich townhome in one of Austin’s most iconic, walkable neighborhoods…Clarksville. With front-row views of downtown, the Capitol, and the UT Tower from its enormous rooftop terrace, this unit is thoughtfully designed for both entertaining and everyday living. Natural light pours into the spacious, open floor plan through a gorgeous wall of windows, highlighting the native stone fireplace and renovated kitchen with commercial-grade appliances, wine fridge, and sleek chiseled granite bar. Meanwhile, massive palm trees and luscious greenery surround the exterior, creating a soothing tree-house feel inside. The primary suite is roomy and houses an indulgent, spa-like bath with a luxurious soaking tub, an LED storage niche, and a marble mosaic shower wall. Rare, attached 2-car garage with multiple storage closets and a private community pool for de Saligny homeowners only. Take a short walk after your afternoon swim and enjoy all the quaint local restaurants and shops the cozy neighborhood is known for.",
+      "listOffice": "Kuper Sotheby's Int'l Realty",
+      "listAgent": "Soud Twal",
+      "hoaFee": 1497.87,
+      "hoaFrequency": "Quarterly",
+      "geo": {
+        "lat": 30.27718915,
+        "lng": -97.75369129
+      },
+      "photos": [],
       "isSample": false
     },
     {
@@ -3285,7 +3772,7 @@
         "condo"
       ],
       "status": "active",
-      "price": 167000,
+      "price": 159000,
       "beds": 1,
       "baths": 1,
       "sqft": 300,
