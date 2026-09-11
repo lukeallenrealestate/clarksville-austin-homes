@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T14:55:50.400Z",
+  "generatedAt": "2026-09-11T14:54:33.043Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -468,7 +468,7 @@
         "new-construction"
       ],
       "status": "active",
-      "price": 2999999,
+      "price": 3199000,
       "beds": 4,
       "baths": 3.5,
       "sqft": 3090,
@@ -1358,6 +1358,154 @@
       "isSample": false
     },
     {
+      "id": "ACT8554964",
+      "slug": "617-oakland-ave",
+      "address": "617  Oakland Ave",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 1750000,
+      "beds": 4,
+      "baths": 3.5,
+      "sqft": 2642,
+      "yearBuilt": 1930,
+      "lotSizeAcres": 0.157,
+      "listDate": "2026-09-10",
+      "description": "Rooted in history, Clarksville remains one of Austin’s most historically significant neighborhoods. Set beneath a canopy of mature trees, it retains the long gallery porch, original hardwood floors and Craftsman millwork that have defined the home for nearly a century, while thoughtful updates add modern convenience without stripping away its personality. Multiple living and dining areas allow the floor plan to flex from one need to the next. Large windows draw natural light from room to room, and a brick fireplace and built-ins give the second living area a character of its own. The kitchen continues the flow with granite countertops, SS appliances and a breakfast bar, opening to a casual dining nook wrapped in windows. Nearby, a dedicated office provides a separate place to work without taking over another room. On the main level, the primary suite is set apart with a walk-in closet and fully renovated ensuite, while two well-sized bedrooms upstairs share an updated marble-accented bathroom. The property’s flexibility continues beyond the main residence with a separate one-bedroom apartment. Complete with its own living area, kitchen and full bathroom, it can accommodate longer-term guests, a private work setup, a creative studio or an entirely separate living space. Outside, decks, patios and mature landscaping connect the two residences, with full irrigation and ample storage handling the practical side of city living. Just beyond the front door, Clarksville makes it easy to build plans around walking rather than parking. Coffee at Better Half, oysters at Clark’s, dinner at Nightcap or margaritas beneath El Arroyo’s famous sign are all a short walk away. West 6th, downtown, Whole Foods, Pease Park and Lady Bird Lake are also nearby, keeping the rest of Austin within easy reach. This home doesn’t borrow its sense of place from a design trend. It comes from nearly a century of history, preserved architecture and a Clarksville address best experienced on foot.",
+      "listOffice": "Compass RE Texas, LLC",
+      "listAgent": "John Richardson",
+      "geo": {
+        "lat": 30.2754356,
+        "lng": -97.76000837
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT8554964/00.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT8554964/01.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT8554964/02.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT8554964/03.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT8554964/04.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT8554964/05.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT8554964/06.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT8554964/07.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT8554964/08.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT8554964/09.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT8554964/10.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT8554964/11.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT8554964/12.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT8554964/13.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT8554964/14.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT8554964/15.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT8554964/16.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT8554964/17.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT8554964/18.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT8554964/19.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "617  Oakland Ave, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
       "id": "ACT6790121",
       "slug": "1800-w-10th-st",
       "address": "1800 W 10th St",
@@ -1683,7 +1831,128 @@
         "lat": 30.27718915,
         "lng": -97.75369129
       },
-      "photos": [],
+      "photos": [
+        {
+          "src": "/listings/ACT7665020/00.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT7665020/01.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT7665020/02.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT7665020/03.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT7665020/04.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT7665020/05.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT7665020/06.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT7665020/07.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT7665020/08.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT7665020/09.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT7665020/10.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT7665020/11.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT7665020/12.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT7665020/13.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT7665020/14.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT7665020/15.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT7665020/16.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT7665020/17.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT7665020/18.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT7665020/19.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 12th St  #107, Clarksville, Austin, photo 20"
+        }
+      ],
       "isSample": false
     },
     {
@@ -2153,7 +2422,7 @@
       "yearBuilt": 1916,
       "lotSizeAcres": 0.1558,
       "listDate": "2026-09-02",
-      "description": "A true Clarksville gem, this charming 100-year-old Craftsman bungalow beautifully blends historic character with modern comfort. Offering 2 bedrooms and 1 bathroom, the home features original loblolly pine floors, custom built-ins, and unique architectural details that reflect its rich history. Funky tile accents in the kitchen and bathroom add a fun, distinctive touch.\n\nOutside, a covered front porch spans the width of the home, creating the perfect spot to enjoy your morning coffee, while a spacious ipe hardwood deck overlooks the oversized backyard and its magnificent 400-year-old heritage oak. The private, lush outdoor space feels like a true oasis, ideal for relaxing, entertaining, or enjoying Austin's beautiful weather.\n\nLocated in the heart of beloved Clarksville, you'll be just minutes from some of Austin's best cafes, boutiques, restaurants, and neighborhood favorites. With its unbeatable location, vintage charm, and inviting indoor and outdoor spaces, this special bungalow offers a quintessential Austin living experience.",
+      "description": "A true Clarksville gem, this charming 100-year-old Craftsman bungalow beautifully blends historic character with modern comfort. Offering 2 bedrooms and 1 bathroom, the home features original loblolly pine floors, custom built-ins, and unique architectural details that reflect its rich history. Funky tile accents in the kitchen and bathroom add a fun, distinctive touch.\n\nOutside, a covered front porch spans the width of the home, creating the perfect spot to enjoy your morning coffee, while a spacious ipe hardwood deck overlooks the oversized backyard and its magnificent 400-year-old heritage oak. The private, lush outdoor space feels like a true oasis, ideal for relaxing, entertaining, or enjoying Austin's beautiful weather. A storage shed provides additional space for tools, bikes, and outdoor gear, while convenient alley access adds flexibility and opens the door to explore the potential for an additional unit off the alley.\n\nLocated in the heart of beloved Clarksville, you'll be just minutes from some of Austin's best cafes, boutiques, restaurants, and neighborhood favorites. With its unbeatable location, vintage charm, generous lot, and exciting future potential, this special bungalow offers a quintessential Austin living experience with room to make it your own.",
       "listOffice": "Compass RE Texas, LLC",
       "listAgent": "Austin Stowell",
       "geo": {
@@ -2746,7 +3015,7 @@
         "condo"
       ],
       "status": "active",
-      "price": 422500,
+      "price": 420000,
       "beds": 1,
       "baths": 1,
       "sqft": 933,
@@ -2767,13 +3036,13 @@
           "src": "/listings/ACT7831367/00.jpg",
           "width": 2048,
           "height": 1365,
-          "alt": "Living area featuring terracotta tile flooring, a"
+          "alt": "Saltillo tile flooring, a painted brick fireplace"
         },
         {
           "src": "/listings/ACT7831367/01.jpg",
           "width": 2048,
           "height": 1365,
-          "alt": "Saltillo tile flooring, a painted brick fireplace"
+          "alt": "Living area featuring terracotta tile flooring, a"
         },
         {
           "src": "/listings/ACT7831367/02.jpg",
