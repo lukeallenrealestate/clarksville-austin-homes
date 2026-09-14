@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T14:50:57.621Z",
+  "generatedAt": "2026-09-14T16:50:03.110Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -906,155 +906,6 @@
           "width": 1200,
           "height": 900,
           "alt": "1006  Baylor St  #202, Clarksville, Austin, photo 20"
-        }
-      ],
-      "isSample": false
-    },
-    {
-      "id": "ACT4040745",
-      "slug": "613-baylor-st",
-      "address": "613  Baylor St",
-      "propertyType": "single-family",
-      "categories": [
-        "single-family",
-        "luxury",
-        "bungalow"
-      ],
-      "status": "active",
-      "price": 2500000,
-      "beds": 4,
-      "baths": 3,
-      "sqft": 3870,
-      "yearBuilt": 1907,
-      "lotSizeAcres": 0.2073,
-      "listDate": "2026-02-23",
-      "description": "Clarksville, one of the most sought-after neighborhoods in central Austin, where you can walk to everything. Incredibly special property with 5 distinct “units” that can be rented, this property also presents an ideal single-family residence featuring both attached and detached guest quarters-perfect for extended living, hosting, or added flexibility. Enjoy access to an array of culinary delights, with dozens of restaurants, bars, and retail, all just steps from your front and back door. The flagship Whole Foods stands nearby, making grocery shopping a cinch. Additionally, owners can enjoy the natural beauty of Lady Bird Lake's hike and bike trail, the YMCA, & Pease Park. Beyond its prime location, the property offers incredible residential income opportunity with a main house plus three, or possibly four, apartments with varying bedroom and bathroom mixes (see agent for unit breakdown). Each offers a charming blend of historic charm and modern convenience. Architecturally distinguished, the house and its counterparts on Baylor Street & West 9th Street date back to the early 1900s, having been carefully restored to preserve their original charm. The previous owner seamlessly combined a craftsman-style main house with Unit B, creating a living space that accommodates two to four bedrooms, an office, downstairs studio/living room, walk-in closet, laundry room, and two full bathrooms. The property is complete with two additional detached units and one private unit that could be rented or used as a guest apartment, plus an off-street parking area for three vehicles and a spacious two-car garage with storage and washer-dryer hookups. The custom decorative iron fence, crafted by welder/metalsmith Andy Reed a decade ago, adds a touch of elegance to the property. The current owner bought it for family to attend UT and cleaned it up immensely in their short time owning the property. It's clean, beautiful, and ready to be enjoyed! Call or text today for an easy showing!",
-      "listOffice": "Moreland Properties",
-      "listAgent": "Cord Shiflet",
-      "geo": {
-        "lat": 30.27297933,
-        "lng": -97.75415733
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT4040745/00.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 1"
-        },
-        {
-          "src": "/listings/ACT4040745/01.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 2"
-        },
-        {
-          "src": "/listings/ACT4040745/02.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 3"
-        },
-        {
-          "src": "/listings/ACT4040745/03.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 4"
-        },
-        {
-          "src": "/listings/ACT4040745/04.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 5"
-        },
-        {
-          "src": "/listings/ACT4040745/05.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 6"
-        },
-        {
-          "src": "/listings/ACT4040745/06.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 7"
-        },
-        {
-          "src": "/listings/ACT4040745/07.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 8"
-        },
-        {
-          "src": "/listings/ACT4040745/08.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 9"
-        },
-        {
-          "src": "/listings/ACT4040745/09.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 10"
-        },
-        {
-          "src": "/listings/ACT4040745/10.jpg",
-          "width": 1024,
-          "height": 1536,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 11"
-        },
-        {
-          "src": "/listings/ACT4040745/11.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 12"
-        },
-        {
-          "src": "/listings/ACT4040745/12.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 13"
-        },
-        {
-          "src": "/listings/ACT4040745/13.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 14"
-        },
-        {
-          "src": "/listings/ACT4040745/14.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 15"
-        },
-        {
-          "src": "/listings/ACT4040745/15.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 16"
-        },
-        {
-          "src": "/listings/ACT4040745/16.jpg",
-          "width": 1024,
-          "height": 1536,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 17"
-        },
-        {
-          "src": "/listings/ACT4040745/17.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 18"
-        },
-        {
-          "src": "/listings/ACT4040745/18.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 19"
-        },
-        {
-          "src": "/listings/ACT4040745/19.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "613  Baylor St, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
@@ -3888,7 +3739,7 @@
       "categories": [
         "condo"
       ],
-      "status": "active",
+      "status": "pending",
       "price": 159000,
       "beds": 1,
       "baths": 1,
