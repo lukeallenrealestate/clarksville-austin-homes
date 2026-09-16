@@ -1,8 +1,157 @@
 {
-  "generatedAt": "2026-09-15T15:28:47.274Z",
+  "generatedAt": "2026-09-16T15:22:13.260Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
+    {
+      "id": "ACT5712437",
+      "slug": "806-blanco-st",
+      "address": "806  Blanco St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "luxury",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 4750000,
+      "beds": 5,
+      "baths": 3,
+      "sqft": 4230,
+      "yearBuilt": 1915,
+      "lotSizeAcres": 0.26,
+      "listDate": "2026-08-27",
+      "description": "This is an exceptionally rare opportunity to purchase an Old West Austin/Clarksville area compound. 804 & 806 Blanco are two adjacent properties that together offer a remarkable lifestyle meeting the needs, wants and desires for even the most discerning buyer. 806 Blanco functions as the primary residence. It was stunningly remodeled, architect Amy Dempsey, in 2017 to include such features as SmartGlass electrically controlled opacity windows and folding doors spanning much of the back of the house and overlooking the sleek pool, hot tub, custom iron arbor by Nieri design covering the deck, and a lush, flat, green lawn. It has a media area in the second living area, including a 165” retractable movie projection screen and a hidden box to house a projector. This 3 bedrooms, 2 baths, 2 living areas, home has Carrara marble flooring and walls in the primary bath, a walk-in primary closet, and walk-in kitchen pantry. Enter the adjacent home, 804 Blanco. This residence functions perfectly as a guest house, quiet office space, long or short term rental, art space or even light commercial space. Two of the most surprising features are the 2nd floor private entry room that is currently being used as a music studio (equipment does not convey) and the detached 4-car garage that includes a 6’ high car scissor lift, for any current or future car aficionados. Originally built in 1915 and 1920, respectively, the owners have maintained the quintessential exterior charm while turning the primary home into a jaw dropping masterpiece. These two homes create a compound, in one of the most coveted and walkable areas, in central Austin, offering extensive versatility for the way people only dream of living, especially this close to downtown.",
+      "listOffice": "Urbanspace",
+      "listAgent": "Elizabeth Adams",
+      "geo": {
+        "lat": 30.27492146,
+        "lng": -97.7559815
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT5712437/00.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT5712437/01.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT5712437/02.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT5712437/03.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT5712437/04.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT5712437/05.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT5712437/06.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT5712437/07.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT5712437/08.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT5712437/09.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT5712437/10.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT5712437/11.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT5712437/12.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT5712437/13.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT5712437/14.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT5712437/15.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT5712437/16.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT5712437/17.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT5712437/18.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT5712437/19.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "806  Blanco St, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
     {
       "id": "ACT5750327",
       "slug": "1006-baylor-st-303-303",
@@ -1217,7 +1366,7 @@
         "single-family",
         "bungalow"
       ],
-      "status": "active",
+      "status": "pending",
       "price": 1750000,
       "beds": 4,
       "baths": 3.5,
@@ -3588,6 +3737,156 @@
           "width": 2048,
           "height": 1363,
           "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 18"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT7472308",
+      "slug": "807-blanco-st-204-204",
+      "address": "807  Blanco St  #204",
+      "unit": "Unit 204",
+      "propertyType": "condo",
+      "categories": [
+        "condo"
+      ],
+      "status": "active",
+      "price": 350000,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 615,
+      "yearBuilt": 1969,
+      "lotSizeAcres": 0.0151,
+      "listDate": "2026-09-15",
+      "description": "Discover the perfect blend of convenience and modern living at 807 Blanco Street Unit 204, a beautifully updated condo in the heart of Downtown Austin’s sought-after Clarksville neighborhood. A rare find in central Austin, the building allows short-term rentals, adding flexibility for a variety of ownership options. This one-bedroom, one-bathroom unit offers 615 square feet of thoughtfully designed space with sleek, modern finishes throughout. Features include stained concrete floors, recessed lighting, and in-unit laundry, with the washer/dryer combo unit replaced in January 2026. The HVAC system was also replaced in December 2025, offering added peace of mind. The spacious bedroom easily accommodates a king-size bed and offers two generous closets for ample storage. What truly sets this property apart is the unbeatable location. Tucked away on a quiet street with a hillside behind the complex helping buffer downtown noise, you’re still walkable to some of Austin’s favorite destinations. Grab coffee at Better Half, breakfast tacos from Taco Flats, or enjoy a cocktail at Clark’s Oyster Bar, all just a few blocks away. Whole Foods Market’s flagship location, 24 Diner, Sammie’s Italian, Lady Bird Lake, Zilker Park, and the energy of West 6th Street are all within easy reach. Whether you’re looking for a primary residence, second home, or short-term rental opportunity, this condo offers a combination that is increasingly hard to find. Don’t miss this rare opportunity to own in one of the city’s most walkable, charming neighborhoods. Schedule your showing today!",
+      "listOffice": "Keller Williams Realty",
+      "listAgent": "Alex McCormick",
+      "hoaFee": 285,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27449786,
+        "lng": -97.75576749
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT7472308/00.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT7472308/01.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT7472308/02.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT7472308/03.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT7472308/04.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT7472308/05.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT7472308/06.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT7472308/07.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT7472308/08.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT7472308/09.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT7472308/10.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT7472308/11.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT7472308/12.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT7472308/13.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT7472308/14.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT7472308/15.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT7472308/16.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT7472308/17.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT7472308/18.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT7472308/19.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "807  Blanco St  #204, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
