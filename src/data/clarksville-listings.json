@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T15:22:13.260Z",
+  "generatedAt": "2026-09-17T15:33:14.470Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1956,151 +1956,32 @@
       "isSample": false
     },
     {
-      "id": "ACT1045827",
-      "slug": "1406-w-13th-st",
-      "address": "1406 W 13TH St",
+      "id": "ACT1038133",
+      "slug": "810-theresa-ave-1-1",
+      "address": "810  Theresa Ave  #1",
+      "unit": "Unit 1",
       "propertyType": "single-family",
       "categories": [
-        "single-family",
-        "bungalow"
+        "single-family"
       ],
-      "status": "pending",
-      "price": 1299000,
+      "status": "active",
+      "price": 1150000,
       "beds": 3,
-      "baths": 2,
-      "sqft": 1578,
-      "yearBuilt": 1940,
-      "lotSizeAcres": 0.1932,
-      "listDate": "2026-04-18",
-      "description": "Some homes give you more square footage. This one gives you more Austin.\nSet in coveted Clarksville, 1406 W 13th Street offers a rare opportunity to own a charming single-story home in one of Austin’s most established close-in neighborhoods.\nThe thoughtfully laid-out interior retains much of its original character while updated bathrooms and a new roof add meaningful improvements. Natural light, original details, and an easy, livable floor plan make the home inviting from day one.\nOutside, mature landscaping and bamboo create a private backdrop for the spacious backyard and cowboy pool, with plenty of room to imagine what’s next. A future owner might expand the existing footprint, create a larger primary suite, reimagine the detached garage as an office, studio, gym, or additional living space, or add a more substantial pool. Or simply move in, enjoy the home as it is, and make improvements over time.\nAnd then there’s Clarksville. The appeal isn’t simply proximity to Austin, it’s the ability to make central Austin part of everyday life. Walk to neighborhood favorites, spend an afternoon at Pease Park, head downtown for dinner, or simply enjoy the character and community of one of Austin’s most beloved neighborhoods.\nFor the buyer who values location, character, and possibility over simply having more square footage, 1406 W 13th offers something increasingly difficult to find: a beautiful home to enjoy today, with room to create something even more personal tomorrow.\nLess house. More Austin.",
-      "listOffice": "Christies Intl Real Estate Lone Star",
-      "listAgent": "Khani Zulu",
+      "baths": 3.5,
+      "sqft": 2189,
+      "yearBuilt": 2019,
+      "lotSizeAcres": 0.0698,
+      "listDate": "2026-09-16",
+      "description": "Set in the heart of Clarksville, this thoughtfully designed residence offers an easy lock-and-leave lifestyle with generous living spaces, abundant natural light, and a seamless connection to the outdoors. Large windows throughout frame the lush surroundings and create a bright and inviting atmosphere across all three levels.\n\nThe main level features an open kitchen, dining, and living space that flows effortlessly to the private, fenced yard, an ideal setting for outdoor dining and entertaining. A powder bath and attached one-car garage complete the first floor.\n\nUpstairs, the generous primary suite features a spacious bath and oversized walk-in closet, while a second bedroom offers its own en-suite bath. The top floor provides another layer of flexibility, opening to a versatile landing ideal for a home office, lounge, or gym, followed by a private third bedroom with an en-suite bath.\n\nWith three bedrooms, three and a half baths, flexible living spaces, and an effortless indoor-outdoor connection, this home offers a refined urban retreat in one of Austin’s most beloved neighborhoods, just moments from downtown with convenient access to the best of Central Austin.",
+      "listOffice": "Gottesman Residential R.E.",
+      "listAgent": "Megan Cavazos",
+      "hoaFee": 0,
+      "hoaFrequency": "Annually",
       "geo": {
-        "lat": 30.28033672,
-        "lng": -97.75637497
+        "lat": 30.28049755,
+        "lng": -97.7657168
       },
-      "photos": [
-        {
-          "src": "/listings/ACT1045827/00.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A charming home welcomes with a well-maintained f"
-        },
-        {
-          "src": "/listings/ACT1045827/01.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A charming brick residence awaits, featuring a gr"
-        },
-        {
-          "src": "/listings/ACT1045827/02.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A welcoming front porch features a bold red door"
-        },
-        {
-          "src": "/listings/ACT1045827/03.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A private backyard oasis features a unique stock"
-        },
-        {
-          "src": "/listings/ACT1045827/04.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A private yard with a cozy patio and string light"
-        },
-        {
-          "src": "/listings/ACT1045827/05.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A private backyard oasis features a paved patio p"
-        },
-        {
-          "src": "/listings/ACT1045827/06.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "An inviting backyard patio with a grilling statio"
-        },
-        {
-          "src": "/listings/ACT1045827/07.jpg",
-          "width": 2048,
-          "height": 1368,
-          "alt": "An inviting private yard awaits with a stock tank"
-        },
-        {
-          "src": "/listings/ACT1045827/08.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A classic white mantelpiece, adorned with elegant"
-        },
-        {
-          "src": "/listings/ACT1045827/09.jpg",
-          "width": 2048,
-          "height": 1151,
-          "alt": "An aerial perspective reveals a prime lot nestled"
-        },
-        {
-          "src": "/listings/ACT1045827/10.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A radiant living room features a classic fireplac"
-        },
-        {
-          "src": "/listings/ACT1045827/11.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "Hardwood floors and generous natural light define"
-        },
-        {
-          "src": "/listings/ACT1045827/12.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "A well-laid-out floor plan reveals ample living s"
-        },
-        {
-          "src": "/listings/ACT1045827/13.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A well-lit dining area features polished hardwood"
-        },
-        {
-          "src": "/listings/ACT1045827/14.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A well-lit kitchen with classic hardwood flooring"
-        },
-        {
-          "src": "/listings/ACT1045827/15.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "Well-lit sleeping quarters with rich hardwood flo"
-        },
-        {
-          "src": "/listings/ACT1045827/16.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A well-appointed bathroom features a sleek vanity"
-        },
-        {
-          "src": "/listings/ACT1045827/17.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "Hardwood flooring extends through this naturally"
-        },
-        {
-          "src": "/listings/ACT1045827/18.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "A compact, bright bathroom featuring an artistic"
-        },
-        {
-          "src": "/listings/ACT1045827/19.jpg",
-          "width": 2048,
-          "height": 1367,
-          "alt": "Hardwood floors and generous windows illuminate t"
-        }
-      ],
+      "photos": [],
       "isSample": false
     },
     {
