@@ -32,7 +32,7 @@ export function LeadForm({
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form).entries());
 
-    if (data.company) {
+    if (data.hp_field) {
       setStatus("success");
       form.reset();
       return;
@@ -133,10 +133,23 @@ export function LeadForm({
         />
       </div>
 
-      {/* Honeypot, visually hidden from users. */}
-      <div className="absolute left-[-9999px]" aria-hidden="true">
-        <label htmlFor="company">Company</label>
-        <input id="company" name="company" tabIndex={-1} autoComplete="off" />
+      {/* Honeypot, hidden from users AND from browser autofill. The field is
+          deliberately NOT named "company"/"organization": Chrome and password
+          managers autofill those into hidden inputs, which was tripping the
+          bot-trap and silently dropping real leads. A neutral name plus the
+          ignore hints keeps autofill out while still catching fill-everything
+          bots. */}
+      <div className="absolute left-[-9999px] top-[-9999px] h-0 w-0 overflow-hidden" aria-hidden="true">
+        <label htmlFor="hp_field">Do not fill this in</label>
+        <input
+          id="hp_field"
+          name="hp_field"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+          data-lpignore="true"
+          data-1p-ignore
+        />
       </div>
 
       {status === "error" ? (

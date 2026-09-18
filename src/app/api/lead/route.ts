@@ -20,8 +20,11 @@ export async function POST(req: Request) {
     return NextResponse.json({ ok: false, error: "Invalid request" }, { status: 400 });
   }
 
-  // Honeypot: bots fill "company"; treat as success without delivering.
-  if (data.company) {
+  // Honeypot: bots fill the hidden "hp_field"; treat as success without
+  // delivering. Deliberately NOT named "company"/"organization" so Chrome and
+  // password-manager autofill never populate it for real people (that false
+  // positive was silently dropping genuine leads).
+  if (data.hp_field) {
     return NextResponse.json({ ok: true });
   }
 
