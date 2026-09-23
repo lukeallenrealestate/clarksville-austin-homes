@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T15:27:24.715Z",
+  "generatedAt": "2026-09-23T15:21:41.375Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1077,7 +1077,7 @@
       "yearBuilt": 1940,
       "lotSizeAcres": 0.1665,
       "listDate": "2026-08-16",
-      "description": "Warm, modern living meets classic Clarksville charm in this beautifully reimagined urban retreat, just steps from Jeffrey's, Josephine House, and Caf&#233; Medici. The original 1940 cottage was fully restored and expanded in 2023 with a sophisticated modern addition, creating a seamless 2,875 sq ft, 4-bedroom, 3.5-bath residence filled with curated details and refined craftsmanship. Inside, hand-selected finishes include marble handrails, full-slab backsplash, fluted cabinetry, boutique tile and wallpaper, and a striking wraparound skylight that floods the staircase tower with natural light. The lower-level kitchen is a showpiece with soapstone and marble counters, a Bertazzoni range, and paneled appliances. A spacious living and dining area opens directly to the private backyard and deck, creating effortless indoor-outdoor flow.The exterior features a metal and TPO roof, custom half-round gutters, Andersen windows, and a steel accordion door opening to thoughtfully designed landscaping with custom steel accents, irrigation, xeriscaping, and a composite deck. The original structure was taken to the studs and rebuilt with new electrical, plumbing, HVAC, spray-foam insulation, drywall, and a redesigned floor plan. Engineered oak flooring pairs with custom cabinetry and modern tile throughout. The comfortable primary suite features a spacious wet room with soaking tub and double shower, floating double vanity, and large walk-in closet. Laundry is available on both levels, with a stackable unit upstairs and full laundry room with sink below. Two additional bedrooms and a full secondary bath complete the bedroom level. At the main entry, the original portion offers a flexible bedroom, full bath, and bar with sink and beverage fridge, ideal as a guest suite, office, or private second living area. A private driveway and carport provide convenient alley access.",
+      "description": "Warm, modern living meets classic Clarksville charm in this beautifully reimagined urban retreat, just steps from Jeffrey's, Josephine House, and Cafe Medici. The original 1940 cottage was fully restored and expanded in 2023 with a sophisticated modern addition, creating a seamless 2,875 sq ft, 4-bedroom, 3.5-bath residence filled with curated details and refined craftsmanship. Inside, hand-selected finishes include marble handrails, full-slab backsplash, fluted cabinetry, boutique tile and wallpaper, and a striking wraparound skylight that floods the staircase tower with natural light. The lower-level kitchen is a showpiece with soapstone and marble counters, a Bertazzoni range, and paneled appliances. A spacious living and dining area opens directly to the private backyard and deck, creating effortless indoor-outdoor flow.The exterior features a metal and TPO roof, custom half-round gutters, Andersen windows, and a steel accordion door opening to thoughtfully designed landscaping with custom steel accents, irrigation, xeriscaping, and a composite deck. The original structure was taken to the studs and rebuilt with new electrical, plumbing, HVAC, spray-foam insulation, drywall, and a redesigned floor plan. Engineered oak flooring pairs with custom cabinetry and modern tile throughout. The comfortable primary suite features a spacious wet room with soaking tub and double shower, floating double vanity, and large walk-in closet. Laundry is available on both levels, with a stackable unit upstairs and full laundry room with sink below. Two additional bedrooms and a full secondary bath complete the bedroom level. At the main entry, the original portion offers a flexible bedroom, full bath, and bar with sink and beverage fridge, ideal as a guest suite, office, or private second living area. A private driveway and carport provide convenient alley access.",
       "listOffice": "Compass RE Texas, LLC",
       "listAgent": "Wendi Slaton Anderson",
       "geo": {
@@ -2401,6 +2401,33 @@
           "alt": "705  Patterson Ave, Clarksville, Austin, photo 20"
         }
       ],
+      "isSample": false
+    },
+    {
+      "id": "ACT4528946",
+      "slug": "1613-w-10th-st",
+      "address": "1613 W 10th St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 789000,
+      "beds": 2,
+      "baths": 1,
+      "sqft": 634,
+      "yearBuilt": 1933,
+      "lotSizeAcres": 0.0774,
+      "listDate": "2026-09-23",
+      "description": "Welcome home to this beautifully reimagined 1930s bungalow, tucked into the heart of Clarksville. This isn't just a remodel, it's a complete transformation. Taken down to the studs and rebuilt with nearly $200K in upgrades, every system in this home is brand new: electrical, plumbing, HVAC, tankless water heater, ductwork, windows, doors and drywall. New hardwood floors run throughout, the reworked kitchen shines with quartzite counters and all new cabinetry with an integrated fridge and dishwasher, and the fully redone bathroom feels like a daily retreat with designer tile and an oversized shower. Lifted ceilings with custom lighting, an expanded closet and a new laundry closet round out the interior, while true-to-era wood siding, a striking green metal roof and full insulation (blown-in and R30, to code) keep the charm and comfort going strong.\n\nAlong with all the renovations, this home feels warm and inviting with an abundance of light, natural textures, and a design that's modern yet unmistakably bungalow at heart. Outside, enjoy new low-maintenance landscaping and a flexible space behind the home that can serve as extra parking or your favorite outdoor dining spot. Plenty of driveway and street parking means there's always room for guests. \n\nAnd then there's the location, truly walkable to West Lynn Street favorites like Medici Coffee, Jeffrey's, Josephine House, Galaxy Cafe and more. Then only minutes away, more favorites including Clark's, Pecan Street Cafe, Swedish Hill and the list goes on. The property is located in the National Register Historic District: Clarksville, and also qualifies for Small Lot Amnesty, giving this lot protected, legal standing to build, renovate and enjoy for years to come. It’s city living with a neighborhood soul, close to everything, yet tucked into your own charming corner of Austin.",
+      "listOffice": "Compass RE Texas, LLC",
+      "listAgent": "Laura Ek",
+      "geo": {
+        "lat": 30.27940451,
+        "lng": -97.76100473
+      },
+      "photos": [],
       "isSample": false
     },
     {
