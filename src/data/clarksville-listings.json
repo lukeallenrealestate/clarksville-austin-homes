@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T15:21:41.375Z",
+  "generatedAt": "2026-09-24T15:45:04.851Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -2427,7 +2427,128 @@
         "lat": 30.27940451,
         "lng": -97.76100473
       },
-      "photos": [],
+      "photos": [
+        {
+          "src": "/listings/ACT4528946/00.jpg",
+          "width": 2048,
+          "height": 1535,
+          "alt": "An inviting entrance welcomes with classic brick"
+        },
+        {
+          "src": "/listings/ACT4528946/01.jpg",
+          "width": 2048,
+          "height": 1508,
+          "alt": "A stone retaining wall and concrete steps lead to"
+        },
+        {
+          "src": "/listings/ACT4528946/02.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "An inviting gabled portico covers the classic fro"
+        },
+        {
+          "src": "/listings/ACT4528946/03.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "A vaulted ceiling and warm hardwood floors create"
+        },
+        {
+          "src": "/listings/ACT4528946/04.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "Sunlight streams through a large picture window o"
+        },
+        {
+          "src": "/listings/ACT4528946/05.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "Natural light stream through multiple windows ont"
+        },
+        {
+          "src": "/listings/ACT4528946/06.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "Warm hardwood floors complement vaulted ceilings"
+        },
+        {
+          "src": "/listings/ACT4528946/07.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "A picture window frames backyard greenery above w"
+        },
+        {
+          "src": "/listings/ACT4528946/08.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "An inviting entryway welcomes guests with a hands"
+        },
+        {
+          "src": "/listings/ACT4528946/09.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "Warm wood cabinetry pairs with elegant stone coun"
+        },
+        {
+          "src": "/listings/ACT4528946/10.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "Warm wood cabinetry and modern appliances define"
+        },
+        {
+          "src": "/listings/ACT4528946/11.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "Natural wood cabinetry and custom tilework define"
+        },
+        {
+          "src": "/listings/ACT4528946/12.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "Gleaming tile backsplashes and warm wood cabinetr"
+        },
+        {
+          "src": "/listings/ACT4528946/13.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "Floating oak shelves and vertical tile accents cr"
+        },
+        {
+          "src": "/listings/ACT4528946/14.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "Gleaming tile backsplashes frame a modern undermo"
+        },
+        {
+          "src": "/listings/ACT4528946/15.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "Sleek built-in appliances and warm wood cabinetry"
+        },
+        {
+          "src": "/listings/ACT4528946/16.jpg",
+          "width": 2048,
+          "height": 1365,
+          "alt": "Natural wood cabinetry and sleek stone countertop"
+        },
+        {
+          "src": "/listings/ACT4528946/17.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "Angled ceilings and warm hardwood floors create a"
+        },
+        {
+          "src": "/listings/ACT4528946/18.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "A vaulted ceiling and warm wood flooring frame th"
+        },
+        {
+          "src": "/listings/ACT4528946/19.jpg",
+          "width": 2048,
+          "height": 1366,
+          "alt": "Natural light streams through multiple windows on"
+        }
+      ],
       "isSample": false
     },
     {
@@ -2591,7 +2712,7 @@
         "condo",
         "new-construction"
       ],
-      "status": "active",
+      "status": "pending",
       "price": 689000,
       "beds": 2,
       "baths": 2,
