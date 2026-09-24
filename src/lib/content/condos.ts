@@ -30,7 +30,7 @@ export type CondoBuilding = {
   exclusive?: boolean;
   unitsTotal?: number;
   unitsSold?: number;
-  unitTypes?: { name: string; sqft: number; price: number }[];
+  unitTypes?: { name: string; sqft: number; price?: number }[];
   parkingNote?: string;
   exclusiveNote?: string;
 };
@@ -55,10 +55,10 @@ export const CONDOS: CondoBuilding[] = [
     featured: true,
     exclusive: true,
     unitsTotal: 10,
-    unitsSold: 7,
+    unitsSold: 8,
     unitTypes: [
-      { name: "2 Bed / 1 Bath", sqft: 950, price: 519000 },
-      { name: "1 Bed + Loft", sqft: 850, price: 474000 },
+      { name: "2 Bed / 2 Bath", sqft: 950 },
+      { name: "1 Bed + Loft", sqft: 850 },
       { name: "1 Bedroom", sqft: 650, price: 389000 },
     ],
     parkingNote:

@@ -45,7 +45,9 @@ export default async function CondoPage({ params }: { params: Promise<{ slug: st
     c.status === "selling" ? "Now Selling" : c.status === "complete" ? "Complete" : "Established";
   const remaining =
     c.unitsTotal != null && c.unitsSold != null ? c.unitsTotal - c.unitsSold : undefined;
-  const priceFrom = c.unitTypes?.length ? Math.min(...c.unitTypes.map((u) => u.price)) : undefined;
+  const pricedUnits =
+    c.unitTypes?.map((u) => u.price).filter((p): p is number => p != null) ?? [];
+  const priceFrom = pricedUnits.length ? Math.min(...pricedUnits) : undefined;
 
   return (
     <>
@@ -141,7 +143,11 @@ export default async function CondoPage({ params }: { params: Promise<{ slug: st
                 <div className="mt-5 grid gap-4 sm:grid-cols-3">
                   {c.unitTypes.map((u) => (
                     <div key={u.name} className="rounded-[3px] border border-line bg-cream p-5">
-                      <div className="font-display font-num text-2xl text-ink">{usd(u.price)}</div>
+                      {u.price != null ? (
+                        <div className="font-display font-num text-2xl text-ink">{usd(u.price)}</div>
+                      ) : (
+                        <div className="font-display text-lg text-ink">Call for pricing</div>
+                      )}
                       <div className="font-label mt-1.5 text-[0.6rem] text-brass-deep">{u.name}</div>
                       <div className="font-num mt-2 text-sm text-muted">
                         {u.sqft.toLocaleString()} sq ft

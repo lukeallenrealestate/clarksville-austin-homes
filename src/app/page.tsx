@@ -34,9 +34,9 @@ export default async function HomePage() {
     clark && clark.unitsTotal != null && clark.unitsSold != null
       ? clark.unitsTotal - clark.unitsSold
       : undefined;
-  const clarkFrom = clark?.unitTypes?.length
-    ? Math.min(...clark.unitTypes.map((u) => u.price))
-    : undefined;
+  const clarkPrices =
+    clark?.unitTypes?.map((u) => u.price).filter((p): p is number => p != null) ?? [];
+  const clarkFrom = clarkPrices.length ? Math.min(...clarkPrices) : undefined;
 
   return (
     <>
