@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T16:43:44.302Z",
+  "generatedAt": "2026-10-01T17:18:24.254Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1066,11 +1066,10 @@
       "propertyType": "single-family",
       "categories": [
         "single-family",
-        "luxury",
         "bungalow"
       ],
       "status": "active",
-      "price": 2100000,
+      "price": 1895000,
       "beds": 4,
       "baths": 3.5,
       "sqft": 2769,
