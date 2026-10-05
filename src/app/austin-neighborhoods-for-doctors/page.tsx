@@ -240,6 +240,13 @@ export default function DoctorsPage() {
               </div>
             ))}
           </dl>
+          <p className="mt-12 text-sm leading-relaxed text-ink-soft">
+            Relocating from out of state?{" "}
+            <Link href="/moving-to-austin-from-california" className="font-semibold text-brass-deep underline">
+              Moving to Austin from California
+            </Link>{" "}
+            covers the move to Clarksville end to end.
+          </p>
         </Container>
       </section>
     </>
