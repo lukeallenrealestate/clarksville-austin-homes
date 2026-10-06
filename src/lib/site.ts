@@ -152,6 +152,7 @@ export const NAV: NavItem[] = [
   { href: "/moving-to-austin-from-california", label: "Moving from California", group: "transact", inNav: false },
   { href: "/clarksville-property-taxes", label: "Property Taxes", group: "transact", inNav: false },
   { href: "/best-time-to-buy-or-sell-clarksville", label: "Best Time to Buy or Sell", group: "transact", inNav: false },
+  { href: "/cost-to-sell-a-home-in-clarksville", label: "Cost to Sell", group: "transact", inNav: false },
   { href: "/buying-in-clarksville", label: "Buying Guide", group: "transact", inNav: false },
   { href: "/clarksville-listing-agent", label: "Sell Your Home", short: "Sell", group: "transact", inNav: true },
   { href: "/sell-your-clarksville-home", label: "Selling Guide", group: "transact", inNav: false },

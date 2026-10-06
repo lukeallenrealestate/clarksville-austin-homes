@@ -237,7 +237,11 @@ export default function MarketTimingPage() {
             <Link href="/what-is-my-clarksville-home-worth" className="font-semibold text-brass-deep underline">
               Clarksville home valuation
             </Link>
-            , or read how Luke sells on the{" "}
+            , what it{" "}
+            <Link href="/cost-to-sell-a-home-in-clarksville" className="font-semibold text-brass-deep underline">
+              costs to sell
+            </Link>
+            , or how Luke sells on the{" "}
             <Link href="/clarksville-listing-agent" className="font-semibold text-brass-deep underline">
               listing agent
             </Link>{" "}
