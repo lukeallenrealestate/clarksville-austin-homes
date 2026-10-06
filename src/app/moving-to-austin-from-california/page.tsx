@@ -244,7 +244,11 @@ export default function MovingFromCaliforniaPage() {
             An honest note on taxes: Texas trades income tax for a higher property tax rate than
             California. With no tax on what you earn, plus a homestead exemption on your primary
             residence, most high-earning households relocating from California still come out ahead,
-            but you should run your own numbers before you move.
+            but you should run your own numbers before you move. See the full breakdown in the{" "}
+            <Link href="/clarksville-property-taxes" className="underline hover:text-brass">
+              Clarksville property taxes
+            </Link>{" "}
+            guide.
           </p>
         </Container>
       </section>
