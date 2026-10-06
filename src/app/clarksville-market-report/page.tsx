@@ -5,6 +5,7 @@ import { articleSchema, faqSchema } from "@/lib/schema";
 import { PageHero } from "@/components/PageHero";
 import { Container, Eyebrow, SectionHeading, Stat } from "@/components/ui";
 import { FaqSection } from "@/components/FaqSection";
+import Link from "next/link";
 import { RelatedLinks } from "@/components/RelatedLinks";
 import { ContactCta } from "@/components/ContactCta";
 import { fmtDate, getGuide } from "@/lib/content/guides";
@@ -75,7 +76,10 @@ export default function MarketReportPage() {
               toward condos, and only a handful of homes may close in a given month. That is why
               estimates range from about $1.1 million to $1.6 million depending on what is being
               measured. Below is each credible read, labeled by source, date, and how much to trust
-              it.
+              it. Wondering what it means for your move?{" "}
+              <Link href="/best-time-to-buy-or-sell-clarksville" className="font-semibold text-brass-deep underline">
+                Is now a good time to buy or sell in Clarksville?
+              </Link>
             </p>
           </div>
 
