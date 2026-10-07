@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T17:04:28.966Z",
+  "generatedAt": "2026-10-07T17:42:44.311Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -375,7 +375,7 @@
         "bungalow"
       ],
       "status": "active",
-      "price": 3650000,
+      "price": 3600000,
       "beds": 5,
       "baths": 4,
       "sqft": 3651,
@@ -1873,7 +1873,7 @@
       "categories": [
         "single-family"
       ],
-      "status": "active",
+      "status": "pending",
       "price": 1150000,
       "beds": 3,
       "baths": 3.5,
@@ -3063,156 +3063,6 @@
       "isSample": false
     },
     {
-      "id": "ACT7300115",
-      "slug": "1406-windsor-rd-305-305",
-      "address": "1406  Windsor Rd  #305",
-      "unit": "Unit 305",
-      "propertyType": "condo",
-      "categories": [
-        "condo"
-      ],
-      "status": "active",
-      "price": 400000,
-      "beds": 2,
-      "baths": 2,
-      "sqft": 1007,
-      "yearBuilt": 1982,
-      "lotSizeAcres": 0.04,
-      "listDate": "2025-04-30",
-      "description": "Minutes from Downtown, Lady Bird Lake and Austin’s iconic hike and bike trails, perfect for morning runs or leisurely sunset strolls. Enjoy world-class dining at award-winning neighborhood favorites like Jeffrey’s and Cipollina, both just around the corner. Explore the cultural and educational heartbeat of the city at the nearby University of Texas or stroll to the majestic Texas State Capitol, all within easy reach.\n\nPerched on the third floor with peekaboo views of the downtown skyline and UT Tower, this home perfectly balances serene comfort with vibrant city access. a sophisticated two-bedroom, two-bath condominium offering effortless city living in one of Central Austin’s most sought-after neighborhoods. Two reserved parking spaces, a rare luxury in this prime location, make coming and going seamless. Step outside your door and enjoy the pool and grilling area for owners. \n\nInside, you’ll find a thoughtful layout ideal for entertaining or quiet relaxation, with spacious bedrooms, updated baths, and an open-living concept.\n\nWhether you're looking for a vibrant home base in the city or a lock-and-leave lifestyle, this property delivers on every level with location and convenience.",
-      "listOffice": "eXp Realty, LLC",
-      "listAgent": "David  Pruitt",
-      "hoaFee": 426,
-      "hoaFrequency": "Monthly",
-      "geo": {
-        "lat": 30.27987069,
-        "lng": -97.75391186
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT7300115/00.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Living room featuring track lighting, ceiling fan"
-        },
-        {
-          "src": "/listings/ACT7300115/01.jpg",
-          "width": 531,
-          "height": 354,
-          "alt": "Property's view of city"
-        },
-        {
-          "src": "/listings/ACT7300115/02.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Living room with rail lighting, ceiling fan, base"
-        },
-        {
-          "src": "/listings/ACT7300115/03.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Living area with baseboards, a glass covered fire"
-        },
-        {
-          "src": "/listings/ACT7300115/04.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Living room featuring concrete flooring and a fir"
-        },
-        {
-          "src": "/listings/ACT7300115/05.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Kitchen with a breakfast bar, recessed lighting,"
-        },
-        {
-          "src": "/listings/ACT7300115/06.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Living room with baseboards and concrete floors"
-        },
-        {
-          "src": "/listings/ACT7300115/07.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Living room featuring finished concrete floors, c"
-        },
-        {
-          "src": "/listings/ACT7300115/08.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Dining space featuring baseboards and finished co"
-        },
-        {
-          "src": "/listings/ACT7300115/09.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Kitchen with a sink, concrete flooring, a kitchen"
-        },
-        {
-          "src": "/listings/ACT7300115/10.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Bar with rail lighting, visible vents, baseboards"
-        },
-        {
-          "src": "/listings/ACT7300115/11.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Kitchen with light stone countertops, decorative"
-        },
-        {
-          "src": "/listings/ACT7300115/12.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Kitchen with white cabinets, visible vents, appli"
-        },
-        {
-          "src": "/listings/ACT7300115/13.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Kitchen with light stone countertops, ceiling fan"
-        },
-        {
-          "src": "/listings/ACT7300115/14.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Dining space with plenty of natural light, finish"
-        },
-        {
-          "src": "/listings/ACT7300115/15.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Dining space featuring a wealth of natural light"
-        },
-        {
-          "src": "/listings/ACT7300115/16.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406  Windsor Rd  #305, Clarksville, Austin, photo 17"
-        },
-        {
-          "src": "/listings/ACT7300115/17.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Hallway with french doors and baseboards"
-        },
-        {
-          "src": "/listings/ACT7300115/18.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Living area with visible vents, french doors, and"
-        },
-        {
-          "src": "/listings/ACT7300115/19.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "1406  Windsor Rd  #305, Clarksville, Austin, photo 20"
-        }
-      ],
-      "isSample": false
-    },
-    {
       "id": "ACT8564841",
       "slug": "1210-windsor-rd-209-209",
       "address": "1210  Windsor Rd  #209",
@@ -3663,144 +3513,6 @@
       "isSample": false
     },
     {
-      "id": "ACT5376892",
-      "slug": "1208-enfield-rd-104-104",
-      "address": "1208  Enfield Rd  #104",
-      "unit": "Unit 104",
-      "propertyType": "condo",
-      "categories": [
-        "condo"
-      ],
-      "status": "active",
-      "price": 360000,
-      "beds": 1,
-      "baths": 1,
-      "sqft": 705,
-      "yearBuilt": 1965,
-      "lotSizeAcres": 0,
-      "listDate": "2026-08-26",
-      "description": "Introducing a coveted ground-floor back corner unit at The Miriam, a midcentury-chic Clarksville community in one of Central Austin’s most beloved neighborhoods. Tucked into the back of the complex away from the buzz of Enfield Road, this 1-bedroom, 1-bath residence offers a quieter, more private setting while keeping you right in the middle of everything Clarksville has to offer. With 705 square feet, the thoughtfully designed interior features an open floorplan, nice natural light, no carpet, stone countertops, recessed lighting, built-in features, and a spacious walk-in closet. The kitchen offers playful pops of color, stainless steel appliances, ample storage, and an open connection to the living and dining areas, creating an easy, functional layout that lives larger than its footprint.\n\nBuilt in 1965, yet fully updated, The Miriam retains its distinctive midcentury character with clean architectural lines, colorful accents, and an intimate community feel. As a ground-floor corner residence, Unit 104 offers the convenience of single-level living with no stairs and a desirable position within the complex.\n\nThe location is quintessential Clarksville, walk to Josephine House, Jeffrey’s, Fresh Plus, Taco Flats, and the shops and dining along West Lynn, with Downtown Austin, Lady Bird Lake, Pease Park, and the Hike-and-Bike Trail all nearby. One parking space and in-unit washer and dryer add everyday convenience. Stylish, low-maintenance, and incredibly well located, this is a rare opportunity to own a ground-floor corner residence in the heart of one of Austin’s most beloved neighborhoods.",
-      "listOffice": "Brodsky Properties",
-      "listAgent": "Abbie Pilgrim",
-      "hoaFee": 220,
-      "hoaFrequency": "Monthly",
-      "geo": {
-        "lat": 30.28120761,
-        "lng": -97.7545151
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT5376892/00.jpg",
-          "width": 941,
-          "height": 626,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 1"
-        },
-        {
-          "src": "/listings/ACT5376892/01.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 2"
-        },
-        {
-          "src": "/listings/ACT5376892/02.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 3"
-        },
-        {
-          "src": "/listings/ACT5376892/03.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 4"
-        },
-        {
-          "src": "/listings/ACT5376892/04.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 5"
-        },
-        {
-          "src": "/listings/ACT5376892/05.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 6"
-        },
-        {
-          "src": "/listings/ACT5376892/06.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 7"
-        },
-        {
-          "src": "/listings/ACT5376892/07.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 8"
-        },
-        {
-          "src": "/listings/ACT5376892/08.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 9"
-        },
-        {
-          "src": "/listings/ACT5376892/09.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 10"
-        },
-        {
-          "src": "/listings/ACT5376892/10.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 11"
-        },
-        {
-          "src": "/listings/ACT5376892/11.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 12"
-        },
-        {
-          "src": "/listings/ACT5376892/12.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 13"
-        },
-        {
-          "src": "/listings/ACT5376892/13.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 14"
-        },
-        {
-          "src": "/listings/ACT5376892/14.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 15"
-        },
-        {
-          "src": "/listings/ACT5376892/15.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 16"
-        },
-        {
-          "src": "/listings/ACT5376892/16.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 17"
-        },
-        {
-          "src": "/listings/ACT5376892/17.jpg",
-          "width": 2048,
-          "height": 1363,
-          "alt": "1208  Enfield Rd  #104, Clarksville, Austin, photo 18"
-        }
-      ],
-      "isSample": false
-    },
-    {
       "id": "ACT7472308",
       "slug": "807-blanco-st-204-204",
       "address": "807  Blanco St  #204",
@@ -4096,6 +3808,306 @@
           "width": 2048,
           "height": 1365,
           "alt": "Rich wood cabinetry and clean quartz countertops"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT9163977",
+      "slug": "1503-w-9th-st-204-204",
+      "address": "1503 W 9th St  #204",
+      "unit": "Unit 204",
+      "propertyType": "condo",
+      "categories": [
+        "condo"
+      ],
+      "status": "active",
+      "price": 275000,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 570,
+      "yearBuilt": 1966,
+      "lotSizeAcres": 0.0172,
+      "listDate": "2026-10-07",
+      "description": "Located in the heart of historic Clarksville, one of Austin’s most charming and walkable neighborhoods, this move-in ready 1-bedroom, 1-bath condo offers a rare opportunity to own in the coveted 78703 zip code. Positioned on the second floor of a boutique 12-unit mid-century garden-style complex, the home welcomes you with a serene, landscaped courtyard and light-filled, thoughtfully designed interiors.\n\nInside, vaulted ceilings, real tongue-and-groove hardwood floors, and expansive windows create an airy, inviting atmosphere. The open-concept kitchen and living area is ideal for both everyday living and entertaining, featuring Silestone countertops, a glass tile backsplash, stainless steel appliances, and a full appliance package that conveys. The spacious bedroom offers a quiet retreat with a walk-in closet, while the efficient layout maximizes comfort and livability.\n\nAdditional highlights include a dedicated parking space and a true lock-and-leave lifestyle, perfect for professionals, students, or investors. Just steps from Clarksville Park, Jeffrey’s, Josephine House, Fresh Plus Grocery, and some of Austin’s most beloved restaurants, coffee shops, and boutiques, and minutes to downtown, UT, and Lady Bird Lake, this location delivers the best of central Austin living.\n\nWhether you’re a first-time buyer, investor, or searching for a pied-&#224;-terre, this is a rare chance to own in Clarksville at a price point that’s increasingly hard to find.\n\n*Minimum lease term 6 months. HOA prohibits transient or hotel-type use, so Airbnb/short-term rentals are not allowed*",
+      "listOffice": "Gottesman Residential R.E.",
+      "listAgent": "Ashley Southerland",
+      "hoaFee": 384,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27675561,
+        "lng": -97.75977454
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT9163977/00.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Gleaming hardwood floors and a modern open layout"
+        },
+        {
+          "src": "/listings/ACT9163977/01.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Panoramic neighborhood views showcase the impress"
+        },
+        {
+          "src": "/listings/ACT9163977/02.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "An inviting shared courtyard features clean concr"
+        },
+        {
+          "src": "/listings/ACT9163977/03.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Rich hardwood floors anchor this inviting, open-p"
+        },
+        {
+          "src": "/listings/ACT9163977/04.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Rich hardwood floors anchor this open-concept lay"
+        },
+        {
+          "src": "/listings/ACT9163977/05.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Rich hardwood floors anchor this light-filled kit"
+        },
+        {
+          "src": "/listings/ACT9163977/06.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Rich hardwood floors anchor this modern galley ki"
+        },
+        {
+          "src": "/listings/ACT9163977/07.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Rich hardwood flooring anchors the open kitchen a"
+        },
+        {
+          "src": "/listings/ACT9163977/08.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Rich hardwood floors anchor this versatile living"
+        },
+        {
+          "src": "/listings/ACT9163977/09.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Rich hardwood floors contrast beautifully with cl"
+        },
+        {
+          "src": "/listings/ACT9163977/10.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Rich hardwood flooring and high vaulted ceilings"
+        },
+        {
+          "src": "/listings/ACT9163977/11.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Rich hardwood flooring anchors this inviting bedr"
+        },
+        {
+          "src": "/listings/ACT9163977/12.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Rich hardwood floors and vaulted ceilings frame a"
+        },
+        {
+          "src": "/listings/ACT9163977/13.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Crisp finishes and timeless subway tile elevate t"
+        },
+        {
+          "src": "/listings/ACT9163977/14.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "A wooden walkway leads to the private entrance of"
+        },
+        {
+          "src": "/listings/ACT9163977/15.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "A spacious concrete courtyard offers a secluded o"
+        },
+        {
+          "src": "/listings/ACT9163977/16.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Mature trees shade a paved driveway and functiona"
+        },
+        {
+          "src": "/listings/ACT9163977/17.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Mature trees frame a classic mid-century structur"
+        },
+        {
+          "src": "/listings/ACT9163977/18.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Mature trees frame the exterior of this multi-uni"
+        },
+        {
+          "src": "/listings/ACT9163977/19.jpg",
+          "width": 2000,
+          "height": 1500,
+          "alt": "Mature trees shade the concrete driveway and priv"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT5321910",
+      "slug": "1111-w-10th-st-203-203",
+      "address": "1111 W 10th St  #203",
+      "unit": "Unit 203",
+      "propertyType": "condo",
+      "categories": [
+        "condo"
+      ],
+      "status": "active",
+      "price": 225000,
+      "beds": 0,
+      "baths": 1,
+      "sqft": 300,
+      "yearBuilt": 1972,
+      "lotSizeAcres": 0.0141,
+      "listDate": "2026-09-23",
+      "description": "Tidy studio condominium in excellent central Austin neighborhood. Small 2 story condo building in quiet refined neighborbood only 2 blocks from the historic Austin castle. Walkable and bikeable to main Whole Foods Market Headquarters/Store at 6th and Lamar and downtown Austin district and The University of Austin as well as many other central Austin areas and Zilker Park/Barton Springs pool and many central neighborhoods.",
+      "listOffice": "Dana Fadal Realty",
+      "listAgent": "Dana Fadal",
+      "hoaFee": 225,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27523985,
+        "lng": -97.75430226
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT5321910/00.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT5321910/01.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT5321910/02.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT5321910/03.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT5321910/04.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT5321910/05.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT5321910/06.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT5321910/07.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT5321910/08.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT5321910/09.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT5321910/10.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT5321910/11.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT5321910/12.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT5321910/13.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT5321910/14.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT5321910/15.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT5321910/16.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT5321910/17.jpg",
+          "width": 1536,
+          "height": 2048,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT5321910/18.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT5321910/19.jpg",
+          "width": 2048,
+          "height": 1536,
+          "alt": "1111 W 10th St  #203, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
