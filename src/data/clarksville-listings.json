@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T17:42:44.311Z",
+  "generatedAt": "2026-10-08T17:47:15.152Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1275,7 +1275,7 @@
         "single-family",
         "bungalow"
       ],
-      "status": "pending",
+      "status": "active",
       "price": 1750000,
       "beds": 4,
       "baths": 3.5,
@@ -1860,6 +1860,148 @@
           "width": 2048,
           "height": 1365,
           "alt": "1010 W 10th St  #302, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT2241024",
+      "slug": "1120-w-7th-st",
+      "address": "1120 W 7th St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 1274900,
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1602,
+      "yearBuilt": 1910,
+      "lotSizeAcres": 0.125,
+      "listDate": "2026-10-08",
+      "description": "A rare expression of old Austin character, 1120 W 7th Street captures the enduring romance of Clarksville through the lens of modern living. Dating to the 1910s, this gracious residence pairs the soul and patina of a historic home with thoughtful contemporary updates, creating an atmosphere that feels collected, sophisticated, and unmistakably Austin.\n\nOriginal architectural character provides the foundation, while warm hardwood floors, plantation shutters, and abundant natural light bring an effortless sense of warmth throughout. The kitchen is a beautiful study in contrast, historic charm elevated by quartzite countertops and sleek black stainless-steel appliances. The flexible floor plan allows rooms to evolve naturally, whether as intimate sitting rooms, private offices, guest spaces, or gathering areas.\n\nThe primary suite occupies the second level, where an elegantly updated bath offers a moment of retreat with a jetted soaking tub, walk-in shower, and generous walk-in closet. Downstairs, a classic clawfoot tub introduces another quiet touch of nostalgia. Outside, a newly constructed covered patio extends the living spaces, overlooking a generous backyard with exceptional potential for a private pool and landscaped garden sanctuary.\n\nAnd then there is the setting. Positioned in one of Austin's most coveted neighborhoods, this is Clarksville at its most quintessential: tree-lined streets, historic homes, and an extraordinary collection of local institutions just beyond the front door. Walk to Clark's, Sweetish Hill, Barry's, Whole Foods, and the trails and waterfront of Lady Bird Lake, with downtown Austin moments away.\n\nMore than a historic home, 1120 W 7th Street is a piece of Austin's architectural legacy, beautifully preserved, thoughtfully evolved, and perfectly positioned for the way the city is lived today.",
+      "listOffice": "Moreland Properties",
+      "listAgent": "Stewart Shank",
+      "geo": {
+        "lat": 30.27385778,
+        "lng": -97.75593006
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT2241024/00.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT2241024/01.jpg",
+          "width": 1182,
+          "height": 664,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT2241024/02.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT2241024/03.jpg",
+          "width": 1082,
+          "height": 726,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT2241024/04.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT2241024/05.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT2241024/06.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT2241024/07.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT2241024/08.jpg",
+          "width": 1085,
+          "height": 724,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT2241024/09.jpg",
+          "width": 1085,
+          "height": 724,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT2241024/10.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT2241024/11.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT2241024/12.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT2241024/13.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT2241024/14.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT2241024/15.jpg",
+          "width": 1084,
+          "height": 724,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT2241024/16.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT2241024/17.jpg",
+          "width": 1086,
+          "height": 724,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT2241024/18.jpg",
+          "width": 1085,
+          "height": 723,
+          "alt": "1120 W 7th St, Clarksville, Austin, photo 19"
         }
       ],
       "isSample": false
