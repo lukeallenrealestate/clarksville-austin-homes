@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T17:22:42.642Z",
+  "generatedAt": "2026-10-10T16:08:23.285Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -359,6 +359,156 @@
           "width": 1200,
           "height": 900,
           "alt": "1006  Baylor St  #303, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT5262167",
+      "slug": "1104-maufrais-st",
+      "address": "1104  Maufrais St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "luxury",
+        "new-construction",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 3499999,
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3651,
+      "yearBuilt": 2026,
+      "lotSizeAcres": 0.1552,
+      "listDate": "2026-10-09",
+      "description": "Welcome to 1104 Maufrais, a Modern New Construction Home in the heart of Clarksville, built by Vinson Radke Homes. This residence showcases exquisite architecture, luxurious finishes and thoughtful layout. Designed with family living in mind, this sun-filled residence offers a seamless blend of elegance and functionality. Featuring 5 bedrooms and 4-bathrooms, this home offers ample space for both relaxation and entertainment. Could also be utilized as 3 Bedroom and 2 Offices. This 3651 sq ft single family home has alley access with garage apartment (1 Bed 1 Bath) to use for extra space or income producing opportunities! Designed with a focus on clarksville’s bungalow charm mixed with today’s modern luxury deems this project The Shades of Bungalow. One block from West Austin Dog Park that is getting expansive renovation to the playground, walkways, dog run and amenities.Conveniently located within walking distance to popular eateries along West Lynn- Josephine House, Jeffrey’s, Galaxy Cafe, Medici Coffee & Howler Brother HQ to name a few. Room for a Pool.",
+      "listOffice": "LPT Realty LLC - Ascend Group",
+      "listAgent": "Laura Vinson",
+      "geo": {
+        "lat": 30.27883453,
+        "lng": -97.75727802
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT5262167/00.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Modern architecture with clean lines and large wi"
+        },
+        {
+          "src": "/listings/ACT5262167/01.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "A modern facade with varied materials and sharp l"
+        },
+        {
+          "src": "/listings/ACT5262167/02.jpg",
+          "width": 1500,
+          "height": 998,
+          "alt": "Modern architecture showcases towering windows an"
+        },
+        {
+          "src": "/listings/ACT5262167/03.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "An inviting covered patio with a paved surface ex"
+        },
+        {
+          "src": "/listings/ACT5262167/04.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "A modern garage with an upper-level dormer provid"
+        },
+        {
+          "src": "/listings/ACT5262167/05.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "A striking modern entryway features a wooden ceil"
+        },
+        {
+          "src": "/listings/ACT5262167/06.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Culinary aspirations meet sophisticated design in"
+        },
+        {
+          "src": "/listings/ACT5262167/07.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Blonde hardwood floors extend across this versati"
+        },
+        {
+          "src": "/listings/ACT5262167/08.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "A well-lit kitchen with sleek wooden cabinetry an"
+        },
+        {
+          "src": "/listings/ACT5262167/09.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "An inviting kitchen with a central island and a b"
+        },
+        {
+          "src": "/listings/ACT5262167/10.jpg",
+          "width": 1600,
+          "height": 1064,
+          "alt": "Marble countertops and a gold faucet create a ref"
+        },
+        {
+          "src": "/listings/ACT5262167/11.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Floor-to-ceiling windows illuminate this expansiv"
+        },
+        {
+          "src": "/listings/ACT5262167/12.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Floor-to-ceiling windows and a fireplace define t"
+        },
+        {
+          "src": "/listings/ACT5262167/13.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Blonde wood flooring unifies the open-concept liv"
+        },
+        {
+          "src": "/listings/ACT5262167/14.jpg",
+          "width": 1536,
+          "height": 1024,
+          "alt": "Well-lit living room offers a sleek fireplace, bu"
+        },
+        {
+          "src": "/listings/ACT5262167/15.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "A spacious room offers ample natural light throug"
+        },
+        {
+          "src": "/listings/ACT5262167/16.jpg",
+          "width": 1248,
+          "height": 832,
+          "alt": "A well-appointed home office boasts built-in shel"
+        },
+        {
+          "src": "/listings/ACT5262167/17.jpg",
+          "width": 1500,
+          "height": 1000,
+          "alt": "Light wood flooring and bright white walls create"
+        },
+        {
+          "src": "/listings/ACT5262167/18.jpg",
+          "width": 1600,
+          "height": 1064,
+          "alt": "A well-appointed bathroom features a striking mar"
+        },
+        {
+          "src": "/listings/ACT5262167/19.jpg",
+          "width": 1600,
+          "height": 1064,
+          "alt": "Blonde wood stairs lead to upper levels, compleme"
         }
       ],
       "isSample": false
@@ -2761,156 +2911,6 @@
       "isSample": false
     },
     {
-      "id": "ACT1653995",
-      "slug": "1115-w-10th-st-205-205",
-      "address": "1115 W 10th St  #205",
-      "unit": "Unit 205",
-      "propertyType": "condo",
-      "categories": [
-        "condo"
-      ],
-      "status": "pending",
-      "price": 425000,
-      "beds": 2,
-      "baths": 2,
-      "sqft": 1251,
-      "yearBuilt": 1972,
-      "lotSizeAcres": 0.042,
-      "listDate": "2026-03-26",
-      "description": "Downtown Austin living, close to everything and an exceptional value in highly sought-after Clarksville. This charming top-floor, end-unit condo offers 2 bedrooms, 2 bathrooms plus a bonus/flex room and 1,251 sq. ft. of light-filled living space, blending peaceful, tree-lined surroundings with incredible walkability. Walk to some of Austin’s favorite destinations, including Whole Foods Market, BookPeople, Waterloo Records, Desnudo Coffee and Josephine House, while downtown, Lady Bird Lake, Pease Park, hike-and-bike trails and West Austin Neighborhood Park are all just minutes away. The versatile floor plan offers two separate living areas, with the bonus space ideal for an office, den or additional living area. Thoughtfully positioned on opposite sides of the condo, each bedroom and bath enjoys its own sense of privacy, perfect for owners and overnight guests. The remodeled kitchen features two skylights that bring in beautiful natural light, while hardwood floors and abundant windows add warmth throughout the home. Recent updates also include a remodeled primary bathroom and fresh interior paint. Both bedrooms feature spacious walk-in closets, and a full-size in-unit washer and dryer adds everyday convenience. Step onto the balcony to enjoy peaceful, tree-lined surroundings and beautiful sunset views, an unexpected retreat in the heart of the city. A major downtown bonus: two dedicated parking spaces legally convey with the condo, plus plentiful additional parking for residents and guests. HOA dues cover water, gas and trash, leaving only electricity for the owner to pay, typically approximately $70, $120 per month. Located in historic Old West Austin, this home offers a rare combination of location, space, parking, walkability and value, with the best of Austin right outside your door. Furniture is also available for purchase.",
-      "listOffice": "iTrust Realty, LLC",
-      "listAgent": "Lisa Danielson",
-      "hoaFee": 518.16,
-      "hoaFrequency": "Monthly",
-      "geo": {
-        "lat": 30.27549428,
-        "lng": -97.75484875
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT1653995/00.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Kitchen featuring stainless steel appliances, lig"
-        },
-        {
-          "src": "/listings/ACT1653995/01.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Kitchen with stainless steel appliances, light wo"
-        },
-        {
-          "src": "/listings/ACT1653995/02.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Kitchen featuring stainless steel appliances, dar"
-        },
-        {
-          "src": "/listings/ACT1653995/03.jpg",
-          "width": 2048,
-          "height": 1536,
-          "alt": "Private balcony with concrete flooring, black met"
-        },
-        {
-          "src": "/listings/ACT1653995/04.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Living room with rail lighting and light wood-typ"
-        },
-        {
-          "src": "/listings/ACT1653995/05.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Living area featuring light wood-style floors and"
-        },
-        {
-          "src": "/listings/ACT1653995/06.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Office space featuring light wood finished floors"
-        },
-        {
-          "src": "/listings/ACT1653995/07.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Living room featuring light wood finished floors"
-        },
-        {
-          "src": "/listings/ACT1653995/08.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Bathroom with vanity, a stall shower, and connect"
-        },
-        {
-          "src": "/listings/ACT1653995/09.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Full bath with vanity, a shower with shower curta"
-        },
-        {
-          "src": "/listings/ACT1653995/10.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "View of balcony"
-        },
-        {
-          "src": "/listings/ACT1653995/11.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Home office with light wood-style flooring and re"
-        },
-        {
-          "src": "/listings/ACT1653995/12.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Bedroom with light colored carpet, a ceiling fan,"
-        },
-        {
-          "src": "/listings/ACT1653995/13.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Bedroom with light carpet, a ceiling fan, recesse"
-        },
-        {
-          "src": "/listings/ACT1653995/14.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Bathroom featuring vanity, a walk in closet, curt"
-        },
-        {
-          "src": "/listings/ACT1653995/15.jpg",
-          "width": 1536,
-          "height": 2048,
-          "alt": "Bedroom featuring carpet floors and recessed ligh"
-        },
-        {
-          "src": "/listings/ACT1653995/16.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Bathroom featuring vanity, a shower with curtain,"
-        },
-        {
-          "src": "/listings/ACT1653995/17.jpg",
-          "width": 1500,
-          "height": 2000,
-          "alt": "Dedicated laundry closet featuring stacked white"
-        },
-        {
-          "src": "/listings/ACT1653995/18.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "View of apartment building / complex with uncover"
-        },
-        {
-          "src": "/listings/ACT1653995/19.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Property entrance featuring a shingled roof"
-        }
-      ],
-      "isSample": false
-    },
-    {
       "id": "ACT7831367",
       "slug": "606-w-lynn-st-13-13",
       "address": "606 W Lynn St  #13",
@@ -3220,7 +3220,7 @@
         "condo"
       ],
       "status": "active",
-      "price": 399000,
+      "price": 379000,
       "beds": 2,
       "baths": 2,
       "sqft": 1048,
