@@ -140,6 +140,7 @@ export const NAV: NavItem[] = [
   { href: "/clarksville-schools", label: "Schools", group: "neighborhood", inNav: false },
   { href: "/clarksville-architecture", label: "Architecture", group: "neighborhood", inNav: false },
   { href: "/living-in-clarksville", label: "Living in Clarksville", group: "neighborhood", inNav: false },
+  { href: "/a-day-in-clarksville", label: "A Day in Clarksville", group: "neighborhood", inNav: false },
   { href: "/clarksville-landmarks", label: "Historic Landmarks", group: "neighborhood", inNav: false },
   { href: "/story-of-clarksville", label: "The Story of Clarksville", group: "neighborhood", inNav: false },
   { href: "/clarksville-home-styles", label: "Home Styles", group: "neighborhood", inNav: false },

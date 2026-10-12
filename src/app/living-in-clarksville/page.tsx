@@ -115,6 +115,11 @@ export default function LivingInClarksville() {
             The best measure of a neighborhood is not its listings. It is the shape of an ordinary
             Tuesday.
           </p>
+          <p className="mt-6 text-sm text-ink-soft">
+            <Link href="/a-day-in-clarksville" className="font-semibold text-brass-deep underline">
+              Walk an ordinary day in Clarksville, hour by hour.
+            </Link>
+          </p>
         </Container>
       </section>
 
