@@ -15,6 +15,11 @@ export const LINKS: Record<string, RelatedLink> = {
     title: "Architecture & landmark rules",
     blurb: "Bungalows, cottages, infill, and what you can change.",
   },
+  buyingHistoric: {
+    href: "/buying-a-historic-home-in-clarksville",
+    title: "Buying a historic home",
+    blurb: "A buyer's due-diligence guide: foundations, systems, status, and inspections.",
+  },
   dining: {
     href: "/clarksville-restaurants",
     title: "Dining on West Lynn",
