@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T14:21:09.915Z",
+  "generatedAt": "2026-10-19T17:22:19.293Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1721,7 +1721,7 @@
         "condo"
       ],
       "status": "active",
-      "price": 1325000,
+      "price": 1275000,
       "beds": 3,
       "baths": 2.5,
       "sqft": 2077,
@@ -2464,7 +2464,7 @@
       "categories": [
         "single-family"
       ],
-      "status": "active",
+      "status": "pending",
       "price": 699000,
       "beds": 2,
       "baths": 1.5,
