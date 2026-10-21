@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T15:35:04.200Z",
+  "generatedAt": "2026-10-21T15:52:21.405Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1116,6 +1116,115 @@
       "isSample": false
     },
     {
+      "id": "ACT8767914",
+      "slug": "300-pressler-st-412-412",
+      "address": "300  Pressler St  #412",
+      "unit": "Unit 412",
+      "propertyType": "condo",
+      "categories": [
+        "condo",
+        "new-construction"
+      ],
+      "status": "active",
+      "price": 1979000,
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1452,
+      "yearBuilt": 2027,
+      "lotSizeAcres": 3.23,
+      "listDate": "2026-10-20",
+      "description": "Be the first to experience Texas’ first Viceroy residential offering. Developed by visionary firm Pearlstone Partners, this boutique community is currently under construction with completion anticipated in late 2027, pairing legendary five-star hospitality with exceptional architectural pedigree. Enviably situated along Pressler Street between downtown Austin and historic Clarksville, the location offers the ultimate balance of vibrant city energy and neighborhood tranquility. Outdoor lovers will celebrate direct, effortless access to Lady Bird Lake and the scenic Ann and Roy Butler Hike-and-Bike Trail right outside the door. Inside, custom interiors curated by acclaimed Kim Lewis Design showcase rich organic textures, tailored finishes, and refined modern warmth. The residence features an open, light-filled layout accentuated by high ceilings, bespoke cabinetry, and seamless indoor-outdoor living. Owners will enjoy world-class amenities, including a 75-foot resort lap pool, wellness and fitness studios, poolside bar, and dedicated concierge services. With construction well underway and completion planned for late 2027, this is an opportunity to secure a residence now in one of Austin’s most anticipated new developments. Do not miss this exclusive first look at a turnkey sanctuary connecting lakeside nature with central Austin sophistication.",
+      "listOffice": "Christies Intl Real Estate Lone Star",
+      "listAgent": "Georgia Spiropoulos",
+      "hoaFee": 1408.44,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27157173,
+        "lng": -97.76158629
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT8767914/00.jpg",
+          "width": 2048,
+          "height": 1097,
+          "alt": "Rich wood paneling, ornate crown molding, and cus"
+        },
+        {
+          "src": "/listings/ACT8767914/01.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "A glass sliding door opens to a private balcony s"
+        },
+        {
+          "src": "/listings/ACT8767914/02.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "A modern multi-story residential building borders"
+        },
+        {
+          "src": "/listings/ACT8767914/03.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "A spacious culinary space features custom wood ca"
+        },
+        {
+          "src": "/listings/ACT8767914/04.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Gleaming wood floors complement sleek custom cabi"
+        },
+        {
+          "src": "/listings/ACT8767914/05.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Rich dark wood cabinetry and stone countertops el"
+        },
+        {
+          "src": "/listings/ACT8767914/06.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Towering floor-to-ceiling windows frame dramatic"
+        },
+        {
+          "src": "/listings/ACT8767914/07.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Floor-to-ceiling windows frame dramatic skyline v"
+        },
+        {
+          "src": "/listings/ACT8767914/08.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Floor-to-ceiling windows frame striking urban vis"
+        },
+        {
+          "src": "/listings/ACT8767914/09.jpg",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Modern mid-rise residential architecture seamless"
+        },
+        {
+          "src": "/listings/ACT8767914/10.jpg",
+          "width": 1668,
+          "height": 943,
+          "alt": "Rich wood cabinetry and stone countertops anchor"
+        },
+        {
+          "src": "/listings/ACT8767914/11.jpg",
+          "width": 1920,
+          "height": 1080,
+          "alt": "A sleek lap pool sits beneath a modern architectu"
+        },
+        {
+          "src": "/listings/ACT8767914/12.jpg",
+          "width": 1672,
+          "height": 941,
+          "alt": "Floor-to-ceiling windows frame panoramic treetop"
+        }
+      ],
+      "isSample": false
+    },
+    {
       "id": "ACT2415056",
       "slug": "1309-w-10th-st",
       "address": "1309 W 10th St",
@@ -1555,6 +1664,115 @@
           "width": 2048,
           "height": 1365,
           "alt": "1800 W 10th St, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT1663897",
+      "slug": "301-pressler-st-210-210",
+      "address": "301  Pressler St  #210",
+      "unit": "Unit 210",
+      "propertyType": "condo",
+      "categories": [
+        "condo",
+        "new-construction"
+      ],
+      "status": "active",
+      "price": 1369000,
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1275,
+      "yearBuilt": 2027,
+      "lotSizeAcres": 3.23,
+      "listDate": "2026-10-20",
+      "description": "Be the first to experience Texas’ first Viceroy residential offering. Developed by visionary firm Pearlstone Partners, this boutique community is currently under construction with completion anticipated in late 2027, pairing legendary five-star hospitality with exceptional architectural pedigree. Enviably situated along Pressler Street between downtown Austin and historic Clarksville, the location offers the ultimate balance of vibrant city energy and neighborhood tranquility. Outdoor lovers will celebrate direct, effortless access to Lady Bird Lake and the scenic Ann and Roy Butler Hike-and-Bike Trail right outside the door. Inside, custom interiors curated by acclaimed Kim Lewis Design showcase rich organic textures, tailored finishes, and refined modern warmth. The residence features an open, light-filled layout accentuated by high ceilings, bespoke cabinetry, and seamless indoor-outdoor living. Owners will enjoy world-class amenities, including a 75-foot resort lap pool, wellness and fitness studios, poolside bar, and dedicated concierge services. With construction well underway and completion planned for late 2027, this is an opportunity to secure a residence now in one of Austin’s most anticipated new developments. Do not miss this exclusive first look at a turnkey sanctuary connecting lakeside nature with central Austin sophistication.",
+      "listOffice": "Christies Intl Real Estate Lone Star",
+      "listAgent": "Georgia Spiropoulos",
+      "hoaFee": 1232.34,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27116559,
+        "lng": -97.76156879
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT1663897/00.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Floor-to-ceiling windows frame panoramic skyline"
+        },
+        {
+          "src": "/listings/ACT1663897/01.jpg",
+          "width": 2048,
+          "height": 1097,
+          "alt": "Rich wood paneling, ornate crown molding, and exp"
+        },
+        {
+          "src": "/listings/ACT1663897/02.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "A glass sliding door opens to a private balcony s"
+        },
+        {
+          "src": "/listings/ACT1663897/03.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Minimalist wood cabinetry, stone countertops, and"
+        },
+        {
+          "src": "/listings/ACT1663897/04.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Warm wood cabinetry and rich stone countertops an"
+        },
+        {
+          "src": "/listings/ACT1663897/05.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Rich dark wood cabinetry and a central island gro"
+        },
+        {
+          "src": "/listings/ACT1663897/06.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Modern multi-family architecture stands alongside"
+        },
+        {
+          "src": "/listings/ACT1663897/07.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "A wall of glass windows frames impressive city sk"
+        },
+        {
+          "src": "/listings/ACT1663897/08.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Floor-to-ceiling glass walls frame impressive cit"
+        },
+        {
+          "src": "/listings/ACT1663897/09.jpg",
+          "width": 1920,
+          "height": 1080,
+          "alt": "A modern multi-story residential building feature"
+        },
+        {
+          "src": "/listings/ACT1663897/10.jpg",
+          "width": 1668,
+          "height": 943,
+          "alt": "Rich wood cabinetry paired with marble countertop"
+        },
+        {
+          "src": "/listings/ACT1663897/11.jpg",
+          "width": 1920,
+          "height": 1080,
+          "alt": "An open-air lap pool is shaded by an architectura"
+        },
+        {
+          "src": "/listings/ACT1663897/12.jpg",
+          "width": 1672,
+          "height": 941,
+          "alt": "Floor-to-ceiling windows frame sweeping treetop v"
         }
       ],
       "isSample": false
@@ -2010,156 +2228,6 @@
       "isSample": false
     },
     {
-      "id": "ACT4623415",
-      "slug": "901-w-9th-st-508-508",
-      "address": "901 W 9th St  #508",
-      "unit": "Unit 508",
-      "propertyType": "condo",
-      "categories": [
-        "condo"
-      ],
-      "status": "active",
-      "price": 925000,
-      "beds": 2,
-      "baths": 2.5,
-      "sqft": 1611,
-      "yearBuilt": 2001,
-      "lotSizeAcres": 0,
-      "listDate": "2026-08-17",
-      "description": "The Nokonah is Austin's original luxury high rise building. Corner unit with two sides of windows and a large wrap-around balcony with downtown views, wood floors, Granite kitchen counters w/ Stainless Steel appliances. One block to Whole Foods and across the street from the Shoal Creek Hike and Bike Trail. Amenities include 24hr concierge, fitness facilities, pool & Spa.",
-      "listOffice": "Picazo Properties",
-      "listAgent": "Linda Picazo",
-      "hoaFee": 1675,
-      "hoaFrequency": "Monthly",
-      "geo": {
-        "lat": 30.27300984,
-        "lng": -97.75287228
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT4623415/00.jpg",
-          "width": 1067,
-          "height": 736,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 1"
-        },
-        {
-          "src": "/listings/ACT4623415/01.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 2"
-        },
-        {
-          "src": "/listings/ACT4623415/02.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 3"
-        },
-        {
-          "src": "/listings/ACT4623415/03.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 4"
-        },
-        {
-          "src": "/listings/ACT4623415/04.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 5"
-        },
-        {
-          "src": "/listings/ACT4623415/05.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 6"
-        },
-        {
-          "src": "/listings/ACT4623415/06.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 7"
-        },
-        {
-          "src": "/listings/ACT4623415/07.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 8"
-        },
-        {
-          "src": "/listings/ACT4623415/08.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 9"
-        },
-        {
-          "src": "/listings/ACT4623415/09.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 10"
-        },
-        {
-          "src": "/listings/ACT4623415/10.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 11"
-        },
-        {
-          "src": "/listings/ACT4623415/11.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 12"
-        },
-        {
-          "src": "/listings/ACT4623415/12.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 13"
-        },
-        {
-          "src": "/listings/ACT4623415/13.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 14"
-        },
-        {
-          "src": "/listings/ACT4623415/14.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 15"
-        },
-        {
-          "src": "/listings/ACT4623415/15.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 16"
-        },
-        {
-          "src": "/listings/ACT4623415/16.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 17"
-        },
-        {
-          "src": "/listings/ACT4623415/17.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 18"
-        },
-        {
-          "src": "/listings/ACT4623415/18.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 19"
-        },
-        {
-          "src": "/listings/ACT4623415/19.jpg",
-          "width": 1024,
-          "height": 768,
-          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 20"
-        }
-      ],
-      "isSample": false
-    },
-    {
       "id": "ACT4800359",
       "slug": "705-patterson-ave",
       "address": "705  Patterson Ave",
@@ -2303,6 +2371,265 @@
           "width": 1920,
           "height": 1280,
           "alt": "705  Patterson Ave, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT4623415",
+      "slug": "901-w-9th-st-508-508",
+      "address": "901 W 9th St  #508",
+      "unit": "Unit 508",
+      "propertyType": "condo",
+      "categories": [
+        "condo"
+      ],
+      "status": "active",
+      "price": 895000,
+      "beds": 2,
+      "baths": 2.5,
+      "sqft": 1611,
+      "yearBuilt": 2001,
+      "lotSizeAcres": 0,
+      "listDate": "2026-08-17",
+      "description": "The Nokonah is Austin's original luxury high rise building. Corner unit with two sides of windows and a large wrap-around balcony with downtown views, wood floors, Granite kitchen counters w/ Stainless Steel appliances. One block to Whole Foods and across the street from the Shoal Creek Hike and Bike Trail. Amenities include 24hr concierge, fitness facilities, pool & Spa.",
+      "listOffice": "Picazo Properties",
+      "listAgent": "Linda Picazo",
+      "hoaFee": 1675,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27300984,
+        "lng": -97.75287228
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT4623415/00.jpg",
+          "width": 1067,
+          "height": 736,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT4623415/01.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT4623415/02.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT4623415/03.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT4623415/04.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT4623415/05.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT4623415/06.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT4623415/07.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT4623415/08.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT4623415/09.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT4623415/10.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT4623415/11.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT4623415/12.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT4623415/13.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT4623415/14.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT4623415/15.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT4623415/16.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT4623415/17.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT4623415/18.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT4623415/19.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": "901 W 9th St  #508, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT1520427",
+      "slug": "300-pressler-st-203-203",
+      "address": "300  Pressler St  #203",
+      "unit": "Unit 203",
+      "propertyType": "condo",
+      "categories": [
+        "condo",
+        "new-construction"
+      ],
+      "status": "active",
+      "price": 799000,
+      "beds": 1,
+      "baths": 1,
+      "sqft": 766,
+      "yearBuilt": 2027,
+      "lotSizeAcres": 3.23,
+      "listDate": "2026-10-20",
+      "description": "Be the first to experience Texas’ first Viceroy residential offering. Developed by visionary firm Pearlstone Partners, this boutique community is currently under construction with completion anticipated in late 2027, pairing legendary five-star hospitality with exceptional architectural pedigree.Enviably situated along Pressler Street between downtown Austin and historic Clarksville, the location offers the ultimate balance of vibrant city energy and neighborhood tranquility. Outdoor lovers will celebrate direct, effortless access to Lady Bird Lake and the scenic Ann and Roy Butler Hike-and-Bike Trail right outside the door. Inside, custom interiors curated by acclaimed Kim Lewis Design showcase rich organic textures, tailored finishes, and refined modern warmth. The residence features an open, light-filled layout accentuated by high ceilings, bespoke cabinetry, and seamless indoor-outdoor living. Owners will enjoy world-class amenities, including a 75-foot resort lap pool, wellness and fitness studios, poolside bar, and dedicated concierge services. With construction well underway and completion planned for late 2027, this is an opportunity to secure a residence now in one of Austin’s most anticipated new developments. Do not miss this exclusive first look at a turnkey sanctuary connecting lakeside nature with central Austin sophistication.",
+      "listOffice": "Christies Intl Real Estate Lone Star",
+      "listAgent": "Stephanie Moreno",
+      "hoaFee": 740.37,
+      "hoaFrequency": "Monthly",
+      "geo": {
+        "lat": 30.27089047,
+        "lng": -97.7617541
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT1520427/00.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "A refined kitchen showcases minimalist wood cabin"
+        },
+        {
+          "src": "/listings/ACT1520427/01.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Warm wood cabinetry and striking stone surfaces d"
+        },
+        {
+          "src": "/listings/ACT1520427/02.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Rich wood grain cabinetry and a sleek stone water"
+        },
+        {
+          "src": "/listings/ACT1520427/03.jpg",
+          "width": 2048,
+          "height": 1097,
+          "alt": "Fine woodwork and intricate ceiling moldings elev"
+        },
+        {
+          "src": "/listings/ACT1520427/04.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Floor-to-ceiling glass doors frame serene sunset"
+        },
+        {
+          "src": "/listings/ACT1520427/05.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "A modern multi-story residential building borders"
+        },
+        {
+          "src": "/listings/ACT1520427/06.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Floor-to-ceiling windows frame striking urban sky"
+        },
+        {
+          "src": "/listings/ACT1520427/07.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Floor-to-ceiling windows frame panoramic skyline"
+        },
+        {
+          "src": "/listings/ACT1520427/08.jpg",
+          "width": 2048,
+          "height": 1151,
+          "alt": "Towering floor-to-ceiling windows frame incredibl"
+        },
+        {
+          "src": "/listings/ACT1520427/09.jpg",
+          "width": 1920,
+          "height": 1080,
+          "alt": "Sleek contemporary architecture pairs with landsc"
+        },
+        {
+          "src": "/listings/ACT1520427/10.jpg",
+          "width": 1668,
+          "height": 943,
+          "alt": "Rich wood cabinetry paired with marble surfaces d"
+        },
+        {
+          "src": "/listings/ACT1520427/11.jpg",
+          "width": 1920,
+          "height": 1080,
+          "alt": "A sleek lap pool sits beneath a modern metal perg"
+        },
+        {
+          "src": "/listings/ACT1520427/12.jpg",
+          "width": 1672,
+          "height": 941,
+          "alt": "Floor-to-ceiling windows frame expansive treetops"
         }
       ],
       "isSample": false
