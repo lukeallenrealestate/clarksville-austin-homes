@@ -76,7 +76,7 @@ export default async function MarketReportPage() {
             <div className="flex flex-wrap items-end justify-between gap-4">
               <SectionHeading eyebrow="Live snapshot" title="What is on the market right now" />
               <span className="font-label text-[0.56rem] text-brass-deep">
-                Auto-updated {fmtDate(snap.asOf)} from the MLS
+                Auto-updated {fmtDate(snap.asOf.slice(0, 10))} from the MLS
               </span>
             </div>
             <div className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
