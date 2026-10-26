@@ -72,6 +72,8 @@ export interface MarketSnapshot {
   lowPrice: number;
   highPrice: number;
   condoShare: number;
+  /** Median days on market across what is for sale right now. */
+  medianDaysOnMarket: number;
   isSample: boolean;
 }
 
@@ -207,6 +209,15 @@ export async function getMarketSnapshot(): Promise<MarketSnapshot> {
   const ppsf = active.filter((l) => l.sqft > 0).map((l) => l.price / l.sqft);
   const condos = active.filter((l) => l.propertyType === "condo").length;
 
+  const now = Date.now();
+  const doms = active
+    .map((l) => {
+      if (typeof l.daysOnMarket === "number" && l.daysOnMarket >= 0) return l.daysOnMarket;
+      const t = l.listDate ? Date.parse(l.listDate) : NaN;
+      return Number.isNaN(t) ? null : Math.round((now - t) / 86_400_000);
+    })
+    .filter((d): d is number => d != null && d >= 0 && d < 3650);
+
   return {
     asOf: DATA_AS_OF,
     activeCount: active.length,
@@ -217,6 +228,7 @@ export async function getMarketSnapshot(): Promise<MarketSnapshot> {
     lowPrice: prices.length ? Math.min(...prices) : 0,
     highPrice: prices.length ? Math.max(...prices) : 0,
     condoShare: active.length ? Math.round((condos / active.length) * 100) : 0,
+    medianDaysOnMarket: median(doms),
     isSample: LISTINGS_ARE_SAMPLE,
   };
 }

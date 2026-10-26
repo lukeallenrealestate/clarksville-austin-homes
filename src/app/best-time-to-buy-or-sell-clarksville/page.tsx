@@ -8,29 +8,20 @@ import { JsonLd } from "@/components/JsonLd";
 import { ContactCta } from "@/components/ContactCta";
 import { articleSchema, faqSchema } from "@/lib/schema";
 import { PHOTOS } from "@/lib/photos";
-import { MARKET_SOURCES, type MarketStat } from "@/lib/content/market";
+import { getMarketSnapshot, usdShort } from "@/lib/listings";
 
 export const metadata: Metadata = pageMeta({
   title: "Is Now a Good Time to Buy or Sell in Clarksville? | 78703 Market Timing",
   description:
-    "An honest read on timing the Clarksville, Austin (78703) market: what the current signals say for buyers and sellers, what actually decides your timing, and why trying to time the exact bottom or top rarely pays. Figures dated and sourced.",
+    "An honest read on timing the Clarksville, Austin (78703) market: what the live inventory signals say for buyers and sellers, what actually decides your timing, and why trying to time the exact bottom or top rarely pays. Figures refresh automatically from the MLS.",
   path: "/best-time-to-buy-or-sell-clarksville",
   type: "article",
 });
 
-// Pull the primary (most credible) MLS snapshot straight from the single source
-// of truth, so every figure here stays dated, sourced, and consistent with the
-// market report. No numbers are invented on this page.
-const primary = MARKET_SOURCES[0];
-const pick = (label: string) => primary.stats.find((s) => s.label === label);
-const signals: MarketStat[] = ["Median sold price", "Months of supply", "Days on market", "Sale-to-list ratio"]
-  .map(pick)
-  .filter((s): s is MarketStat => Boolean(s));
-
 const buyerPoints = [
   {
     h: "More room to negotiate than in the frenzy",
-    p: `A sale-to-list ratio near ${pick("Sale-to-list ratio")?.value ?? "the high 80s"} and homes taking around ${pick("Days on market")?.value ?? "three months"} to sell mean buyers have leverage the 2021 market never allowed. Thoughtful offers get entertained.`,
+    p: "Homes here take longer to sell than they did at the 2021 peak, which hands buyers leverage that market never allowed. The live days-on-market figure above tells you how patient the current market really is. Thoughtful offers get entertained.",
   },
   {
     h: "But scarcity still rules the good ones",
@@ -45,7 +36,7 @@ const buyerPoints = [
 const sellerPoints = [
   {
     h: "Clarksville holds well above the city",
-    p: "While citywide Austin prices have softened, Clarksville's scarcity and historic character keep it resilient and well above the Austin median. That is the seller's tailwind here.",
+    p: "While citywide Austin prices have softened in recent years, Clarksville's scarcity and historic character keep it resilient and well above the Austin median. That is the seller's tailwind here.",
   },
   {
     h: "Pricing right matters more now",
@@ -64,30 +55,44 @@ const deciders = [
   { h: "Your real numbers", p: "Carrying costs, the payment you are comfortable with, and the equity you are moving. Timing that ignores your own math is just guessing." },
 ];
 
-const FAQS = [
-  {
-    q: "Is now a good time to buy a home in Clarksville?",
-    a: `For a buyer with a multi-year horizon, the current signals are favorable: homes are taking around ${pick("Days on market")?.value ?? "three months"} to sell and the sale-to-list ratio is near ${pick("Sale-to-list ratio")?.value ?? "the high 80s"} (${primary.source}, as of ${primary.asOf}), so there is more negotiating room than during the peak. The caveat is scarcity: the best Clarksville homes still move quickly, so timing the overall market matters less than being ready when the right home appears.`,
-  },
-  {
-    q: "Is it a good time to sell a home in Clarksville?",
-    a: "Clarksville remains resilient and well above the citywide Austin median thanks to scarcity and historic protection, which supports sellers. The difference from the peak is that pricing to real comparable sales now matters more, because homes that are overpriced sit longer. A correctly priced, well-presented Clarksville home still draws strong interest.",
-  },
-  {
-    q: "Are home prices in Clarksville going up or down?",
-    a: `Citywide Austin prices softened year over year heading into 2026, but Clarksville has held well above the city median because supply is so limited. As of ${primary.asOf}, the trailing-12-month median sold price for Clarksville single-family homes was ${pick("Median sold price")?.value ?? "well above the city median"} (${primary.source}). Because monthly samples here are small, trailing figures are more reliable than any single month. See the market report for the current read.`,
-  },
-  {
-    q: "Should I wait for interest rates to drop before buying?",
-    a: "Waiting for a lower rate is a gamble on two unknowns at once: where rates go and what home prices and competition do in the meantime. You can refinance a rate later, but you cannot go back and buy a home that sold to someone else at today's price. If the home and your hold period are right, the rate is usually a secondary consideration.",
-  },
-  {
-    q: "How long do homes take to sell in Clarksville?",
-    a: `As of ${primary.asOf}, Clarksville single-family homes were averaging about ${pick("Days on market")?.value ?? "87 days"} on market on a trailing-12-month basis (${primary.source}). That is longer than the 2021 peak and reflects a more balanced market, though well-priced, well-presented homes still sell faster than the average.`,
-  },
-];
+export default async function MarketTimingPage() {
+  const snap = await getMarketSnapshot();
+  const asOf = new Date(snap.asOf).toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
 
-export default function MarketTimingPage() {
+  const signals = [
+    { value: String(snap.activeCount), label: "Active listings", note: "for sale right now" },
+    { value: usdShort(snap.medianListPrice), label: "Median list price", note: "asking, active listings" },
+    { value: String(snap.medianDaysOnMarket), label: "Median days on market", note: "how long current homes have sat" },
+    { value: `$${snap.avgPricePerSqFt}`, label: "Avg price / sq ft", note: "active listings" },
+  ];
+
+  const FAQS = [
+    {
+      q: "Is now a good time to buy a home in Clarksville?",
+      a: `For a buyer with a multi-year horizon, the current signals are reasonable. As of ${asOf}, about ${snap.activeCount} homes were listed inside the Clarksville boundary, with a median asking price near ${usdShort(snap.medianListPrice)} and current listings sitting a median of roughly ${snap.medianDaysOnMarket} days, longer than the 2021 peak, which gives buyers more negotiating room. The caveat is scarcity: the best Clarksville homes still move quickly, so being ready when the right home appears matters more than timing the overall market. These figures refresh automatically from the MLS.`,
+    },
+    {
+      q: "Is it a good time to sell a home in Clarksville?",
+      a: "Clarksville remains resilient and well above the citywide Austin median thanks to scarcity and historic protection, which supports sellers. The difference from the peak is that pricing to real comparable sales now matters more, because homes that are overpriced sit longer. A correctly priced, well-presented Clarksville home still draws strong interest.",
+    },
+    {
+      q: "Are home prices in Clarksville going up or down?",
+      a: `Citywide Austin prices have softened in recent years, but Clarksville has held well above the city median because supply is so limited. As of ${asOf}, the median asking price across active Clarksville listings was about ${usdShort(snap.medianListPrice)}. Because monthly samples here are small, trailing figures are more reliable than any single month, so read this alongside the Clarksville market report.`,
+    },
+    {
+      q: "Should I wait for interest rates to drop before buying?",
+      a: "Waiting for a lower rate is a gamble on two unknowns at once: where rates go and what home prices and competition do in the meantime. You can refinance a rate later, but you cannot go back and buy a home that sold to someone else at today's price. If the home and your hold period are right, the rate is usually a secondary consideration.",
+    },
+    {
+      q: "How long do homes take to sell in Clarksville?",
+      a: `As of ${asOf}, the homes currently listed inside the Clarksville boundary had sat a median of roughly ${snap.medianDaysOnMarket} days on market, a signal that updates automatically from the MLS. That is longer than the 2021 peak and reflects a more balanced market, though well-priced, well-presented homes still sell faster than the average.`,
+    },
+  ];
+
   return (
     <>
       <JsonLd
@@ -98,7 +103,7 @@ export default function MarketTimingPage() {
             description:
               "An honest read on timing the Clarksville, Austin (78703) market for buyers and sellers.",
             date: "2026-10-06",
-            updated: "2026-10-06",
+            updated: snap.asOf.slice(0, 10),
             image: PHOTOS.streetscape.src,
           }),
           faqSchema(FAQS),
@@ -143,8 +148,8 @@ export default function MarketTimingPage() {
             <p>
               So this is not a prediction. It is a clear read of where the signals sit today, what they
               mean depending on which side of the deal you are on, and the factors that should actually
-              drive your decision. Every figure here is dated and sourced, and you can see the full
-              picture on the{" "}
+              drive your decision. The figures below refresh automatically from the MLS, and you can see
+              the full picture on the{" "}
               <Link href="/clarksville-market-report" className="font-semibold text-brass-deep underline">
                 Clarksville market report
               </Link>
@@ -157,25 +162,28 @@ export default function MarketTimingPage() {
       {/* THE SIGNALS NOW */}
       <section className="border-y border-line bg-heritage py-20 text-paper">
         <Container>
-          <div className="max-w-2xl">
-            <Eyebrow tone="dark">The signals right now</Eyebrow>
-            <h2 className="font-display mt-4 text-[2.2rem] leading-tight sm:text-[2.8rem]">
-              What the numbers actually say
-            </h2>
+          <div className="flex flex-wrap items-end justify-between gap-4">
+            <div className="max-w-2xl">
+              <Eyebrow tone="dark">The signals right now</Eyebrow>
+              <h2 className="font-display mt-4 text-[2.2rem] leading-tight sm:text-[2.8rem]">
+                What the market says today
+              </h2>
+            </div>
+            <span className="font-label text-[0.56rem] text-brass">Auto-updated {asOf} from the MLS</span>
           </div>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {signals.map((s) => (
               <Reveal key={s.label} className="rounded-[3px] border border-white/10 bg-heritage-soft p-6">
                 <div className="font-display font-num text-3xl text-brass">{s.value}</div>
                 <div className="font-label mt-2 text-[0.56rem] text-paper">{s.label}</div>
-                {s.note ? <div className="mt-1 text-xs leading-relaxed text-cream-soft/70">{s.note}</div> : null}
+                <div className="mt-1 text-xs leading-relaxed text-cream-soft/70">{s.note}</div>
               </Reveal>
             ))}
           </div>
           <p className="mt-8 max-w-3xl text-sm leading-relaxed text-mist">
-            Source: {primary.source}, as of {primary.asOf}. Clarksville's small sample means
-            trailing-12-month figures are far more reliable than any single month. Confirm the current
-            read on the{" "}
+            These describe active inventory, the asking side of the market, and update automatically
+            each day. Clarksville's small sample means trailing closed-sale figures are more reliable
+            than any single month, so read them alongside the{" "}
             <Link href="/clarksville-market-report" className="underline hover:text-brass">
               market report
             </Link>
@@ -293,9 +301,9 @@ export default function MarketTimingPage() {
             ))}
           </dl>
           <p className="mt-10 text-xs leading-relaxed text-muted">
-            Figures cited are trailing-12-month, MLS-based readings as of {primary.asOf} and are for
-            general information, not a prediction or a guarantee of future results. Markets change;
-            confirm the current picture on the market report before acting.
+            Live figures describe active listings inside the Clarksville boundary as of {asOf} and
+            refresh automatically from the MLS. They are the asking side of the market, not closed
+            sales, and are for general information, not a prediction or guarantee of future results.
           </p>
         </Container>
       </section>

@@ -19,6 +19,7 @@ import {
 import { MARKET_FAQS } from "@/lib/content/faqs";
 import { LINKS } from "@/lib/content/related";
 import { AGENT } from "@/lib/site";
+import { getMarketSnapshot, usdShort } from "@/lib/listings";
 
 const guide = getGuide("clarksville-market-report")!;
 
@@ -35,7 +36,8 @@ export const metadata: Metadata = pageMeta({
   type: "article",
 });
 
-export default function MarketReportPage() {
+export default async function MarketReportPage() {
+  const snap = await getMarketSnapshot();
   return (
     <>
       <JsonLd
@@ -66,6 +68,33 @@ export default function MarketReportPage() {
           </span>
         }
       />
+
+      {/* LIVE SNAPSHOT: auto-refreshed from the MLS on every sync */}
+      {!snap.isSample ? (
+        <section className="border-b border-line bg-cream py-14">
+          <Container>
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <SectionHeading eyebrow="Live snapshot" title="What is on the market right now" />
+              <span className="font-label text-[0.56rem] text-brass-deep">
+                Auto-updated {fmtDate(snap.asOf)} from the MLS
+              </span>
+            </div>
+            <div className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
+              <Stat value={String(snap.activeCount)} label="Active listings" />
+              <Stat value={usdShort(snap.medianListPrice)} label="Median list price" />
+              <Stat value={`$${snap.avgPricePerSqFt}`} label="Avg price / sq ft" />
+              <Stat value={String(snap.medianDaysOnMarket)} label="Median days on market" />
+              <Stat value={`${snap.condoShare}%`} label="Condo share of listings" />
+            </div>
+            <p className="mt-6 max-w-3xl text-sm leading-relaxed text-ink-soft">
+              These figures summarize the homes for sale inside the Clarksville boundary right now and
+              refresh automatically each day from the MLS. They describe active inventory, the asking
+              side of the market, which differs from closed sale prices. For sold benchmarks, see the
+              sourced figures below.
+            </p>
+          </Container>
+        </section>
+      ) : null}
 
       <section className="bg-paper py-16">
         <Container>
@@ -167,10 +196,10 @@ export default function MarketReportPage() {
           />
           <div className="prose-clark mt-8 max-w-3xl">
             <p>
-              For buyers, the takeaway is patience and access. With roughly 2.7 months of supply and
-              a sale-to-list ratio near 89 percent, well-located homes do not linger, but the right
-              one may not be listed today. A saved search and off-market relationships matter more
-              here than refreshing a portal.
+              For buyers, the takeaway is patience and access. Inventory here is thin, so well-located
+              homes do not linger, but the right one may not be listed today. A saved search and
+              off-market relationships matter more here than refreshing a portal. The live snapshot
+              above shows how much is actually for sale right now.
             </p>
             <p>
               For sellers, presentation and pricing carry more weight than in higher-volume
