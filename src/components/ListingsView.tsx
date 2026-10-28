@@ -22,6 +22,7 @@ export function ListingsView({
   title,
   lead,
   intro,
+  overview,
   photo,
   listings,
   lockedCategory,
@@ -34,6 +35,8 @@ export function ListingsView({
   title: ReactNode;
   lead: string;
   intro: ReactNode;
+  /** Optional data band rendered right under the hero (e.g. a live snapshot). */
+  overview?: ReactNode;
   photo: PhotoMeta;
   listings: Listing[];
   lockedCategory?: Category;
@@ -45,6 +48,8 @@ export function ListingsView({
   return (
     <>
       <PageHero eyebrow={eyebrow} title={title} lead={lead} photo={photo} crumbs={crumbs} />
+
+      {overview}
 
       <section className="bg-paper py-16">
         <Container>
