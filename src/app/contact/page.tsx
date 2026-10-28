@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { pageMeta } from "@/lib/seo";
 import { PageHero } from "@/components/PageHero";
 import { Container, Eyebrow } from "@/components/ui";
@@ -27,6 +28,28 @@ export default function ContactPage() {
       <section className="bg-paper py-16">
         <Container className="grid gap-12 lg:grid-cols-[1.1fr_1.6fr] lg:items-start">
           <div>
+            <div className="mb-9">
+              <div className="overflow-hidden rounded-[4px] border border-line bg-cream">
+                <Image
+                  src={PHOTOS.luke.src}
+                  alt={PHOTOS.luke.alt}
+                  width={PHOTOS.luke.width}
+                  height={PHOTOS.luke.height}
+                  sizes="(max-width: 1024px) 100vw, 420px"
+                  className="img-grade h-auto w-full object-cover"
+                  priority
+                />
+              </div>
+              <p className="font-display mt-4 text-2xl text-ink">{AGENT.name}</p>
+              <p className="font-label mt-1 text-[0.58rem] text-brass-deep">
+                {AGENT.title} &middot; TREC #{AGENT.trecLicense}
+              </p>
+              <p className="mt-3 max-w-sm text-sm leading-relaxed text-ink-soft">
+                A Clarksville and Old West Austin specialist with {AGENT.brokerage}. The person you
+                reach here is the person you work with.
+              </p>
+            </div>
+
             <Eyebrow>Direct line</Eyebrow>
             <div className="mt-5 space-y-4">
               <a
