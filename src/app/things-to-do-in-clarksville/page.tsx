@@ -7,7 +7,7 @@ import { Reveal } from "@/components/Reveal";
 import { JsonLd } from "@/components/JsonLd";
 import { ContactCta } from "@/components/ContactCta";
 import { articleSchema, faqSchema } from "@/lib/schema";
-import { PHOTOS } from "@/lib/photos";
+import { PHOTOS, type PhotoMeta } from "@/lib/photos";
 
 export const metadata: Metadata = pageMeta({
   title: "Things to Do in Clarksville, Austin | Parks & Dining (78703)",
@@ -18,7 +18,7 @@ export const metadata: Metadata = pageMeta({
 });
 
 type Spot = { name: string; note: string };
-type Category = { eyebrow: string; title: string; blurb: string; photo: typeof PHOTOS.park; spots: Spot[] };
+type Category = { eyebrow: string; title: string; blurb: string; photo: PhotoMeta; spots: Spot[] };
 
 const categories: Category[] = [
   {
