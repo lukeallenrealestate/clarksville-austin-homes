@@ -178,6 +178,28 @@ export const COMPARISONS: Guide[] = [
     updated: "2026-06-23",
     kind: "comparison",
   },
+  {
+    slug: "clarksville-vs-west-lake-hills",
+    title: "Clarksville vs West Lake Hills: City or the Hills?",
+    navLabel: "Clarksville vs West Lake Hills",
+    description:
+      "Walkable, historic Clarksville in the city, or West Lake Hills' top-rated Eanes schools, estates, and hill-country privacy across the lake? A buyer's comparison.",
+    hero: PHOTOS.canopy,
+    published: "2026-11-05",
+    updated: "2026-11-05",
+    kind: "comparison",
+  },
+  {
+    slug: "clarksville-vs-rosedale",
+    title: "Clarksville vs Rosedale: Two Central Austin Neighborhoods",
+    navLabel: "Clarksville vs Rosedale",
+    description:
+      "Historic, downtown-adjacent Clarksville or quieter, more affordable Rosedale near the medical district? A side-by-side on price, walkability, and lifestyle.",
+    hero: PHOTOS.streetscape,
+    published: "2026-11-05",
+    updated: "2026-11-05",
+    kind: "comparison",
+  },
 ];
 
 export const ALL_GUIDES = [...GUIDES, ...COMPARISONS];

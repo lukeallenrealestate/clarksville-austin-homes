@@ -169,6 +169,44 @@ export const COMPARISONS_DATA: Record<string, Comparison> = {
     otherFor:
       "Pemberton Heights suits buyers who want a larger traditional home on a quiet, canopied street and value a more uniform, estate-scaled neighborhood.",
   },
+  "clarksville-vs-west-lake-hills": {
+    slug: "clarksville-vs-west-lake-hills",
+    other: "West Lake Hills",
+    intro:
+      "Clarksville and West Lake Hills represent two very different versions of living well in Austin. Clarksville is the walkable historic district in the city, two miles from downtown. West Lake Hills is the affluent, hill-country suburb across Lady Bird Lake in 78746, prized above all for its top-rated Eanes schools, large lots, and privacy.",
+    rows: [
+      { dimension: "Location", clarksville: "West of downtown, in the city grid (78703)", other: "In the hills west of Lady Bird Lake (78746)" },
+      { dimension: "Schools", clarksville: "Austin ISD: Mathews, O. Henry, Austin High", other: "Eanes ISD, among the highest-rated districts in Texas" },
+      { dimension: "Feel", clarksville: "Walkable, historic, urban-village", other: "Hill-country suburban, private, car-oriented" },
+      { dimension: "Lots and homes", clarksville: "Small historic lots; cottages, condos, infill", other: "Large lots; estates, hill-country modern, views" },
+      { dimension: "Walkability", clarksville: "High, around the West Lynn corridor", other: "Low, you drive for nearly everything" },
+      { dimension: "Price", clarksville: "Roughly $1.1M to $1.6M median, luxury to $3.4M+", other: "Higher entry and ceiling; large hill-country estates" },
+      { dimension: "Best for", clarksville: "Walkable history minutes from downtown", other: "Top schools, privacy, space, and hill views" },
+    ],
+    clarksvilleFor:
+      "Clarksville suits buyers who want to walk to dinner and downtown, value historic character, and accept smaller lots for that central location.",
+    otherFor:
+      "West Lake Hills suits buyers who prioritize top-rated Eanes ISD schools, larger lots and privacy, and hill-country space, and do not mind driving for daily life.",
+  },
+  "clarksville-vs-rosedale": {
+    slug: "clarksville-vs-rosedale",
+    other: "Rosedale",
+    intro:
+      "Clarksville and Rosedale are both beloved central-Austin neighborhoods of historic cottages, but they sit at different points on price and pace. Clarksville is the walkable historic district just west of downtown. Rosedale, a bit north near the central medical district in 78756, is quieter, leafy, and family-oriented, often at a more accessible price.",
+    rows: [
+      { dimension: "Location", clarksville: "West of downtown (78703)", other: "North-central, near the medical district (78756)" },
+      { dimension: "Feel", clarksville: "Historic, walkable, downtown-adjacent", other: "Quiet, leafy, family-oriented" },
+      { dimension: "Housing", clarksville: "Cottages, bungalows, condos, modern infill", other: "Bungalows, cottages, and updated homes" },
+      { dimension: "Walkability", clarksville: "Walk to West Lynn dining and downtown", other: "Walk to Burnet Road and 45th Street shops" },
+      { dimension: "Schools", clarksville: "Mathews, O. Henry, Austin High", other: "Central Austin ISD feeders, McCallum High" },
+      { dimension: "Price", clarksville: "Higher, downtown-proximity premium", other: "Generally more accessible than Clarksville" },
+      { dimension: "Best for", clarksville: "Walk-to-downtown history and character", other: "Quieter central living at a friendlier price" },
+    ],
+    clarksvilleFor:
+      "Clarksville suits buyers who want downtown proximity, historic character, and walkable West Lynn dining, and will pay a premium for that location.",
+    otherFor:
+      "Rosedale suits buyers who want a quiet, leafy, family-friendly central neighborhood of bungalows near the medical district, often at a more accessible price.",
+  },
 };
 
 export function getComparison(slug: string): Comparison | undefined {
