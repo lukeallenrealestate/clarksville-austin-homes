@@ -10,7 +10,7 @@ import { articleSchema, faqSchema } from "@/lib/schema";
 import { PHOTOS } from "@/lib/photos";
 
 export const metadata: Metadata = pageMeta({
-  title: "Buying a Historic Home in Clarksville | A Buyer's Due-Diligence Guide",
+  title: "Buying a Historic Home in Clarksville | Buyer's Guide",
   description:
     "How to buy a historic home in Clarksville, Austin (78703): foundations on Central Texas soils, aging systems, inspections, insurance, and historic-status checks.",
   path: "/buying-a-historic-home-in-clarksville",
@@ -85,7 +85,7 @@ export default function BuyingHistoricHomePage() {
         data={[
           articleSchema({
             slug: "buying-a-historic-home-in-clarksville",
-            title: "Buying a Historic Home in Clarksville | A Buyer's Due-Diligence Guide",
+            title: "Buying a Historic Home in Clarksville | Buyer's Guide",
             description:
               "How to buy an older or historic home in Clarksville, Austin (78703) with eyes open.",
             date: "2026-10-15",

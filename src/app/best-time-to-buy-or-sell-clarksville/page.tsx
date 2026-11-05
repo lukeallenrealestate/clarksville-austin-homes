@@ -11,7 +11,7 @@ import { PHOTOS } from "@/lib/photos";
 import { getMarketSnapshot, usdShort } from "@/lib/listings";
 
 export const metadata: Metadata = pageMeta({
-  title: "Is Now a Good Time to Buy or Sell in Clarksville? | 78703 Market Timing",
+  title: "Is Now a Good Time to Buy or Sell in Clarksville? (78703)",
   description:
     "Is now a good time to buy or sell in Clarksville, Austin (78703)? An honest, data-driven read for buyers and sellers, with live MLS inventory signals.",
   path: "/best-time-to-buy-or-sell-clarksville",

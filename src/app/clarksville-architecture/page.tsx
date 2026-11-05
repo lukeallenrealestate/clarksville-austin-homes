@@ -9,7 +9,7 @@ import { LINKS } from "@/lib/content/related";
 const guide = getGuide("clarksville-architecture")!;
 
 export const metadata: Metadata = pageMeta({
-  title: "Clarksville Architecture & Historic Landmark Rules | Austin 78703",
+  title: "Clarksville Architecture & Landmark Rules | Austin 78703",
   description: guide.description,
   path: `/${guide.slug}`,
   type: "article",

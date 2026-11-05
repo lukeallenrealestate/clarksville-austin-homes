@@ -10,7 +10,7 @@ import { ContactCta } from "@/components/ContactCta";
 import { PHOTOS, type PhotoMeta } from "@/lib/photos";
 
 export const metadata: Metadata = pageMeta({
-  title: "The Story of Clarksville | A Freedmen's Town Timeline (1871 to Today)",
+  title: "The Story of Clarksville | A Freedmen's Town Since 1871",
   description:
     "The story of Clarksville, Austin in a visual timeline: from Charles Clark's 1871 land purchase to the National Register in 1976 and the coveted neighborhood it is today.",
   path: "/story-of-clarksville",

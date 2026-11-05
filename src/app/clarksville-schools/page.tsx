@@ -16,7 +16,7 @@ import { AGENT } from "@/lib/site";
 const guide = getGuide("clarksville-schools")!;
 
 export const metadata: Metadata = pageMeta({
-  title: "Clarksville Schools | Mathews, O. Henry & Austin High (Austin ISD)",
+  title: "Clarksville Schools | Mathews, O. Henry, Austin High",
   description: guide.description,
   path: `/${guide.slug}`,
   type: "article",

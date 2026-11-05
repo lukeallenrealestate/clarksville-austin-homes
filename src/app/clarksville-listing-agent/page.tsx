@@ -12,7 +12,7 @@ import { AGENT } from "@/lib/site";
 import { REVIEWS, REVIEW_AGG, GOOGLE_PROFILE_URL } from "@/lib/content/realtor";
 
 export const metadata: Metadata = pageMeta({
-  title: "Sell Your Clarksville Home | Clarksville Listing Agent Luke Allen",
+  title: "Sell Your Clarksville Home | Listing Agent Luke Allen",
   description:
     "Sell your Clarksville, Austin home for more, with a 5-star listing specialist. Real valuations, an off-market buyer network, and a proven sale in 78703. Free home value.",
   path: "/clarksville-listing-agent",

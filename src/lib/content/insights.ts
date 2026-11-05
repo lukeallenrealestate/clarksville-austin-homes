@@ -97,7 +97,7 @@ export const INSIGHTS: Insight[] = [
   },
   {
     slug: "insights/clarksville-new-construction-compared",
-    title: "Clarksville New Construction Compared: The Belvedere, Westline, and The Clarksville",
+    title: "Clarksville New Construction Compared (78703)",
     navLabel: "New construction compared",
     description:
       "A buyer's comparison of Clarksville's boutique new-construction condominiums, The Belvedere, Westline, and The Clarksville, on price, size, ownership, and lifestyle.",
