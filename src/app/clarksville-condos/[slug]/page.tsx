@@ -13,6 +13,9 @@ import { PHOTOS } from "@/lib/photos";
 import { LINKS } from "@/lib/content/related";
 import { usd } from "@/lib/listings";
 import { AGENT } from "@/lib/site";
+import { JsonLd } from "@/components/JsonLd";
+import { FaqSection } from "@/components/FaqSection";
+import { faqSchema, type Faq } from "@/lib/schema";
 
 export const revalidate = 3600;
 
@@ -49,8 +52,36 @@ export default async function CondoPage({ params }: { params: Promise<{ slug: st
     c.unitTypes?.map((u) => u.price).filter((p): p is number => p != null) ?? [];
   const priceFrom = pricedUnits.length ? Math.min(...pricedUnits) : undefined;
 
+  // Per-building FAQs generated from the condo record, so each building page
+  // carries extractable FAQPage markup for "how much are condos at X" queries.
+  const condoFaqs: Faq[] = [
+    {
+      q: `Where is ${c.name} in Clarksville, Austin?`,
+      a: `${c.name} is located at ${c.address} in Clarksville, Austin (78703), the historic neighborhood just west of downtown. ${c.summary}`,
+    },
+    {
+      q: `How much do residences at ${c.name} cost?`,
+      a: priceFrom
+        ? `Pricing at ${c.name} starts around ${usd(priceFrom)}${c.unitsTotal ? ` across ${c.unitsTotal} residences` : ""}. Clarksville condos span entry-level to luxury, so contact Luke Allen for the current list and availability.`
+        : `Contact Luke Allen for current pricing and availability at ${c.name}. Clarksville condos range from boutique entry points to luxury residences.`,
+    },
+    {
+      q: `Who can tell me more about buying at ${c.name}?`,
+      a: `Luke Allen (TREC #${AGENT.trecLicense}, ${AGENT.brokerage}) specializes in Clarksville condominiums and can brief you on ${c.name}, including availability and comparable buildings. Reach him at ${AGENT.phone} or ${AGENT.email}.`,
+    },
+  ];
+  if (remaining != null && c.unitsTotal != null) {
+    condoFaqs.splice(2, 0, {
+      q: `How many residences are left at ${c.name}?`,
+      a: `As of the latest update, ${c.name} has ${remaining} of ${c.unitsTotal} residences remaining${
+        c.exclusive ? ", offered exclusively and off-market" : ""
+      }. Availability changes, so confirm the current status with Luke Allen.`,
+    });
+  }
+
   return (
     <>
+      <JsonLd data={faqSchema(condoFaqs)} />
       <PageHero
         eyebrow={c.exclusive ? "Exclusive Clarksville Release" : "Clarksville Condo Building"}
         title={c.name}
@@ -230,6 +261,8 @@ export default async function CondoPage({ params }: { params: Promise<{ slug: st
           </Container>
         </section>
       ) : null}
+
+      <FaqSection faqs={condoFaqs} title={`${c.name}, answered`} />
 
       <RelatedLinks
         links={[
