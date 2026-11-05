@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T18:30:41.586Z",
+  "generatedAt": "2026-11-05T18:33:52.344Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1685,7 +1685,7 @@
         "single-family",
         "bungalow"
       ],
-      "status": "active",
+      "status": "pending",
       "price": 1399900,
       "beds": 3,
       "baths": 2.5,
@@ -2786,154 +2786,6 @@
           "width": 1672,
           "height": 941,
           "alt": "Floor-to-ceiling windows frame expansive treetops"
-        }
-      ],
-      "isSample": false
-    },
-    {
-      "id": "ACT4528946",
-      "slug": "1613-w-10th-st",
-      "address": "1613 W 10th St",
-      "propertyType": "single-family",
-      "categories": [
-        "single-family",
-        "bungalow"
-      ],
-      "status": "pending",
-      "price": 789000,
-      "beds": 2,
-      "baths": 1,
-      "sqft": 634,
-      "yearBuilt": 1933,
-      "lotSizeAcres": 0.0774,
-      "listDate": "2026-09-23",
-      "description": "Welcome home to this beautifully reimagined 1930s bungalow, tucked into the heart of Clarksville. This isn't just a remodel, it's a complete transformation. Taken down to the studs and rebuilt with nearly $200K in upgrades, every system in this home is brand new: electrical, plumbing, HVAC, tankless water heater, ductwork, windows, doors and drywall. New hardwood floors run throughout, the reworked kitchen shines with quartzite counters and all new cabinetry with an integrated fridge and dishwasher, and the fully redone bathroom feels like a daily retreat with designer tile and an oversized shower. Lifted ceilings with custom lighting, an expanded closet and a new laundry closet round out the interior, while true-to-era wood siding, a striking green metal roof and full insulation (blown-in and R30, to code) keep the charm and comfort going strong.\n\nAlong with all the renovations, this home feels warm and inviting with an abundance of light, natural textures, and a design that's modern yet unmistakably bungalow at heart. Outside, enjoy new low-maintenance landscaping and a flexible space behind the home that can serve as extra parking or your favorite outdoor dining spot. Plenty of driveway and street parking means there's always room for guests. \n\nAnd then there's the location, truly walkable to West Lynn Street favorites like Medici Coffee, Jeffrey's, Josephine House, Galaxy Cafe and more. Then only minutes away, more favorites including Clark's, Pecan Street Cafe, Swedish Hill and the list goes on. The property is located in the National Register Historic District: Clarksville, and also qualifies for Small Lot Amnesty, giving this lot protected, legal standing to build, renovate and enjoy for years to come. It’s city living with a neighborhood soul, close to everything, yet tucked into your own charming corner of Austin.",
-      "listOffice": "Compass RE Texas, LLC",
-      "listAgent": "Laura Ek",
-      "geo": {
-        "lat": 30.27940451,
-        "lng": -97.76100473
-      },
-      "photos": [
-        {
-          "src": "/listings/ACT4528946/00.jpg",
-          "width": 2048,
-          "height": 1535,
-          "alt": "An inviting entrance welcomes with classic brick"
-        },
-        {
-          "src": "/listings/ACT4528946/01.jpg",
-          "width": 2048,
-          "height": 1508,
-          "alt": "A stone retaining wall and concrete steps lead to"
-        },
-        {
-          "src": "/listings/ACT4528946/02.jpg",
-          "width": 2048,
-          "height": 1366,
-          "alt": "An inviting gabled portico covers the classic fro"
-        },
-        {
-          "src": "/listings/ACT4528946/03.jpg",
-          "width": 2048,
-          "height": 1366,
-          "alt": "A vaulted ceiling and warm hardwood floors create"
-        },
-        {
-          "src": "/listings/ACT4528946/04.jpg",
-          "width": 2048,
-          "height": 1366,
-          "alt": "Sunlight streams through a large picture window o"
-        },
-        {
-          "src": "/listings/ACT4528946/05.jpg",
-          "width": 2048,
-          "height": 1366,
-          "alt": "Natural light stream through multiple windows ont"
-        },
-        {
-          "src": "/listings/ACT4528946/06.jpg",
-          "width": 2048,
-          "height": 1366,
-          "alt": "Warm hardwood floors complement vaulted ceilings"
-        },
-        {
-          "src": "/listings/ACT4528946/07.jpg",
-          "width": 2048,
-          "height": 1366,
-          "alt": "A picture window frames backyard greenery above w"
-        },
-        {
-          "src": "/listings/ACT4528946/08.jpg",
-          "width": 2048,
-          "height": 1366,
-          "alt": "An inviting entryway welcomes guests with a hands"
-        },
-        {
-          "src": "/listings/ACT4528946/09.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Warm wood cabinetry pairs with elegant stone coun"
-        },
-        {
-          "src": "/listings/ACT4528946/10.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Warm wood cabinetry and modern appliances define"
-        },
-        {
-          "src": "/listings/ACT4528946/11.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Natural wood cabinetry and custom tilework define"
-        },
-        {
-          "src": "/listings/ACT4528946/12.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Gleaming tile backsplashes and warm wood cabinetr"
-        },
-        {
-          "src": "/listings/ACT4528946/13.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Floating oak shelves and vertical tile accents cr"
-        },
-        {
-          "src": "/listings/ACT4528946/14.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Gleaming tile backsplashes frame a modern undermo"
-        },
-        {
-          "src": "/listings/ACT4528946/15.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Sleek built-in appliances and warm wood cabinetry"
-        },
-        {
-          "src": "/listings/ACT4528946/16.jpg",
-          "width": 2048,
-          "height": 1365,
-          "alt": "Natural wood cabinetry and sleek stone countertop"
-        },
-        {
-          "src": "/listings/ACT4528946/17.jpg",
-          "width": 2048,
-          "height": 1366,
-          "alt": "Angled ceilings and warm hardwood floors create a"
-        },
-        {
-          "src": "/listings/ACT4528946/18.jpg",
-          "width": 2048,
-          "height": 1366,
-          "alt": "A vaulted ceiling and warm wood flooring frame th"
-        },
-        {
-          "src": "/listings/ACT4528946/19.jpg",
-          "width": 2048,
-          "height": 1366,
-          "alt": "Natural light streams through multiple windows on"
         }
       ],
       "isSample": false
