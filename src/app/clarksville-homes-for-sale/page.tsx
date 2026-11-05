@@ -115,6 +115,7 @@ export default async function HomesForSalePage() {
       }
       related={[
         { href: "/clarksville-condos-for-sale", title: "Condos for sale", blurb: "Lock-and-leave living and entry-point ownership in Clarksville." },
+        { href: "/clarksville-homes-under-1-million", title: "Homes under $1M", blurb: "The affordable entry into 78703, mostly boutique condos." },
         { href: "/clarksville-bungalows-for-sale", title: "Bungalows for sale", blurb: "Historic Craftsman cottages on small, walkable lots." },
         { href: "/clarksville-luxury-homes", title: "Luxury homes", blurb: "The $2M-plus tier: estates, infill, and signature new builds." },
         { href: "/clarksville-new-construction", title: "New construction", blurb: "The Belvedere, Westline, The Clarksville, and more." },

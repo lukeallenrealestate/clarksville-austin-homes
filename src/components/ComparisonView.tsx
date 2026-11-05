@@ -1,7 +1,9 @@
 import { JsonLd } from "./JsonLd";
 import { articleSchema } from "@/lib/schema";
+import type { Faq } from "@/lib/schema";
 import { PageHero } from "./PageHero";
 import { Container, SectionHeading } from "./ui";
+import { FaqSection } from "./FaqSection";
 import { RelatedLinks } from "./RelatedLinks";
 import { ContactCta } from "./ContactCta";
 import { getComparison } from "@/lib/content/comparisons";
@@ -16,6 +18,26 @@ import { AGENT } from "@/lib/site";
 export function ComparisonView({ slug }: { slug: string }) {
   const guide = getGuide(slug)!;
   const data = getComparison(slug)!;
+
+  // FAQs generated from the vetted comparison content (no new claims), so every
+  // comparison page carries extractable FAQPage markup for the "X vs Y" queries.
+  const faqs: Faq[] = [
+    {
+      q: `What is the difference between Clarksville and ${data.other}, Austin?`,
+      a: data.intro,
+    },
+    {
+      q: `Should I buy in Clarksville or ${data.other}?`,
+      a: `${data.clarksvilleFor} ${data.otherFor}`,
+    },
+  ];
+  const priceRow = data.rows.find((r) => /price/i.test(r.dimension));
+  if (priceRow) {
+    faqs.push({
+      q: `Is Clarksville or ${data.other} more expensive?`,
+      a: `In Clarksville: ${priceRow.clarksville}. In ${data.other}: ${priceRow.other}. Both markets are small, so confirm current figures on the Clarksville market report.`,
+    });
+  }
 
   return (
     <>
@@ -104,6 +126,7 @@ export function ComparisonView({ slug }: { slug: string }) {
         </Container>
       </section>
 
+      <FaqSection faqs={faqs} title={`Clarksville vs ${data.other}, answered`} />
       <RelatedLinks links={[LINKS.neighborhood, LINKS.homesForSale, LINKS.market]} />
       <ContactCta heading={`Touring Clarksville and ${data.other}?`} />
     </>
