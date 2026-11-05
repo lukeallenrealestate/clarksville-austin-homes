@@ -52,6 +52,23 @@ export function Footer() {
             </ul>
           </div>
 
+          <div className="mt-8 border-t border-cream-soft/15 pt-6">
+            <p className="font-label text-brass">Also from Luke Allen</p>
+            <p className="mt-3 max-w-sm text-sm leading-relaxed text-cream-soft/85">
+              Clarksville is almost entirely historic and resale. If you are also
+              weighing a new build,{" "}
+              <a
+                href="https://newhomesaustin.co"
+                rel="noopener"
+                className="link-underline text-paper"
+              >
+                New Homes Austin
+              </a>{" "}
+              is my dedicated guide to new construction across the metro, with
+              live inventory and honest builder-by-builder pricing.
+            </p>
+          </div>
+
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
             {groups.map((g) => (
               <div key={g.group}>
