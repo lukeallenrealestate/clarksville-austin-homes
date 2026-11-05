@@ -12,7 +12,7 @@ import { PHOTOS, type PhotoMeta } from "@/lib/photos";
 export const metadata: Metadata = pageMeta({
   title: "A Day in Clarksville: Life in Austin's Historic Village | 78703",
   description:
-    "An hour-by-hour walk through an ordinary, beautiful day in Clarksville, Austin (78703): morning coffee on West Lynn, the Butler Trail, Pease Park, and dinner at Jeffrey's. What it actually feels like to live here.",
+    "An hour-by-hour walk through a day in Clarksville, Austin (78703): coffee on West Lynn, the Butler Trail, Pease Park, and dinner at Jeffrey's.",
   path: "/a-day-in-clarksville",
   type: "article",
 });

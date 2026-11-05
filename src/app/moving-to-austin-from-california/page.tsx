@@ -12,7 +12,7 @@ import { PHOTOS } from "@/lib/photos";
 export const metadata: Metadata = pageMeta({
   title: "Moving to Austin from California | Clarksville & 78703",
   description:
-    "A Californian's guide to relocating to Austin and landing in Clarksville (78703): no state income tax, what your equity buys, buying a home remotely, and why transplants choose this historic neighborhood.",
+    "A Californian's guide to relocating to Austin and Clarksville (78703): no state income tax, what your equity buys, and how to buy a home remotely.",
   path: "/moving-to-austin-from-california",
   type: "article",
 });

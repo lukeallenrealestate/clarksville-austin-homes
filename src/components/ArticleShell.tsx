@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import Link from "next/link";
 import { JsonLd } from "./JsonLd";
 import { articleSchema } from "@/lib/schema";
 import { PageHero } from "./PageHero";
@@ -64,7 +65,13 @@ export function ArticleShell({
 
       <Container size="narrow" className="py-16">
         <div className="font-label flex flex-wrap items-center gap-x-4 gap-y-1 text-[0.6rem] text-muted">
-          <span>By {AGENT.name}, TREC #{AGENT.trecLicense}</span>
+          <span>
+            By{" "}
+            <Link href="/about" className="text-ink-soft underline hover:text-brass-deep">
+              {AGENT.name}
+            </Link>
+            , TREC #{AGENT.trecLicense}
+          </span>
           <span aria-hidden className="text-line">
             /
           </span>

@@ -13,7 +13,7 @@ import { getMarketSnapshot, usdShort } from "@/lib/listings";
 export const metadata: Metadata = pageMeta({
   title: "Is Now a Good Time to Buy or Sell in Clarksville? | 78703 Market Timing",
   description:
-    "An honest read on timing the Clarksville, Austin (78703) market: what the live inventory signals say for buyers and sellers, what actually decides your timing, and why trying to time the exact bottom or top rarely pays. Figures refresh automatically from the MLS.",
+    "Is now a good time to buy or sell in Clarksville, Austin (78703)? An honest, data-driven read for buyers and sellers, with live MLS inventory signals.",
   path: "/best-time-to-buy-or-sell-clarksville",
   type: "article",
 });

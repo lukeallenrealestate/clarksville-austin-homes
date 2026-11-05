@@ -7,6 +7,7 @@ import { Reveal } from "@/components/Reveal";
 import { JsonLd } from "@/components/JsonLd";
 import { articleSchema, faqSchema } from "@/lib/schema";
 import { ContactCta } from "@/components/ContactCta";
+import { FaqSection } from "@/components/FaqSection";
 import { PHOTOS, type PhotoMeta } from "@/lib/photos";
 
 export const metadata: Metadata = pageMeta({
@@ -194,6 +195,8 @@ export default function Landmarks() {
           </div>
         </Container>
       </section>
+
+      <FaqSection faqs={FAQS} title="Clarksville landmarks, answered" />
 
       <ContactCta
         heading="Own a piece of the story"

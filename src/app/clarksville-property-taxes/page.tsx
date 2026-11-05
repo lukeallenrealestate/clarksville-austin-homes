@@ -12,7 +12,7 @@ import { PHOTOS } from "@/lib/photos";
 export const metadata: Metadata = pageMeta({
   title: "Clarksville Property Taxes & Homestead Exemption | Austin 78703",
   description:
-    "How property taxes work for a home in Clarksville, Austin (78703): the taxing entities behind your bill, the homestead exemption and 10% appraisal cap, key Travis County deadlines, and how to protest. General guidance, verify current figures with TCAD.",
+    "How property taxes work for a Clarksville, Austin (78703) home: the taxing entities, the homestead exemption and 10% cap, and key Travis County deadlines.",
   path: "/clarksville-property-taxes",
   type: "article",
 });

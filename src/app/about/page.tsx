@@ -8,6 +8,8 @@ import { ContactCta } from "@/components/ContactCta";
 import { PHOTOS } from "@/lib/photos";
 import { AGENT, TREC } from "@/lib/site";
 import { LINKS } from "@/lib/content/related";
+import { JsonLd } from "@/components/JsonLd";
+import { realtorProfileSchema } from "@/lib/schema";
 
 export const metadata: Metadata = pageMeta({
   title: "About Luke Allen | Clarksville Austin REALTOR (TREC #788149)",
@@ -27,6 +29,7 @@ const expertise = [
 export default function AboutPage() {
   return (
     <>
+      <JsonLd data={realtorProfileSchema()} />
       <PageHero
         eyebrow="Your Clarksville Specialist"
         title="Meet Luke Allen"

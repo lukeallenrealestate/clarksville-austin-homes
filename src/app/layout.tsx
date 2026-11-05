@@ -28,7 +28,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: "Clarksville Austin Homes for Sale | Historic 78703 Real Estate",
-    template: "%s | Clarksville Austin Homes",
+    // Authored page titles already carry their own "Clarksville / 78703"
+    // qualifier, so the template is a passthrough: appending a brand suffix here
+    // double-branded and pushed every title past Google's ~60-char limit.
+    template: "%s",
   },
   description: SITE_TAGLINE,
   applicationName: SITE_NAME,

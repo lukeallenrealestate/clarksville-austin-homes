@@ -12,7 +12,7 @@ import { PHOTOS } from "@/lib/photos";
 export const metadata: Metadata = pageMeta({
   title: "Cost to Sell a Home in Clarksville | Net Proceeds Guide (78703)",
   description:
-    "What it really costs to sell a home in Clarksville, Austin (78703): the costs that come out at closing, how to estimate your net proceeds, and how to keep more of them. General guidance, not financial or legal advice.",
+    "What it costs to sell a home in Clarksville, Austin (78703): the closing costs, how to estimate your net proceeds, and how to keep more of them.",
   path: "/cost-to-sell-a-home-in-clarksville",
   type: "article",
 });

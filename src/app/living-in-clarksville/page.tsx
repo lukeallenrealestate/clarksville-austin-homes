@@ -92,7 +92,7 @@ export default function LivingInClarksville() {
           <div className="hero-rise max-w-3xl">
             <p className="font-label text-brass">Living in 78703</p>
             <h1 className="font-display mt-5 text-[3.2rem] font-medium leading-[0.98] text-paper sm:text-[5rem]">
-              A day in Clarksville
+              Living in Clarksville
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-cream-soft">
               Some neighborhoods you drive through. Clarksville you live in, on foot, under the trees,

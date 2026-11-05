@@ -12,7 +12,7 @@ import { PHOTOS } from "@/lib/photos";
 export const metadata: Metadata = pageMeta({
   title: "Buying a Historic Home in Clarksville | A Buyer's Due-Diligence Guide",
   description:
-    "How to buy an older or historic home in Clarksville, Austin (78703) with eyes open: foundations on Central Texas soils, aging systems, inspections, insurance, historic-status checks, and building the right team. General guidance, not engineering or legal advice.",
+    "How to buy a historic home in Clarksville, Austin (78703): foundations on Central Texas soils, aging systems, inspections, insurance, and historic-status checks.",
   path: "/buying-a-historic-home-in-clarksville",
   type: "article",
 });

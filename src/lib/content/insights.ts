@@ -73,7 +73,7 @@ export const INSIGHTS: Insight[] = [
     title: "Clarksville Historic Landmark Rules: What Buyers Must Know",
     navLabel: "Landmark rules",
     description:
-      "Before you buy, renovate, or build in Clarksville, understand the difference between the National Register district and a binding City of Austin local historic landmark, and why a designation check matters on every address.",
+      "Before you buy or renovate in Clarksville, Austin (78703), know the difference between National Register district status and a binding local historic landmark.",
     hero: PHOTOS.haskellHouse,
     published: "2026-06-24",
     updated: "2026-06-24",
