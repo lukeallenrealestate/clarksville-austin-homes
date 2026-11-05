@@ -401,6 +401,10 @@ export default function MovingFromCaliforniaPage() {
             <Link href="/clarksville-schools" className="font-semibold text-brass-deep underline">
               schools
             </Link>
+            , relocating from{" "}
+            <Link href="/moving-to-austin-from-new-york" className="font-semibold text-brass-deep underline">
+              New York instead
+            </Link>
             , or, if you are a physician,{" "}
             <Link href="/austin-neighborhoods-for-doctors" className="font-semibold text-brass-deep underline">
               Clarksville for doctors

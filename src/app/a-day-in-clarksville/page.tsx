@@ -227,6 +227,10 @@ export default function DayInClarksvillePage() {
               <Link href="/why-clarksville" className="font-semibold text-brass-deep underline">
                 why people choose it
               </Link>
+              , see{" "}
+              <Link href="/things-to-do-in-clarksville" className="font-semibold text-brass-deep underline">
+                things to do
+              </Link>
               , or get to know the{" "}
               <Link href="/neighborhood" className="font-semibold text-brass-deep underline">
                 neighborhood
