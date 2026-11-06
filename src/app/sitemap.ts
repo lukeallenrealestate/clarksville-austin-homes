@@ -3,6 +3,7 @@ import { SITE_URL, NAV } from "@/lib/site";
 import { ALL_GUIDES } from "@/lib/content/guides";
 import { INSIGHTS } from "@/lib/content/insights";
 import { CONDOS } from "@/lib/content/condos";
+import { HOME_FILTERS } from "@/lib/content/home-filters";
 import { getActiveListings, DATA_AS_OF } from "@/lib/listings";
 
 /**
@@ -41,6 +42,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.6,
+    })),
+    { url: `${SITE_URL}/clarksville-homes`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.7 },
+    ...HOME_FILTERS.map((f) => ({
+      url: `${SITE_URL}/clarksville-homes/${f.slug}`,
+      lastModified: dataDate,
+      changeFrequency: "daily" as const,
+      priority: 0.7,
     })),
     ...listings.map((l) => ({
       url: `${SITE_URL}/clarksville-homes-for-sale/${l.slug}`,

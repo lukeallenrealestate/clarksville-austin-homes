@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { ListingsView } from "@/components/ListingsView";
 import { getActiveListings, getMarketSnapshot, usdShort, DATA_AS_OF } from "@/lib/listings";
@@ -110,6 +111,13 @@ export default async function HomesForSalePage() {
             story. Use the filters to focus by type or price, and reach out for the homes that have
             not hit the portals yet. Every listing here is server-rendered on this domain, so you
             and the search engines see the same complete data.
+          </p>
+          <p>
+            Looking for something specific? Browse{" "}
+            <Link href="/clarksville-homes" className="font-semibold text-brass-deep underline">
+              Clarksville homes by bedroom count or feature
+            </Link>
+            , from 2 and 3-bedroom homes to pools, guest houses, and single-story living.
           </p>
         </>
       }
