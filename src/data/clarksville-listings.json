@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T18:33:52.344Z",
+  "generatedAt": "2026-11-06T17:51:12.798Z",
   "source": "MLS Grid (Unlock MLS / ACTRIS)",
   "boundary": "Clarksville polygon, 78703",
   "forSale": [
@@ -1672,6 +1672,154 @@
           "width": 2048,
           "height": 1368,
           "alt": "1309 W 10th St, Clarksville, Austin, photo 20"
+        }
+      ],
+      "isSample": false
+    },
+    {
+      "id": "ACT1985869",
+      "slug": "1701-w-11th-st",
+      "address": "1701 W 11th St",
+      "propertyType": "single-family",
+      "categories": [
+        "single-family",
+        "bungalow"
+      ],
+      "status": "active",
+      "price": 1800000,
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1588,
+      "yearBuilt": 1928,
+      "lotSizeAcres": 0.144,
+      "listDate": "2026-11-06",
+      "description": "This charming bungalow in the heart of old Austin offers everything you could want in a downtown home. Clarksville is a special neighborhood filled with original and historic homes and is surrounded by some of Austin’s most interesting and iconic spots including Jeffrey’s Steakhouse, Fresh Plus Grocery, and galleries and restaurants along West Sixth Street. Built in the 1940s, the carefully updated residence retains period appeal while featuring modern amenities. A completely refinished kitchen, along with new floors, paint and windows make the home move-in ready. Two living areas and three bedrooms offer flexible space to relax, play, work or host guests. The large, sun-dappled front yard is fully fenced, and there is also a bricked back patio perfect for entertaining. Meticulously updated and easy to maintain, this is a true turnkey lock-and-leave home in one of Clarksville’s best locations, offering a rare combination of style, privacy, outdoor space and proximity to the very best of central Austin.",
+      "listOffice": "Moreland Properties",
+      "listAgent": "Wende Parks",
+      "geo": {
+        "lat": 30.28072635,
+        "lng": -97.76154526
+      },
+      "photos": [
+        {
+          "src": "/listings/ACT1985869/00.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 1"
+        },
+        {
+          "src": "/listings/ACT1985869/01.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 2"
+        },
+        {
+          "src": "/listings/ACT1985869/02.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 3"
+        },
+        {
+          "src": "/listings/ACT1985869/03.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 4"
+        },
+        {
+          "src": "/listings/ACT1985869/04.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 5"
+        },
+        {
+          "src": "/listings/ACT1985869/05.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 6"
+        },
+        {
+          "src": "/listings/ACT1985869/06.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 7"
+        },
+        {
+          "src": "/listings/ACT1985869/07.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 8"
+        },
+        {
+          "src": "/listings/ACT1985869/08.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 9"
+        },
+        {
+          "src": "/listings/ACT1985869/09.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 10"
+        },
+        {
+          "src": "/listings/ACT1985869/10.jpg",
+          "width": 2048,
+          "height": 1343,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 11"
+        },
+        {
+          "src": "/listings/ACT1985869/11.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 12"
+        },
+        {
+          "src": "/listings/ACT1985869/12.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 13"
+        },
+        {
+          "src": "/listings/ACT1985869/13.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 14"
+        },
+        {
+          "src": "/listings/ACT1985869/14.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 15"
+        },
+        {
+          "src": "/listings/ACT1985869/15.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 16"
+        },
+        {
+          "src": "/listings/ACT1985869/16.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 17"
+        },
+        {
+          "src": "/listings/ACT1985869/17.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 18"
+        },
+        {
+          "src": "/listings/ACT1985869/18.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 19"
+        },
+        {
+          "src": "/listings/ACT1985869/19.jpg",
+          "width": 2048,
+          "height": 1364,
+          "alt": "1701 W 11th St, Clarksville, Austin, photo 20"
         }
       ],
       "isSample": false
