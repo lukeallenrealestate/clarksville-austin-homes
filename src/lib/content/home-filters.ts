@@ -116,7 +116,10 @@ export const HOME_FILTERS: HomeFilter[] = [
     eyebrow: "With a pool",
     lead: "Clarksville homes whose listings mention a pool, a genuine rarity on these small lots.",
     noun: "homes with a pool",
-    predicate: (l) => /\bpool\b/i.test(d(l)) && !/pool table/i.test(d(l)),
+    predicate: (l) =>
+      l.propertyType !== "condo" &&
+      /\bpool\b/i.test(d(l)) &&
+      !/room for a pool|potential for|deep eddy|barton springs|public pool|community pool|neighborhood pool|association pool|shared pool|resort|lap pool|pool table|near the pool|to the pool/i.test(d(l)),
     intro: [
       "A private pool is a real rarity in Clarksville. Lots here are small and historic, so a pool usually means a larger estate or a thoughtfully designed modern infill home that made room for one. Below are the active Clarksville listings whose MLS details mention a pool. Always confirm the feature on the specific listing.",
     ],
