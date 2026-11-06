@@ -270,6 +270,66 @@ export const HOME_FILTERS: HomeFilter[] = [
       },
     ],
   },
+  {
+    slug: "under-500k",
+    navLabel: "Homes Under $500K",
+    title: "Clarksville Homes Under $500,000 | Austin 78703",
+    metaDescription:
+      "Clarksville, Austin homes and condos for sale under $500,000 (78703). The most affordable live MLS listings in the historic neighborhood.",
+    eyebrow: "Under $500K",
+    lead: "The most affordable active listings inside the Clarksville boundary, under $500,000.",
+    noun: "homes under $500,000",
+    predicate: (l) => l.price > 0 && l.price < 500_000,
+    intro: [
+      "Under $500,000 is the most accessible door into Clarksville, and it is almost entirely condominiums: boutique and established buildings that put you in the neighborhood and its walkable lifestyle well below the single-family median. Below are the active listings under $500,000 inside the Clarksville boundary.",
+    ],
+    faqs: [
+      {
+        q: "Can you buy in Clarksville, Austin for under $500,000?",
+        a: "Yes, and almost always as a condominium. Detached houses in Clarksville (78703) trade well above this line, so under $500,000 means an entry-level or established condo, the most affordable way to own in the neighborhood. Inventory is limited, so a saved search helps.",
+      },
+    ],
+  },
+  {
+    slug: "under-750k",
+    navLabel: "Homes Under $750K",
+    title: "Clarksville Homes Under $750,000 | Austin 78703",
+    metaDescription:
+      "Clarksville, Austin homes and condos for sale under $750,000 (78703). Live MLS listings at the neighborhood's more accessible end.",
+    eyebrow: "Under $750K",
+    lead: "Active Clarksville listings under $750,000, the neighborhood's more accessible end.",
+    noun: "homes under $750,000",
+    predicate: (l) => l.price > 0 && l.price < 750_000,
+    intro: [
+      "Under $750,000 in Clarksville opens up a bit more: most of the condo market plus the occasional smaller cottage. It is where many buyers first get a foothold in 78703 without stretching to the single-family median. Below are the active listings under $750,000 inside the Clarksville boundary.",
+    ],
+    faqs: [
+      {
+        q: "What can you buy in Clarksville, Austin under $750,000?",
+        a: "Mostly condominiums, from entry-level units to larger or newer residences, plus the rare smaller cottage. Detached historic houses in Clarksville (78703) generally start higher, so under $750,000 is primarily the condo market, which is also the neighborhood's lock-and-leave, walkable entry point.",
+      },
+    ],
+  },
+  {
+    slug: "1m-to-2m",
+    navLabel: "Homes $1M to $2M",
+    title: "Clarksville Homes $1M to $2M | Austin 78703",
+    metaDescription:
+      "Clarksville, Austin homes for sale from $1 million to $2 million (78703). Live MLS listings at the heart of the single-family market.",
+    eyebrow: "$1M to $2M",
+    lead: "Active Clarksville listings from $1 million to $2 million, the core single-family market.",
+    noun: "homes from $1M to $2M",
+    predicate: (l) => l.price >= 1_000_000 && l.price < 2_000_000,
+    intro: [
+      "The $1 million to $2 million band is the heart of the Clarksville single-family market: restored historic cottages and bungalows, and architect-led modern infill, on the neighborhood's small, walkable lots. It is where most detached-home buyers land here. Below are the active listings in that range inside the Clarksville boundary.",
+    ],
+    faqs: [
+      {
+        q: "What do homes from $1M to $2M look like in Clarksville?",
+        a: "This is the core of Clarksville's single-family market (78703): restored Craftsman bungalows and historic cottages, and newer modern infill homes, on small historic lots in a walkable, downtown-adjacent setting. It sits around and above the neighborhood's single-family median, which has recently run in the low-to-mid $1 millions.",
+      },
+    ],
+  },
 ];
 
 export const getHomeFilter = (slug: string): HomeFilter | undefined =>

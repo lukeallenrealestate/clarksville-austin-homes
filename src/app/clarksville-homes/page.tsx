@@ -14,8 +14,11 @@ export const metadata: Metadata = pageMeta({
   path: "/clarksville-homes",
 });
 
-const bedroomFilters = HOME_FILTERS.filter((f) => f.slug.includes("bedroom"));
-const featureFilters = HOME_FILTERS.filter((f) => !f.slug.includes("bedroom"));
+const isBedroom = (f: (typeof HOME_FILTERS)[number]) => f.slug.includes("bedroom");
+const isPrice = (f: (typeof HOME_FILTERS)[number]) => f.slug.startsWith("under-") || f.slug.includes("-to-");
+const bedroomFilters = HOME_FILTERS.filter(isBedroom);
+const priceFilters = HOME_FILTERS.filter(isPrice);
+const featureFilters = HOME_FILTERS.filter((f) => !isBedroom(f) && !isPrice(f));
 
 function Grid({ items }: { items: typeof HOME_FILTERS }) {
   return (
@@ -76,6 +79,16 @@ export default function ClarksvilleHomesHub() {
       </section>
 
       <section className="border-t border-line bg-cream py-16">
+        <Container>
+          <Eyebrow>By price</Eyebrow>
+          <h2 className="font-display mt-3 text-[1.9rem] leading-tight text-ink sm:text-[2.3rem]">
+            Shop by budget
+          </h2>
+          <Grid items={priceFilters} />
+        </Container>
+      </section>
+
+      <section className="border-t border-line bg-paper py-16">
         <Container>
           <Eyebrow>By feature and type</Eyebrow>
           <h2 className="font-display mt-3 text-[1.9rem] leading-tight text-ink sm:text-[2.3rem]">
