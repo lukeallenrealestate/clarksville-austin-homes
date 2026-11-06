@@ -15,7 +15,7 @@ export const metadata: Metadata = pageMeta({
 });
 
 const isBedroom = (f: (typeof HOME_FILTERS)[number]) => f.slug.includes("bedroom");
-const isPrice = (f: (typeof HOME_FILTERS)[number]) => f.slug.startsWith("under-") || f.slug.includes("-to-");
+const isPrice = (f: (typeof HOME_FILTERS)[number]) => f.slug.startsWith("under-") || f.slug.includes("m-to-");
 const bedroomFilters = HOME_FILTERS.filter(isBedroom);
 const priceFilters = HOME_FILTERS.filter(isPrice);
 const featureFilters = HOME_FILTERS.filter((f) => !isBedroom(f) && !isPrice(f));

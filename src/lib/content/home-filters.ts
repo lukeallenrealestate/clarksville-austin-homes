@@ -26,6 +26,20 @@ export type HomeFilter = {
 
 const d = (l: Listing) => l.description ?? "";
 
+// West Lynn dining corridor (near Jeffrey's / Josephine House), used for the
+// "walkable to West Lynn" geo filter. Straight-line miles via haversine.
+const WEST_LYNN = { lat: 30.2807, lng: -97.7617 };
+function milesFromWestLynn(g?: { lat: number; lng: number }): number {
+  if (!g) return Infinity;
+  const R = 3958.8;
+  const dLat = ((g.lat - WEST_LYNN.lat) * Math.PI) / 180;
+  const dLng = ((g.lng - WEST_LYNN.lng) * Math.PI) / 180;
+  const la1 = (WEST_LYNN.lat * Math.PI) / 180;
+  const la2 = (g.lat * Math.PI) / 180;
+  const x = Math.sin(dLat / 2) ** 2 + Math.cos(la1) * Math.cos(la2) * Math.sin(dLng / 2) ** 2;
+  return R * 2 * Math.asin(Math.sqrt(x));
+}
+
 export const HOME_FILTERS: HomeFilter[] = [
   {
     slug: "2-bedroom",
@@ -327,6 +341,26 @@ export const HOME_FILTERS: HomeFilter[] = [
       {
         q: "What do homes from $1M to $2M look like in Clarksville?",
         a: "This is the core of Clarksville's single-family market (78703): restored Craftsman bungalows and historic cottages, and newer modern infill homes, on small historic lots in a walkable, downtown-adjacent setting. It sits around and above the neighborhood's single-family median, which has recently run in the low-to-mid $1 millions.",
+      },
+    ],
+  },
+  {
+    slug: "walk-to-west-lynn",
+    navLabel: "Walk to West Lynn",
+    title: "Clarksville Homes Walkable to West Lynn | 78703",
+    metaDescription:
+      "Clarksville, Austin homes for sale within walking distance of the West Lynn dining corridor (78703). Live MLS listings closest to the heart of the neighborhood.",
+    eyebrow: "Steps from the corridor",
+    lead: "Clarksville homes within an easy walk of the West Lynn dining corridor, the heart of the neighborhood.",
+    noun: "homes walkable to West Lynn",
+    predicate: (l) => milesFromWestLynn(l.geo) <= 0.4,
+    intro: [
+      "The West Lynn corridor, Jeffrey's, Josephine House, Cipollina, Cafe Medici, and a neighborhood grocery, is the beating heart of Clarksville, and the homes closest to it live the walkable dream most fully: coffee, dinner, and a glass of wine, all on foot. Below are the active listings within roughly a short walk, about four tenths of a mile, of the corridor. We calculate the distance from each home's coordinates, something the national portals do not do.",
+    ],
+    faqs: [
+      {
+        q: "Which Clarksville homes are closest to West Lynn?",
+        a: "This page lists the active Clarksville (78703) homes within roughly a short walk of the West Lynn dining corridor, the strip anchored by Jeffrey's, Josephine House, and Cipollina. Being able to walk to dinner and coffee is central to Clarksville's appeal, and the homes nearest the corridor capture it best. Distances are straight-line estimates from each listing's coordinates; confirm the real walk on a visit.",
       },
     ],
   },

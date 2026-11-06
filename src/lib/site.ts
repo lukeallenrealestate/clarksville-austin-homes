@@ -155,6 +155,7 @@ export const NAV: NavItem[] = [
   { href: "/austin-neighborhoods-for-doctors", label: "For Physicians Relocating", group: "transact", inNav: false },
   { href: "/moving-to-austin-from-california", label: "Moving from California", group: "transact", inNav: false },
   { href: "/moving-to-austin-from-new-york", label: "Moving from New York", group: "transact", inNav: false },
+  { href: "/relocating-to-austin", label: "Relocating to Austin", group: "transact", inNav: false },
   { href: "/clarksville-property-taxes", label: "Property Taxes", group: "transact", inNav: false },
   { href: "/best-time-to-buy-or-sell-clarksville", label: "Best Time to Buy or Sell", group: "transact", inNav: false },
   { href: "/cost-to-sell-a-home-in-clarksville", label: "Cost to Sell", group: "transact", inNav: false },
