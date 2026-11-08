@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+import { JsonLd } from "./JsonLd";
+import { listingCollectionSchema } from "@/lib/schema";
 import { PageHero } from "./PageHero";
 import { ListingsBrowser } from "./ListingsBrowser";
 import { SampleNotice } from "./SampleNotice";
@@ -45,8 +47,13 @@ export function ListingsView({
   faqs?: Faq[];
   related?: RelatedLink[];
 }) {
+  const pagePath = crumbs[crumbs.length - 1]?.path ?? "/clarksville-homes-for-sale";
+  const collectionName = `${crumbs[crumbs.length - 1]?.name ?? "Homes for Sale"} in Clarksville, Austin`;
   return (
     <>
+      {listings.length ? (
+        <JsonLd data={listingCollectionSchema(listings, pagePath, collectionName)} />
+      ) : null}
       <PageHero eyebrow={eyebrow} title={title} lead={lead} photo={photo} crumbs={crumbs} />
 
       {overview}

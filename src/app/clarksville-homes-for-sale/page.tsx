@@ -12,7 +12,7 @@ import type { Faq } from "@/lib/schema";
 export const revalidate = 3600;
 
 export const metadata: Metadata = pageMeta({
-  title: "Clarksville Austin Homes for Sale | Historic 78703 Listings",
+  title: "Homes for Sale in Clarksville, Austin (78703) | Live MLS",
   description:
     "Browse homes for sale in Clarksville, the historic neighborhood in Austin, Texas (78703). Live MLS listings of cottages, bungalows, condos, and luxury new construction, with a local specialist.",
   path: "/clarksville-homes-for-sale",
@@ -89,7 +89,7 @@ export default async function HomesForSalePage() {
   return (
     <ListingsView
       eyebrow="For Sale"
-      title="Clarksville homes for sale"
+      title="Homes for sale in Clarksville, Austin"
       lead="Every active listing inside the Clarksville boundary, rendered as real pages, with the local context the portals leave out."
       photo={PHOTOS.streetscape}
       listings={listings}

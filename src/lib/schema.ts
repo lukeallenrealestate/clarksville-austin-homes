@@ -173,10 +173,9 @@ const propertySubType: Record<Listing["propertyType"], string> = {
   townhouse: "Residence",
 };
 
-/** RealEstateListing for an active listing, with a typed Residence object. */
-export function listingSchema(listing: Listing) {
+/** RealEstateListing node (no @context) for embedding in a collection. */
+function listingNode(listing: Listing) {
   return {
-    "@context": "https://schema.org",
     "@type": "RealEstateListing",
     name: `${listing.address}${listing.unit ? `, ${listing.unit}` : ""}, Clarksville, Austin`,
     url: `${SITE_URL}/clarksville-homes-for-sale/${listing.slug}`,
@@ -209,6 +208,36 @@ export function listingSchema(listing: Listing) {
         postalCode: NEIGHBORHOOD.zip,
         addressCountry: "US",
       },
+    },
+  };
+}
+
+/** RealEstateListing for an active listing detail page. */
+export function listingSchema(listing: Listing) {
+  return { "@context": "https://schema.org", ...listingNode(listing) };
+}
+
+/**
+ * CollectionPage + ItemList of the live listings shown on a listings page, so
+ * search and AI engines can extract the actual inventory (addresses, prices,
+ * beds/baths) as structured data. This is what makes the site a citable source
+ * for "homes for sale in Clarksville" the way a portal is.
+ */
+export function listingCollectionSchema(listings: Listing[], path: string, name: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name,
+    url: `${SITE_URL}${path}`,
+    about: { "@type": "Place", name: "Clarksville, Austin, Texas (78703)" },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: listings.length,
+      itemListElement: listings.map((l, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: listingNode(l),
+      })),
     },
   };
 }
