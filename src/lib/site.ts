@@ -159,6 +159,7 @@ export const NAV: NavItem[] = [
   { href: "/clarksville-property-taxes", label: "Property Taxes", group: "transact", inNav: false },
   { href: "/best-time-to-buy-or-sell-clarksville", label: "Best Time to Buy or Sell", group: "transact", inNav: false },
   { href: "/cost-to-sell-a-home-in-clarksville", label: "Cost to Sell", group: "transact", inNav: false },
+  { href: "/clarksville-home-sale-calculator", label: "Home Sale Calculator", group: "transact", inNav: false },
   { href: "/buying-in-clarksville", label: "Buying Guide", group: "transact", inNav: false },
   { href: "/buying-a-historic-home-in-clarksville", label: "Buying a Historic Home", group: "transact", inNav: false },
   { href: "/clarksville-listing-agent", label: "Sell Your Home", short: "Sell", group: "transact", inNav: true },

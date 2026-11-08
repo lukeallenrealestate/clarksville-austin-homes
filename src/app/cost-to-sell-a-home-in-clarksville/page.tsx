@@ -223,7 +223,11 @@ export default function CostToSellPage() {
             ))}
           </div>
           <p className="mt-10 text-sm leading-relaxed text-ink-soft">
-            Keep reading: the{" "}
+            Keep reading: estimate your bottom line with the{" "}
+            <Link href="/clarksville-home-sale-calculator" className="font-semibold text-brass-deep underline">
+              home sale calculator
+            </Link>
+            , the{" "}
             <Link href="/sell-your-clarksville-home" className="font-semibold text-brass-deep underline">
               Clarksville selling guide
             </Link>
