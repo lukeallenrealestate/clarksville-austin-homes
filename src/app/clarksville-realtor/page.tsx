@@ -292,6 +292,11 @@ export default function ClarksvilleRealtorPage() {
               </figure>
             ))}
           </div>
+          <p className="mt-8 text-sm text-cream-soft">
+            <Link href="/clarksville-realtor-reviews" className="font-semibold text-brass underline">
+              See all client reviews and ratings &rarr;
+            </Link>
+          </p>
         </Container>
       </section>
 
