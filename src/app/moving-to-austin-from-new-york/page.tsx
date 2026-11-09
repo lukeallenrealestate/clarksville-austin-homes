@@ -110,7 +110,7 @@ export default function MovingFromNewYorkPage() {
               "A New Yorker's guide to relocating to Austin and landing in walkable Clarksville (78703).",
             date: "2026-11-05",
             updated: "2026-11-05",
-            image: PHOTOS.streetscape.src,
+            image: PHOTOS.westLynn.src,
           }),
           faqSchema(FAQS),
         ]}
@@ -119,8 +119,8 @@ export default function MovingFromNewYorkPage() {
       {/* HERO */}
       <section className="relative isolate flex min-h-[86vh] items-end overflow-hidden bg-ink">
         <Image
-          src={PHOTOS.streetscape.src}
-          alt={PHOTOS.streetscape.alt}
+          src={PHOTOS.westLynn.src}
+          alt={PHOTOS.westLynn.alt}
           fill
           priority
           sizes="100vw"

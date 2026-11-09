@@ -46,8 +46,8 @@ export default function ClarksvilleHomesHub() {
       {/* HERO */}
       <section className="relative isolate flex min-h-[64vh] items-end overflow-hidden bg-ink">
         <Image
-          src={PHOTOS.streetscape.src}
-          alt={PHOTOS.streetscape.alt}
+          src={PHOTOS.canopy.src}
+          alt={PHOTOS.canopy.alt}
           fill
           priority
           sizes="100vw"

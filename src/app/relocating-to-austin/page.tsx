@@ -95,7 +95,7 @@ export default function RelocatingToAustinPage() {
             description: "A neighborhood-first guide to relocating to Austin.",
             date: "2026-11-05",
             updated: "2026-11-05",
-            image: PHOTOS.streetscape.src,
+            image: PHOTOS.canopy.src,
           }),
           faqSchema(FAQS),
         ]}
@@ -104,8 +104,8 @@ export default function RelocatingToAustinPage() {
       {/* HERO */}
       <section className="relative isolate flex min-h-[82vh] items-end overflow-hidden bg-ink">
         <Image
-          src={PHOTOS.streetscape.src}
-          alt={PHOTOS.streetscape.alt}
+          src={PHOTOS.canopy.src}
+          alt={PHOTOS.canopy.alt}
           fill
           priority
           sizes="100vw"

@@ -134,8 +134,8 @@ export default function BestNeighborhoodsPage() {
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-[4px] border border-white/10">
               <Image
-                src={PHOTOS.streetscape.src}
-                alt={PHOTOS.streetscape.alt}
+                src={PHOTOS.westLynn.src}
+                alt={PHOTOS.westLynn.alt}
                 fill
                 sizes="(max-width: 1024px) 100vw, 45vw"
                 className="img-grade object-cover object-center"

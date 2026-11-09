@@ -91,8 +91,8 @@ export default function ListingAgentMoneyPage() {
       {/* HERO with above-the-fold capture */}
       <section className="relative isolate overflow-hidden bg-ink">
         <Image
-          src={PHOTOS.streetscape.src}
-          alt={PHOTOS.streetscape.alt}
+          src={PHOTOS.porch.src}
+          alt={PHOTOS.porch.alt}
           fill
           priority
           sizes="100vw"

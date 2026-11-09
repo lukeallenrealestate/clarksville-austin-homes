@@ -91,7 +91,7 @@ export default async function HomesForSalePage() {
       eyebrow="For Sale"
       title="Homes for sale in Clarksville, Austin"
       lead="Every active listing inside the Clarksville boundary, rendered as real pages, with the local context the portals leave out."
-      photo={PHOTOS.streetscape}
+      photo={PHOTOS.newBuild}
       listings={listings}
       overview={overview}
       asOf={DATA_AS_OF}

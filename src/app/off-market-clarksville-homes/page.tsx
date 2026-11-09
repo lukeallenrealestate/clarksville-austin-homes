@@ -54,14 +54,14 @@ export default function OffMarketPage() {
             "Access off-market and coming-soon homes in Clarksville and Old West Austin (78703).",
           date: "2026-07-21",
           updated: "2026-07-21",
-          image: PHOTOS.streetscape.src,
+          image: PHOTOS.newBuild.src,
         })}
       />
       <PageHero
         eyebrow="Off-Market & Coming Soon"
         title="Off-market Clarksville homes"
         lead="In a neighborhood this scarce, the best homes are sold before they ever reach Zillow. Get on the inside track to Clarksville and Old West Austin homes the portals never show you."
-        photo={PHOTOS.streetscape}
+        photo={PHOTOS.newBuild}
         crumbs={[{ name: "Off-Market Homes", path: "/off-market-clarksville-homes" }]}
       />
 

@@ -128,7 +128,7 @@ export const INSIGHTS: Insight[] = [
     navLabel: "Selling off-market",
     description:
       "Why many Clarksville homes sell privately, and how an off-market or pocket sale works for sellers who want discretion, control, or a quiet, qualified buyer.",
-    hero: PHOTOS.streetscape,
+    hero: PHOTOS.newBuild,
     published: "2026-07-21",
     updated: "2026-07-21",
     kind: "insights",

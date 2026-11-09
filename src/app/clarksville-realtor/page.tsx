@@ -68,7 +68,7 @@ export default function ClarksvilleRealtorPage() {
         eyebrow="Your Clarksville, Austin specialist"
         title="Luke Allen, Clarksville Realtor"
         lead="A licensed Texas REALTOR who works Clarksville and Old West Austin as a specialty, not a side note. On the sales team for a Clarksville development, fluent in the neighborhood's history, micro-market, and off-market deals."
-        photo={PHOTOS.streetscape}
+        photo={PHOTOS.westLynn}
         crumbs={[{ name: "Clarksville Realtor", path: "/clarksville-realtor" }]}
         meta={
           <div className="flex items-center gap-2.5 text-cream-soft">

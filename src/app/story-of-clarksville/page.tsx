@@ -29,7 +29,7 @@ const timeline: Event[] = [
     year: "1871",
     title: "A freedman buys two acres",
     body: "Charles Clark, born enslaved in Mississippi about 1820, buys two acres a half mile west of Austin's city limits and builds his home at 1618 West 10th Street. He subdivides the land and sells parcels to other freedmen. A neighborhood is born.",
-    photo: PHOTOS.streetscape,
+    photo: PHOTOS.porch,
   },
   {
     year: "1871",
@@ -88,7 +88,7 @@ export default function StoryOfClarksville() {
 
       {/* HERO */}
       <section className="relative isolate flex min-h-[82vh] items-end overflow-hidden bg-ink">
-        <Image src={PHOTOS.streetscape.src} alt={PHOTOS.streetscape.alt} fill priority sizes="100vw" className="img-grade object-cover object-center opacity-75" />
+        <Image src={PHOTOS.canopy.src} alt={PHOTOS.canopy.alt} fill priority sizes="100vw" className="img-grade object-cover object-center opacity-75" />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/55 to-ink/30" />
         <Container className="relative z-10 pb-20 pt-40">
           <div className="hero-rise max-w-3xl">

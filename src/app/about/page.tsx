@@ -34,7 +34,7 @@ export default function AboutPage() {
         eyebrow="Your Clarksville Specialist"
         title="Meet Luke Allen"
         lead="A licensed Texas REALTOR who works Clarksville as a specialty, not a side note. The expertise on this site is his: the blocks, the buildings, the history, and the numbers."
-        photo={PHOTOS.streetscape}
+        photo={PHOTOS.canopy}
         crumbs={[{ name: "About Luke", path: "/about" }]}
       />
 

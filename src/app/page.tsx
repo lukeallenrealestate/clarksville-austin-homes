@@ -197,7 +197,7 @@ export default async function HomePage() {
         <Container className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <Reveal className="relative">
             <div className="overflow-hidden rounded-[3px] border border-line">
-              <Photo photo={PHOTOS.streetscape} sizes="(max-width: 1024px) 100vw, 50vw" />
+              <Photo photo={PHOTOS.canopy} sizes="(max-width: 1024px) 100vw, 50vw" />
             </div>
             <div className="absolute -bottom-5 -right-3 hidden w-44 overflow-hidden rounded-[3px] border-4 border-cream sm:block">
               <Photo photo={PHOTOS.porch} sizes="180px" />

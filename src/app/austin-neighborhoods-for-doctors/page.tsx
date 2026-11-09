@@ -83,7 +83,7 @@ export default function DoctorsPage() {
             description: "Where do doctors live in Austin? Clarksville puts physicians minutes from the hospitals.",
             date: "2026-08-26",
             updated: "2026-08-26",
-            image: PHOTOS.streetscape.src,
+            image: PHOTOS.newBuild.src,
           }),
           faqSchema(FAQS),
         ]}
@@ -91,7 +91,7 @@ export default function DoctorsPage() {
 
       {/* HERO */}
       <section className="relative isolate flex min-h-[84vh] items-end overflow-hidden bg-ink">
-        <Image src={PHOTOS.streetscape.src} alt={PHOTOS.streetscape.alt} fill priority sizes="100vw" className="img-grade object-cover object-center opacity-65" />
+        <Image src={PHOTOS.newBuild.src} alt={PHOTOS.newBuild.alt} fill priority sizes="100vw" className="img-grade object-cover object-center opacity-65" />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/55 to-ink/25" />
         <Container className="relative z-10 pb-20 pt-40">
           <div className="hero-rise max-w-3xl">

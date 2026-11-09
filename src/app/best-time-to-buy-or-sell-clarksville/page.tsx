@@ -104,7 +104,7 @@ export default async function MarketTimingPage() {
               "An honest read on timing the Clarksville, Austin (78703) market for buyers and sellers.",
             date: "2026-10-06",
             updated: snap.asOf.slice(0, 10),
-            image: PHOTOS.streetscape.src,
+            image: PHOTOS.park.src,
           }),
           faqSchema(FAQS),
         ]}
@@ -113,8 +113,8 @@ export default async function MarketTimingPage() {
       {/* HERO */}
       <section className="relative isolate flex min-h-[80vh] items-end overflow-hidden bg-ink">
         <Image
-          src={PHOTOS.streetscape.src}
-          alt={PHOTOS.streetscape.alt}
+          src={PHOTOS.park.src}
+          alt={PHOTOS.park.alt}
           fill
           priority
           sizes="100vw"

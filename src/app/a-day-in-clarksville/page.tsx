@@ -59,7 +59,7 @@ const chapters: Chapter[] = [
     time: "6:30 PM",
     title: "Golden hour",
     body: "The light turns and the streets soften. From a porch you can see the downtown skyline, five minutes away and somehow a world removed. Clarksville's trick is exactly this: the center of Austin at arm's length, and a quiet, tree-lined street to come home to.",
-    photo: PHOTOS.streetscape,
+    photo: PHOTOS.bungalow,
   },
   {
     time: "8:00 PM",

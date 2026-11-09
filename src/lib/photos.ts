@@ -44,12 +44,6 @@ export const PHOTOS = {
     height: 1067,
     alt: "The Haskell House, a surviving hall-and-parlor home and City of Austin historic landmark in Clarksville",
   },
-  streetscape: {
-    src: "/images/clarksville-streetscape.jpg",
-    width: 1600,
-    height: 1067,
-    alt: "A Clarksville streetscape of restored cottages and mature trees in Old West Austin",
-  },
   westLynn: {
     src: "/images/west-lynn-dining.jpg",
     width: 1600,
@@ -85,7 +79,7 @@ export const PHOTOS = {
 /** Editorial gallery set for the neighborhood and home pages. */
 export const GALLERY: PhotoMeta[] = [
   PHOTOS.bungalow,
-  PHOTOS.streetscape,
+  PHOTOS.canopy,
   PHOTOS.church,
   PHOTOS.westLynn,
   PHOTOS.porch,

@@ -60,7 +60,7 @@ export const GUIDES: Guide[] = [
     navLabel: "Schools",
     description:
       "The Austin ISD feeder pattern for Clarksville, led by top-ranked Mathews Elementary, plus O. Henry Middle School, Austin High, and nearby private options.",
-    hero: PHOTOS.streetscape,
+    hero: PHOTOS.canopy,
     published: "2026-06-15",
     updated: "2026-06-23",
     kind: "guide",
@@ -107,7 +107,7 @@ export const COMPARISONS: Guide[] = [
     navLabel: "Clarksville vs Old Enfield",
     description:
       "Old Enfield's grand estates or Clarksville's walkable cottages? A side-by-side on architecture, price, lot size, and lifestyle in 78703.",
-    hero: PHOTOS.streetscape,
+    hero: PHOTOS.haskellHouse,
     published: "2026-06-18",
     updated: "2026-06-23",
     kind: "comparison",
@@ -118,7 +118,7 @@ export const COMPARISONS: Guide[] = [
     navLabel: "Clarksville vs Bryker Woods",
     description:
       "Historic, walkable Clarksville or quiet, family-friendly Bryker Woods? A side-by-side on schools, housing, walkability, and lifestyle in central Austin.",
-    hero: PHOTOS.streetscape,
+    hero: PHOTOS.porch,
     published: "2026-07-09",
     updated: "2026-07-09",
     kind: "comparison",
@@ -162,7 +162,7 @@ export const COMPARISONS: Guide[] = [
     navLabel: "Clarksville vs Travis Heights",
     description:
       "Refined, walkable Clarksville or eclectic Travis Heights near South Congress? Compare the two across housing, schools, walkability, and lifestyle.",
-    hero: PHOTOS.streetscape,
+    hero: PHOTOS.westLynn,
     published: "2026-07-21",
     updated: "2026-07-21",
     kind: "comparison",
@@ -195,7 +195,7 @@ export const COMPARISONS: Guide[] = [
     navLabel: "Clarksville vs Rosedale",
     description:
       "Historic, downtown-adjacent Clarksville or quieter, more affordable Rosedale near the medical district? A side-by-side on price, walkability, and lifestyle.",
-    hero: PHOTOS.streetscape,
+    hero: PHOTOS.church,
     published: "2026-11-05",
     updated: "2026-11-05",
     kind: "comparison",

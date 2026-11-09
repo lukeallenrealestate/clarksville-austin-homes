@@ -113,7 +113,7 @@ export default function ClarksvilleMap() {
         eyebrow="Explore the Neighborhood"
         title="The Clarksville map"
         lead="Where everything is, and why the neighborhood works. Boundaries, historic landmarks, the West Lynn corridor, parks, schools, and every condo building, on one page."
-        photo={PHOTOS.streetscape}
+        photo={PHOTOS.canopy}
         crumbs={[{ name: "Clarksville Map", path: "/clarksville-map" }]}
       />
 

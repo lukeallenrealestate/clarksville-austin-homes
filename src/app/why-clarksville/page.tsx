@@ -186,7 +186,7 @@ export default function WhyClarksville() {
 
       {/* CASE 5 - THE LIFE (full-bleed close) */}
       <section className="relative isolate flex min-h-[80vh] items-center overflow-hidden bg-ink text-center">
-        <Image src={PHOTOS.streetscape.src} alt={PHOTOS.streetscape.alt} fill sizes="100vw" className="img-grade object-cover opacity-55" />
+        <Image src={PHOTOS.park.src} alt={PHOTOS.park.alt} fill sizes="100vw" className="img-grade object-cover opacity-55" />
         <div className="absolute inset-0 bg-gradient-to-b from-ink/70 via-ink/45 to-ink/80" />
         <Container size="narrow" className="relative z-10">
           <Reveal>

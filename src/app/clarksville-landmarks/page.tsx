@@ -59,7 +59,7 @@ const landmarks: Landmark[] = [
     name: "The Old West Austin Historic District",
     meta: "Clarksville and its neighbors  ·  National Register, 1976",
     body: "In 1976 Clarksville was listed on the National Register of Historic Places, recognized as one of the oldest freedmen's towns west of the Mississippi. The surrounding streets of restored cottages and bungalows carry that protection and that story forward.",
-    photo: PHOTOS.streetscape,
+    photo: PHOTOS.canopy,
   },
 ];
 
